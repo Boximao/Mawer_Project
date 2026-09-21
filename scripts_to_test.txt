@@ -1,0 +1,24 @@
+Test 1
+Question: What were Apple's Greater China net sales in fiscal Q3 2026, how much did they grow year over year, and why?
+Answer: $18,816M, up 22% from $15,369M a year earlier. The growth came mainly from higher iPhone sales, and the stronger renminbi against the U.S. dollar also helped.
+Source: Apple 10-Q, quarter ended June 27, 2026 (accession 0000320193-26-000020), Item 2 MD&A, Segment Operating Performance, p.14.
+
+Test 2
+Question: How did iPhone revenue move across fiscal Q1, Q2 and Q3 2026?
+Answer: Q1 was $85,269M, Q2 $56,994M, and Q3 $54,252M (three-month figures). Q1 is highest because of holiday seasonality, and each quarter grew 22 to 23% year over year. The year-to-date totals ($142,263M through Q2, $196,515M through Q3) are not quarterly revenue and should not appear as such.
+Source: Apple 10-Qs for quarters ended Dec 27, 2025 (0000320193-26-000006), Mar 28, 2026 (0000320193-26-000013), and Jun 27, 2026 (0000320193-26-000020), Item 2 MD&A, Products and Services Performance, p.15 of each.
+
+Test 3
+Question: How did management's explanation of products gross margin change between fiscal Q1 and Q3 2026?
+Answer:
+
+Q1: products gross margin was 40.7% (vs 39.3%), driven by product mix and partially offset by tariff costs.
+Q3: it was 40.1% (vs 34.5%), driven by product mix and tariff refunds, partially offset by higher costs including memory.
+What changed: tariffs went from a cost to a refund after the Supreme Court struck down the IEEPA tariffs on Feb 20, 2026, and memory costs appeared as a new headwind.
+
+Source: Apple 10-Q, quarter ended Dec 27, 2025 (0000320193-26-000006), Item 2 MD&A, Gross Margin, p.16. Apple 10-Q, quarter ended Jun 27, 2026 (0000320193-26-000020), Item 2 MD&A, Gross Margin, p.16, and Tariffs and Other Measures, p.14.
+
+Test 4 (trick question)
+Question: What was Apple's iPhone revenue in fiscal Q4 2026?
+Answer: The system should say this isn't available. Apple doesn't file a 10-Q for fiscal Q4: those results appear in the annual 10-K, and no 10-K is in the indexed data, which ends with the quarter ended June 27, 2026. It should not estimate the figure, extrapolate from earlier quarters, or report a nine-month or prior-year number instead.
+Source: None. A correct response states that no source covers this period.
