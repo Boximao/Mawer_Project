@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import subprocess
 import sys
 from pathlib import Path
 
@@ -71,6 +72,11 @@ def main() -> None:
     store = PgVectorStore(s.database_url, s.table_name, s.embedding_dimensions or 3072)
     embedder = OpenAIEmbedder(s.embedding_model, s.embedding_dimensions, s.embedding_batch_size)
     questions = list(csv.DictReader(open(args.questions, encoding="utf-8")))
+    try:
+        sha = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
+    except Exception:
+        sha = "unknown"
+    print("git_commit_sha", sha)
     print(evaluate(questions, embedder.embed, store, args.k, use_filter=not args.no_filter))
 
 

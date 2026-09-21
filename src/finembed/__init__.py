@@ -1,2 +1,2 @@
-"""fin-embed: section-aware embeddings of SEC filings (PDF > OpenAI > pgvector)."""
+"""Section-aware SEC filing corpus preparation (processed records > BGE > pgvector)."""
 __version__ = "0.1.0"

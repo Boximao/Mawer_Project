@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="840" viewBox="0 0 1600 840" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="w" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5b6a85"/>
+    </marker>
+    <marker id="wb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2a6fdb"/>
+    </marker>
+    <linearGradient id="hdr3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#14263f"/>
+      <stop offset="100%" stop-color="#2a4b78"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="840" fill="#f5f7fb"/>
+  <rect x="0" y="0" width="1600" height="96" fill="url(#hdr3)"/>
+  <text x="40" y="44" fill="#ffffff" font-size="28" font-weight="700">Agentic Workflow &#8212; question to answer, and how we know it is reliable</text>
+  <text x="40" y="74" fill="#c3d2e8" font-size="16">One run across the top. What gets recorded in the middle. What we measure before the room at the bottom.</text>
+
+  <!-- ============ BAND A: one run ============ -->
+  <rect x="40" y="120" width="1520" height="200" rx="12" fill="#ffffff" stroke="#d7dfec"/>
+  <text x="64" y="152" font-size="17" font-weight="700" fill="#14263f">A single run</text>
+
+  <rect x="64" y="176" width="190" height="112" rx="10" fill="#eef3fb" stroke="#c9d6ea"/>
+  <text x="84" y="206" font-size="14.5" font-weight="700" fill="#1f3354">1 &#183; Question</text>
+  <text x="84" y="232" font-size="12" fill="#6b7891">asked in plain English</text>
+  <text x="84" y="254" font-size="12" fill="#6b7891">allowlist applied first:</text>
+  <text x="84" y="272" font-size="12" fill="#6b7891">Apple filings only</text>
+
+  <rect x="274" y="176" width="190" height="112" rx="10" fill="#eef3fb" stroke="#c9d6ea"/>
+  <text x="294" y="206" font-size="14.5" font-weight="700" fill="#1f3354">2 &#183; Retrieve</text>
+  <text x="294" y="232" font-size="12" fill="#6b7891">vector 20 + keyword 20</text>
+  <text x="294" y="254" font-size="12" fill="#6b7891">over the stored chunks</text>
+  <text x="294" y="272" font-size="12" fill="#6b7891">of the approved filings</text>
+
+  <rect x="484" y="176" width="190" height="112" rx="10" fill="#eef3fb" stroke="#c9d6ea"/>
+  <text x="504" y="206" font-size="14.5" font-weight="700" fill="#1f3354">3 &#183; Rerank</text>
+  <text x="504" y="232" font-size="12" fill="#6b7891">fuse both lists, keep</text>
+  <text x="504" y="254" font-size="12" fill="#6b7891">the best 6 passages,</text>
+  <text x="504" y="272" font-size="12" fill="#6b7891">drop weak matches</text>
+
+  <rect x="694" y="176" width="190" height="112" rx="10" fill="#eef3fb" stroke="#c9d6ea"/>
+  <text x="714" y="206" font-size="14.5" font-weight="700" fill="#1f3354">4 &#183; Draft</text>
+  <text x="714" y="232" font-size="12" fill="#6b7891">claims only, each with</text>
+  <text x="714" y="254" font-size="12" fill="#6b7891">a document, a page and</text>
+  <text x="714" y="272" font-size="12" fill="#6b7891">a verbatim quote</text>
+
+  <rect x="904" y="176" width="190" height="112" rx="10" fill="#ffffff" stroke="#2a6fdb" stroke-width="1.8"/>
+  <text x="924" y="206" font-size="14.5" font-weight="700" fill="#2a6fdb">5 &#183; Validate</text>
+  <text x="924" y="232" font-size="12" fill="#6b7891">quote must be in the</text>
+  <text x="924" y="254" font-size="12" fill="#6b7891">cited chunk; numbers</text>
+  <text x="924" y="272" font-size="12" fill="#6b7891">must be there too</text>
+
+  <rect x="1114" y="176" width="190" height="112" rx="10" fill="#fff7ee" stroke="#e0b57e" stroke-width="1.8"/>
+  <text x="1134" y="206" font-size="14.5" font-weight="700" fill="#a05c12">6 &#183; Human gate</text>
+  <text x="1134" y="232" font-size="12" fill="#8a7a63">a person reads claims</text>
+  <text x="1134" y="254" font-size="12" fill="#8a7a63">next to their quotes</text>
+  <text x="1134" y="272" font-size="12" fill="#8a7a63">and signs the decision</text>
+
+  <rect x="1324" y="176" width="190" height="112" rx="10" fill="#ffffff" stroke="#c9d6ea"/>
+  <text x="1344" y="206" font-size="14.5" font-weight="700" fill="#14263f">7 &#183; Final answer</text>
+  <rect x="1344" y="220" width="150" height="26" rx="13" fill="#e8f5ee" stroke="#2e7d5b"/>
+  <text x="1419" y="238" font-size="12" font-weight="600" fill="#1d5a41" text-anchor="middle">released, cited</text>
+  <rect x="1344" y="252" width="150" height="26" rx="13" fill="#f6eef0" stroke="#b05a63"/>
+  <text x="1419" y="270" font-size="12" font-weight="600" fill="#8c3d46" text-anchor="middle">or abstained</text>
+
+  <line x1="256" y1="232" x2="272" y2="232" stroke="#5b6a85" stroke-width="2" marker-end="url(#w)"/>
+  <line x1="466" y1="232" x2="482" y2="232" stroke="#5b6a85" stroke-width="2" marker-end="url(#w)"/>
+  <line x1="676" y1="232" x2="692" y2="232" stroke="#5b6a85" stroke-width="2" marker-end="url(#w)"/>
+  <line x1="886" y1="232" x2="902" y2="232" stroke="#5b6a85" stroke-width="2" marker-end="url(#w)"/>
+  <line x1="1096" y1="232" x2="1112" y2="232" stroke="#5b6a85" stroke-width="2" marker-end="url(#w)"/>
+  <line x1="1306" y1="232" x2="1322" y2="232" stroke="#2a6fdb" stroke-width="3" marker-end="url(#wb)"/>
+
+  <text x="904" y="308" font-size="12" fill="#8a94a6">Steps 2 to 5 may repeat, but never more than 4 times, 40 000 tokens or 45 seconds.</text>
+  <text x="64" y="308" font-size="12" fill="#8a94a6">Nothing is fetched from the web at any point.</text>
+
+  <!-- ============ BAND B: audit ============ -->
+  <rect x="40" y="344" width="1520" height="156" rx="12" fill="#ffffff" stroke="#d7dfec"/>
+  <text x="64" y="376" font-size="17" font-weight="700" fill="#14263f">Auditing &#8212; the run writes itself down as it goes</text>
+
+  <rect x="64" y="392" width="330" height="86" rx="10" fill="#f2faf6" stroke="#bfe0cf"/>
+  <text x="84" y="420" font-size="14" font-weight="700" fill="#1d5a41">runs</text>
+  <text x="84" y="444" font-size="12" fill="#3c4a60">question, state, draft, reason codes</text>
+  <text x="84" y="464" font-size="12" fill="#6b7891">answer stays empty until step 6</text>
+
+  <rect x="414" y="392" width="330" height="86" rx="10" fill="#f2faf6" stroke="#bfe0cf"/>
+  <text x="434" y="420" font-size="14" font-weight="700" fill="#1d5a41">agent_steps</text>
+  <text x="434" y="444" font-size="12" fill="#3c4a60">one row per step of the loop</text>
+  <text x="434" y="464" font-size="12" fill="#6b7891">what was searched, kept and dropped</text>
+
+  <rect x="764" y="392" width="330" height="86" rx="10" fill="#f2faf6" stroke="#bfe0cf"/>
+  <text x="784" y="420" font-size="14" font-weight="700" fill="#1d5a41">approvals</text>
+  <text x="784" y="444" font-size="12" fill="#3c4a60">who signed, when, over which draft</text>
+  <text x="784" y="464" font-size="12" fill="#6b7891">each row hashes the one before it</text>
+
+  <rect x="1114" y="392" width="400" height="86" rx="10" fill="#14263f"/>
+  <text x="1134" y="420" font-size="14" font-weight="700" fill="#ffffff">Postgres refuses the shortcut</text>
+  <text x="1134" y="444" font-size="12" fill="#c3d2e8">A release without a matching signature,</text>
+  <text x="1134" y="464" font-size="12" fill="#c3d2e8">or over an edited draft, is rejected.</text>
+
+  <!-- ============ BAND C: evaluation ============ -->
+  <rect x="40" y="524" width="1520" height="200" rx="12" fill="#ffffff" stroke="#d7dfec"/>
+  <text x="64" y="556" font-size="17" font-weight="700" fill="#14263f">Evaluation &#8212; run before the room, not during it</text>
+
+  <rect x="64" y="574" width="240" height="88" rx="10" fill="#eef3fb" stroke="#c9d6ea"/>
+  <text x="84" y="602" font-size="13.5" font-weight="700" fill="#1f3354">A fixed question set</text>
+  <text x="84" y="626" font-size="12" fill="#6b7891">answerable ones with a</text>
+  <text x="84" y="646" font-size="12" fill="#6b7891">known source, plus traps</text>
+
+  <rect x="344" y="574" width="240" height="88" rx="10" fill="#eef3fb" stroke="#c9d6ea"/>
+  <text x="364" y="602" font-size="13.5" font-weight="700" fill="#1f3354">The same loop</text>
+  <text x="364" y="626" font-size="12" fill="#6b7891">no shortcuts, no special</text>
+  <text x="364" y="646" font-size="12" fill="#6b7891">path for the demo</text>
+
+  <text x="624" y="592" font-size="13.5" font-weight="700" fill="#2a6fdb">What we score</text>
+  <rect x="624" y="602" width="200" height="30" rx="15" fill="#eef3fb" stroke="#c9d6ea"/>
+  <text x="724" y="622" font-size="12" fill="#1f3354" text-anchor="middle">right source found</text>
+  <rect x="834" y="602" width="200" height="30" rx="15" fill="#eef3fb" stroke="#c9d6ea"/>
+  <text x="934" y="622" font-size="12" fill="#1f3354" text-anchor="middle">every claim supported</text>
+  <rect x="1044" y="602" width="200" height="30" rx="15" fill="#eef3fb" stroke="#c9d6ea"/>
+  <text x="1144" y="622" font-size="12" fill="#1f3354" text-anchor="middle">numbers exact</text>
+  <rect x="624" y="640" width="200" height="30" rx="15" fill="#eef3fb" stroke="#c9d6ea"/>
+  <text x="724" y="660" font-size="12" fill="#1f3354" text-anchor="middle">expected fact present</text>
+  <rect x="834" y="640" width="410" height="30" rx="15" fill="#fff7ee" stroke="#e0b57e"/>
+  <text x="1039" y="660" font-size="12" fill="#a05c12" text-anchor="middle">out-of-corpus questions abstain instead of guessing</text>
+
+  <rect x="1284" y="574" width="230" height="96" rx="10" fill="#ffffff" stroke="#2e7d5b" stroke-width="1.8"/>
+  <text x="1304" y="602" font-size="13.5" font-weight="700" fill="#1d5a41">Pass or fail</text>
+  <text x="1304" y="626" font-size="12" fill="#3c4a60">every score must be 1.0</text>
+  <text x="1304" y="646" font-size="12" fill="#3c4a60">or the check exits with</text>
+  <text x="1304" y="664" font-size="12" fill="#3c4a60">an error</text>
+
+  <line x1="306" y1="618" x2="342" y2="618" stroke="#5b6a85" stroke-width="2" marker-end="url(#w)"/>
+  <line x1="586" y1="618" x2="622" y2="618" stroke="#5b6a85" stroke-width="2" marker-end="url(#w)"/>
+  <line x1="1246" y1="618" x2="1282" y2="618" stroke="#5b6a85" stroke-width="2" marker-end="url(#w)"/>
+
+  <text x="64" y="700" font-size="12" fill="#8a94a6">The result is printed with the git commit and the embedding model, so a score always belongs to a known version of the code and the corpus.</text>
+
+  <!-- ============ footer ============ -->
+  <rect x="40" y="748" width="1520" height="60" rx="10" fill="#14263f"/>
+  <text x="64" y="774" font-size="13.5" fill="#dbe8ff">Three things hold whatever the model does: the loop is bounded, the answer is empty until a human signs, and every claim points at a page you can open.</text>
+  <text x="64" y="796" font-size="12.5" fill="#8fa3c4">If the evidence is not there, the honest outcome is to abstain.</text>
+</svg>

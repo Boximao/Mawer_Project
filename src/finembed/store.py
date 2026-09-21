@@ -53,9 +53,11 @@ CREATE TABLE IF NOT EXISTS {t} (
     embedding_model   TEXT NOT NULL,
     pipeline_version  TEXT NOT NULL,
     created_at        TIMESTAMPTZ NOT NULL DEFAULT now(),
-    embedding         vector({dim}) NOT NULL
+    embedding         vector({dim}) NOT NULL,
+    search_vector     tsvector GENERATED ALWAYS AS (to_tsvector('simple', coalesce(raw_text, ''))) STORED
 );
 CREATE INDEX IF NOT EXISTS {t}_embedding_hnsw ON {t} USING hnsw (embedding vector_cosine_ops);
+CREATE INDEX IF NOT EXISTS {t}_search_gin ON {t} USING gin (search_vector);
 CREATE INDEX IF NOT EXISTS {t}_filters ON {t} (ticker, form_type, fiscal_year, fiscal_quarter);
 CREATE INDEX IF NOT EXISTS {t}_doc ON {t} (doc_id);
 """
@@ -80,6 +82,19 @@ class PgVectorStore:
             if self.dim > 2000:
                 sql = "\n".join(line for line in sql.splitlines() if "hnsw" not in line)
             conn.execute(sql)
+            conn.execute(
+                f"""
+                DO $$ BEGIN
+                    ALTER TABLE {self.table} ADD COLUMN search_vector tsvector
+                        GENERATED ALWAYS AS (to_tsvector('simple', coalesce(raw_text, ''))) STORED;
+                EXCEPTION WHEN duplicate_column THEN
+                    NULL;
+                END $$;
+                """
+            )
+            conn.execute(
+                f"CREATE INDEX IF NOT EXISTS {self.table}_search_gin ON {self.table} USING gin (search_vector)"
+            )
             conn.commit()
 
     def existing_vectors(self, doc_id: str, embedding_model: str) -> dict[str, list[float]]:

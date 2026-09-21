@@ -11,7 +11,7 @@ If this file and the spec disagree, **the spec wins**. This file is the map of *
 
 ## 1. Problem and solution in one paragraph
 
-Investment research cannot trust a single-shot RAG answer. The MVP is an **allowlisted, Apple-only, agentic retrieve–rerank–draft–validate loop** with **claim-level citations** and a **non-bypassable HITL state machine**. Source PDFs live in Git; **vectors and run state live in Neon pgvector** (`dawn-moon-44249230` / `production`) so Jason and Max do not copy embeddings between laptops. The **scored 3:00 demo** is `demo/index.html` on the company TV (HDMI). Live FastAPI is a stretch path.
+Investment research cannot trust a single-shot RAG answer. The MVP is an **allowlisted, Apple-only, agentic retrieve–rerank–draft–validate loop** with **claim-level citations** and a **non-bypassable HITL state machine**. Max's authoritative parsed corpus lives in `data/processed`; canonical 384-d BGE vectors are available locally and in Neon pgvector (`dawn-moon-44249230` / `production`). The **scored 3:00 demo** is `demo/index.html` on the company TV (HDMI), and the same page automatically uses live FastAPI when served from `127.0.0.1:8000`.
 
 ---
 
@@ -40,7 +40,7 @@ The **LLM does not own control**. Postgres `runs.state` and HMAC do.
 
 ---
 
-## 3. Project structure (as-built + remaining)
+## 3. Project structure (as-built)
 
 ```
 Mawer_Project/

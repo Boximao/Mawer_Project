@@ -1,6 +1,8 @@
 """CLI.
 
   python -m finembed embed [--doc-id ID]              embed already-parsed filings (no PyMuPDF needed)
+  python -m finembed embed-bge [--doc-id ID]          BGE 384-d from data/processed only
+  python -m finembed embed-neon [--doc-id ID]         BGE 384-d into Neon documents/chunks
   python -m finembed ingest [--doc-id ID] [--dry-run] parse PDFs, then embed (--dry-run: parse only)
   python -m finembed init-db                          create the pgvector table and indexes
   python -m finembed inspect --doc-id ID [--n 5]      print sample records (embed_text + metadata)
@@ -13,6 +15,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import os
 import random
 import sys
 
@@ -46,6 +49,10 @@ def main(argv=None) -> int:
     sub.add_parser("init-db")
     emb = sub.add_parser("embed")
     emb.add_argument("--doc-id")
+    bge = sub.add_parser("embed-bge")
+    bge.add_argument("--doc-id")
+    neon = sub.add_parser("embed-neon")
+    neon.add_argument("--doc-id")
     ing = sub.add_parser("ingest")
     ing.add_argument("--doc-id", help="only this filing, e.g. AAPL_10-Q_2026-06-27")
     ing.add_argument("--dry-run", action="store_true", help="parse + chunk only; no OpenAI or database calls")
@@ -72,6 +79,31 @@ def main(argv=None) -> int:
         embedder, store = _embedder(s), _store(s)
         for d in doc_ids:
             print(json.dumps(embed_records(d, s, embedder, store)))
+        return 0
+
+    if args.cmd in ("embed-bge", "embed-neon"):
+        from .embedder import BGEEmbedder
+        from .neon_chunks import NeonChunkStore
+        from .pipeline import embed_processed_bge, processed_doc_ids
+
+        doc_ids = [args.doc_id] if args.doc_id else processed_doc_ids(s)
+        if not doc_ids:
+            sys.exit(f"no processed records in {s.processed_dir}")
+        store = None
+        if args.cmd == "embed-neon":
+            dsn = os.environ.get("DATABASE_URL_UNPOOLED") or s.database_url
+            if not dsn:
+                sys.exit("DATABASE_URL is not set (put it in .env)")
+            store = NeonChunkStore(dsn)
+        model = os.environ.get("EMBEDDING_MODEL", "BAAI/bge-small-en-v1.5")
+        embedder = BGEEmbedder(model)
+        for summary in embed_processed_bge(s, embedder, doc_ids, store=store):
+            print(json.dumps(summary))
+        result = {"model": embedder.name, "dim": embedder.dimensions}
+        if store is not None:
+            docs, chunks = store.counts()
+            result.update({"documents": docs, "chunks": chunks})
+        print(json.dumps(result))
         return 0
 
     if args.cmd == "ingest":

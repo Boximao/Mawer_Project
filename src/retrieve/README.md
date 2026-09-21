@@ -1,3 +1,5 @@
 # Retrieve (Jason + Max)
 
-Hybrid search over Neon allowlisted chunks. See docs/TECHNICAL_SOLUTION.md §4.2 and spec §4.2.
+Hybrid search over allowlisted chunks: vector 20 + keyword 20 → RRF `k=60` cap 30 → cloud rerank top 6, or RRF-only.
+
+Query-time tools: `search_chunks`, `get_chunk`, `get_document_meta`. Allowlist: `data/corpus_manifest.json` (`ingest_status=ready`).

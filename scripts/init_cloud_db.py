@@ -1,7 +1,4 @@
-"""Apply migrations/001_initial.sql to Neon using DATABASE_URL_UNPOOLED.
-
-Does not print connection strings or table contents.
-"""
+"""Apply migrations/*.sql to Neon using DATABASE_URL_UNPOOLED (or DATABASE_URL)."""
 from __future__ import annotations
 
 import os
@@ -9,10 +6,11 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SQL_PATH = ROOT / "migrations" / "001_initial.sql"
 
 
 def load_env(path: Path) -> None:
+    if not path.exists():
+        return
     for line in path.read_text(encoding="utf-8").splitlines():
         s = line.strip()
         if not s or s.startswith("#") or "=" not in s:
@@ -23,6 +21,7 @@ def load_env(path: Path) -> None:
 
 def main() -> int:
     load_env(ROOT / ".env")
+    load_env(ROOT / ".env.local")
     dsn = os.environ.get("DATABASE_URL_UNPOOLED") or os.environ.get("DATABASE_URL")
     if not dsn:
         print("DATABASE_URL_UNPOOLED / DATABASE_URL missing from .env", file=sys.stderr)
@@ -30,7 +29,7 @@ def main() -> int:
 
     import psycopg
 
-    sql = SQL_PATH.read_text(encoding="utf-8")
+    files = sorted((ROOT / "migrations").glob("*.sql"))
     try:
         conn = psycopg.connect(dsn, connect_timeout=30)
     except Exception as exc:
@@ -38,7 +37,8 @@ def main() -> int:
         return 1
     with conn:
         conn.execute("SELECT 1")
-        conn.execute(sql)
+        for path in files:
+            conn.execute(path.read_text(encoding="utf-8"))
         conn.commit()
         ext = conn.execute(
             "SELECT extname FROM pg_extension WHERE extname IN ('vector', 'pgcrypto') ORDER BY 1"
@@ -47,21 +47,15 @@ def main() -> int:
             """
             SELECT tablename FROM pg_tables
             WHERE schemaname = 'public'
-              AND tablename IN ('documents', 'chunks', 'runs', 'agent_steps', 'approvals')
+              AND tablename IN ('documents', 'chunks', 'filing_chunks', 'runs', 'agent_steps', 'approvals')
             ORDER BY 1
             """
         ).fetchall()
-        dim = conn.execute(
-            """
-            SELECT atttypmod FROM pg_attribute
-            WHERE attrelid = 'chunks'::regclass AND attname = 'embedding'
-            """
-        ).fetchone()
 
     print("wake: SELECT 1 ok")
+    print("migrations:", ", ".join(p.name for p in files))
     print("extensions:", ", ".join(r[0] for r in ext) or "(none)")
     print("tables:", ", ".join(r[0] for r in tables) or "(none)")
-    print("chunks.embedding typmod:", dim[0] if dim else "missing")
     return 0
 
 

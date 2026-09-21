@@ -12,6 +12,9 @@ from typing import Optional
 
 import numpy as np
 
+from pathlib import Path
+from typing import Optional
+
 from .config import Settings
 from .models import FilingMeta, Record
 from .text_utils import sha256
@@ -76,13 +79,13 @@ def processed_doc_ids(s: Settings) -> list[str]:
     return sorted(p.parent.name for p in s.processed_dir.glob("*/records.jsonl"))
 
 
-def embed_records(doc_id: str, s: Settings, embedder, store=None) -> dict:
+def embed_records(doc_id: str, s: Settings, embedder, store=None, npz_name: str = "embeddings.npz") -> dict:
     """Embed one parsed filing. Vectors go to embeddings.npz (always) and pgvector (if store is given).
 
     Chunks whose embed_text is unchanged reuse the vectors already in embeddings.npz, so re-runs are free.
     """
     records = load_records(s, doc_id)
-    npz_path = s.processed_dir / doc_id / "embeddings.npz"
+    npz_path = s.processed_dir / doc_id / npz_name
     for r in records:  # the hash depends on the model actually used
         r.embedding_model = embedder.name
         r.content_hash = sha256(embedder.name + "\x00" + r.embed_text)
@@ -105,7 +108,10 @@ def embed_records(doc_id: str, s: Settings, embedder, store=None) -> dict:
     summary = {"doc_id": doc_id, "chunks": len(records), "embedded": len(todo),
                "reused": len(records) - len(todo), "saved": str(npz_path)}
     if store is not None:
-        store.replace_document(doc_id, records)
+        if hasattr(store, "replace_chunks"):
+            store.replace_chunks(doc_id, records)
+        else:
+            store.replace_document(doc_id, records)
         summary["stored_in_pgvector"] = len(records)
     return summary
 
@@ -117,3 +123,73 @@ def ingest_filing(f: FilingMeta, s: Settings, embedder=None, store=None, dry_run
         return summary
     summary.update(embed_records(f.doc_id, s, embedder, store))
     return summary
+
+
+def embed_processed_bge(s: Settings, embedder, doc_ids: list[str], store=None) -> list[dict]:
+    """BGE-embed Max's processed records; optionally upsert canonical Neon tables."""
+    npz_name = "embeddings_bge.npz"
+    summaries = []
+    manifest_path = s.root / "data" / "corpus_manifest.json"
+    manifest_raw = json.loads(manifest_path.read_text(encoding="utf-8"))
+    manifest_by_id = {
+        row["document_id"]: row for row in manifest_raw.get("documents", [])
+    }
+    for doc_id in doc_ids:
+        summary = embed_records(doc_id, s, embedder, store=None, npz_name=npz_name)
+        records = load_records(s, doc_id)
+        if not records:
+            raise FileNotFoundError(f"no processed records for {doc_id}")
+        z = np.load(s.processed_dir / doc_id / npz_name, allow_pickle=False)
+        by_id = {i: v for i, v in zip(z["ids"].tolist(), z["vectors"])}
+        for r in records:
+            r.embedding = np.asarray(by_id[r.id], dtype=np.float32).tolist()
+            r.embedding_model = embedder.name
+        page_count = max((r.pdf_page_end for r in records), default=1)
+        old = manifest_by_id.get(doc_id, {})
+        first = records[0]
+        source_uri = old.get("source_uri") or first.source_url or f"processed://{doc_id}"
+        digest = old.get("sha256")
+        if not digest:
+            digest = sha256(
+                (s.processed_dir / doc_id / "records.jsonl").read_text(encoding="utf-8")
+            )
+        if store is not None:
+            store.upsert_document(
+                document_id=doc_id,
+                source_uri=source_uri,
+                sha256=digest,
+                mime_type=old.get("mime_type", "application/pdf"),
+                form_type=first.form_type,
+                filing_period=first.period_end,
+                page_count=page_count,
+                ingest_status="ready",
+            )
+            store.replace_chunks(doc_id, records)
+            summary["stored_in_pgvector"] = len(records)
+        summaries.append(summary)
+        manifest_by_id[doc_id] = {
+            "document_id": doc_id,
+            "source_uri": source_uri,
+            "sha256": digest,
+            "mime_type": old.get("mime_type", "application/pdf"),
+            "form_type": first.form_type,
+            "filing_period": first.period_end.isoformat(),
+            "page_count": page_count,
+            "ingest_status": "ready",
+            "embedding_model": embedder.name,
+            "embedding_dim": int(embedder.dimensions),
+            "chunk_count": len(records),
+        }
+    manifest_path.write_text(
+        json.dumps(
+            {"documents": [manifest_by_id[k] for k in sorted(manifest_by_id)]},
+            indent=2,
+        ) + "\n",
+        encoding="utf-8",
+    )
+    return summaries
+
+
+def embed_to_neon(s: Settings, embedder, store, doc_ids: list[str], filings=None) -> list[dict]:
+    """Backward-compatible wrapper for the canonical BGE/Neon path."""
+    return embed_processed_bge(s, embedder, doc_ids, store=store)

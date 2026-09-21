@@ -1,0 +1,43 @@
+{
+  "documents": [
+    {
+      "document_id": "AAPL_10-Q_2025-12-27",
+      "source_uri": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/",
+      "sha256": "b11b2c5d59eb9a4199f9a4c92744cba1a84bef3f86e2aa0440f6b935055100f7",
+      "mime_type": "application/pdf",
+      "form_type": "10-Q",
+      "filing_period": "2025-12-27",
+      "page_count": 24,
+      "ingest_status": "ready",
+      "embedding_model": "BAAI/bge-small-en-v1.5",
+      "embedding_dim": 384,
+      "chunk_count": 61
+    },
+    {
+      "document_id": "AAPL_10-Q_2026-03-28",
+      "source_uri": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/",
+      "sha256": "01bedf3ca6b86bae7bf3da7ea98b2292a010bc6674e1390918d34da88e79e0cd",
+      "mime_type": "application/pdf",
+      "form_type": "10-Q",
+      "filing_period": "2026-03-28",
+      "page_count": 28,
+      "ingest_status": "ready",
+      "embedding_model": "BAAI/bge-small-en-v1.5",
+      "embedding_dim": 384,
+      "chunk_count": 72
+    },
+    {
+      "document_id": "AAPL_10-Q_2026-06-27",
+      "source_uri": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/",
+      "sha256": "3518726963892d32ec11a876a5dfa44810cd557d577b91eae28fccad29962505",
+      "mime_type": "application/pdf",
+      "form_type": "10-Q",
+      "filing_period": "2026-06-27",
+      "page_count": 28,
+      "ingest_status": "ready",
+      "embedding_model": "BAAI/bge-small-en-v1.5",
+      "embedding_dim": 384,
+      "chunk_count": 71
+    }
+  ]
+}

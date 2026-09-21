@@ -1,0 +1,18 @@
+{"question": "Why did Apple's Products gross margin percentage increase in fiscal Q3 2026?", "document_id": "AAPL_10-Q_2026-06-27", "expected": "gross margin", "out_of_corpus": false}
+{"question": "Is Apple affected by rising DRAM and NAND memory costs?", "document_id": "AAPL_10-Q_2026-06-27", "expected": "DRAM", "out_of_corpus": false}
+{"question": "How much stock did Apple buy back in the third quarter of fiscal 2026?", "document_id": "AAPL_10-Q_2026-06-27", "expected": "25.8 billion", "out_of_corpus": false}
+{"question": "What is the status of the Epic Games case at the Supreme Court?", "document_id": "AAPL_10-Q_2026-06-27", "expected": "Epic Games", "out_of_corpus": false}
+{"question": "What was Apple's iPhone revenue for the three months ended June 27 2026?", "document_id": "AAPL_10-Q_2026-06-27", "expected": "54,252", "out_of_corpus": false}
+{"question": "Why did Apple's research and development expense increase?", "document_id": "AAPL_10-Q_2026-06-27", "expected": "infrastructure-related costs", "out_of_corpus": false}
+{"question": "What was Apple's effective tax rate in fiscal Q3 2026?", "document_id": "AAPL_10-Q_2026-06-27", "expected": "17.9%", "out_of_corpus": false}
+{"question": "How did the Supreme Court tariff ruling affect Apple?", "document_id": "AAPL_10-Q_2026-06-27", "expected": "Emergency Economic Powers", "out_of_corpus": false}
+{"question": "How large are Apple's manufacturing purchase obligations?", "document_id": "AAPL_10-Q_2026-06-27", "expected": "57.0 billion", "out_of_corpus": false}
+{"question": "Did Tim Cook adopt a 10b5-1 trading plan?", "document_id": "AAPL_10-Q_2026-06-27", "expected": "Tim Cook", "out_of_corpus": false}
+{"question": "Why did Greater China net sales grow?", "document_id": "AAPL_10-Q_2026-06-27", "expected": "Greater China net sales increased", "out_of_corpus": false}
+{"question": "What is Apple's exposure under the EU Digital Markets Act?", "document_id": "AAPL_10-Q_2026-06-27", "expected": "Digital Markets Act", "out_of_corpus": false}
+{"question": "How much unrecognized RSU compensation cost does Apple have?", "document_id": "AAPL_10-Q_2026-06-27", "expected": "26.7 billion", "out_of_corpus": false}
+{"question": "Which updated products did Apple announce in the December 2025 quarter?", "document_id": "AAPL_10-Q_2025-12-27", "expected": "MacBook Pro", "out_of_corpus": false}
+{"question": "Why did Mac net sales fall in fiscal Q1 2026?", "document_id": "AAPL_10-Q_2025-12-27", "expected": "Mac net sales decreased", "out_of_corpus": false}
+{"question": "Which Apple officer entered a trading plan in fiscal Q2 2026?", "document_id": "AAPL_10-Q_2026-03-28", "expected": "Ben Borders", "out_of_corpus": false}
+{"question": "What was Apple diluted earnings per share for the quarter ended December 27, 2025?", "document_id": "AAPL_10-Q_2025-12-27", "expected": "2.84", "out_of_corpus": false}
+{"question": "What was Tesla FY2025 total revenue?", "document_id": null, "expected": null, "out_of_corpus": true}

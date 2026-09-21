@@ -48,3 +48,52 @@ class OpenAIEmbedder:
                 log.warning("OpenAI embeddings failed (%s); retry %d in %ss", type(e).__name__, attempt + 1, wait)
                 time.sleep(wait)
         raise RuntimeError("unreachable")
+
+
+class BGEEmbedder:
+    """Local CPU embeddings via transformers (CLS pooling). Spec: BAAI/bge-small-en-v1.5 (384-d).
+
+    Does not import sentence-transformers: this guest image blocks scipy's Cython DLLs.
+    """
+
+    def __init__(self, model: str = "BAAI/bge-small-en-v1.5", batch_size: int = 16):
+        import torch
+        from transformers import AutoModel, AutoTokenizer
+
+        self.model_name = model
+        self.batch_size = batch_size
+        self._torch = torch
+        try:
+            self.tokenizer = AutoTokenizer.from_pretrained(
+                model, local_files_only=True
+            )
+            self.client = AutoModel.from_pretrained(
+                model, local_files_only=True
+            )
+        except OSError:
+            # First-time setup may download once. Subsequent talk/demo starts
+            # use the local cache and make no network request.
+            self.tokenizer = AutoTokenizer.from_pretrained(model)
+            self.client = AutoModel.from_pretrained(model)
+        self.client.eval()
+        self.dimensions = int(self.client.config.hidden_size)
+        self.name = model
+        self.calls = 0
+
+    def embed(self, texts: list[str]) -> list[list[float]]:
+        if not texts:
+            return []
+        torch = self._torch
+        out: list[list[float]] = []
+        for i in range(0, len(texts), self.batch_size):
+            batch = texts[i:i + self.batch_size]
+            encoded = self.tokenizer(
+                batch, padding=True, truncation=True, max_length=512, return_tensors="pt"
+            )
+            with torch.no_grad():
+                hidden = self.client(**encoded).last_hidden_state[:, 0]
+                hidden = torch.nn.functional.normalize(hidden, p=2, dim=1)
+            out.extend(hidden.cpu().numpy().astype("float32").tolist())
+            self.calls += 1
+            log.info("embedded %d/%d", min(i + self.batch_size, len(texts)), len(texts))
+        return out

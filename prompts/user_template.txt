@@ -24,5 +24,6 @@ Return JSON:
       "section": "string",
       "quote": "verbatim span"
     }}
-  ]
+  ],
+  "next_search_query": "one refined query string if evidence is insufficient, otherwise null"
 }}

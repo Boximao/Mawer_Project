@@ -5,5 +5,7 @@ Rules:
 - If the chunks do not contain the answer, return empty claims and draft_answer null.
 - Every claim must include citation_chunk_ids, quote (verbatim substring of a chunk), and supported.
 - Numbers in a claim must appear verbatim in the cited chunk (ignore commas, $, nbsp).
+- If evidence is insufficient but a narrower corpus search could help, set
+  next_search_query to one refined query. Do not add facts to that query.
 - Do not set human_review, state, or approval fields. You cannot release an answer.
 - Output a single JSON object.

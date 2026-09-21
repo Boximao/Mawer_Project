@@ -7,6 +7,7 @@ Two presentation diagrams for the workshop demonstration. The `.svg` files are t
 |---|---|---|
 | `product-design.svg` / `.png` | Non-technical reviewers | Who the assistant is for, the five-stage journey (ask, ground, draft with evidence, check, human release), the only two possible outcomes, and the design principles behind them. |
 | `technical-architecture.svg` / `.png` | Engineers | Repository layout, the offline ingest path, the three runtime planes (talk, control, data), the Neon schema and guards, and the run state machine. |
+| `agentic-workflow.svg` / `.png` | Mixed room | One run from question to answer, what the run records for auditing (`runs`, `agent_steps`, `approvals`), and what the offline evaluation scores. |
 
 Both stay consistent with [`../AGENTIC_RAG_SPEC.md`](../AGENTIC_RAG_SPEC.md) (the contract),
 [`../TECHNICAL_SOLUTION.md`](../TECHNICAL_SOLUTION.md) and

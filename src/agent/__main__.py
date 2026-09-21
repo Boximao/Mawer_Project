@@ -1,15 +1,11 @@
-"""One-click live demo server.
-
-Uses Max's committed data/processed corpus, local BGE vectors, Neon when
-available, and the in-memory/local fallback otherwise.
-"""
+"""Serve the FastAPI control plane: uvicorn, 1 worker, 127.0.0.1:8000."""
 from __future__ import annotations
 
 import os
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 os.chdir(ROOT)
 
