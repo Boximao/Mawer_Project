@@ -1,0 +1,21 @@
+pipeline_version: "0.1.0"
+
+paths:
+  manifest: data/manifest.csv
+  processed_dir: data/processed     # clean.txt, tables/*.json, chunks for inspection
+
+database:
+  url_env: DATABASE_URL             # e.g. postgresql://user:pass@localhost:5432/finrag
+  table: filing_chunks
+
+chunking:
+  min_tokens: 100                   # sections smaller than this merge with related siblings
+  target_tokens: 500                # a chunk closes once it passes this
+  max_tokens: 800                   # hard ceiling, split on paragraph boundaries
+  overlap_tokens: 50                # trailing sentences carried into the next chunk
+  trivial_item_tokens: 15           # Items like "None." are skipped
+
+embedding:
+  model: text-embedding-3-large
+  dimensions: 1536                  # keep <= 2000 so pgvector can build an HNSW index
+  batch_size: 64

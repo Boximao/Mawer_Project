@@ -1,0 +1,77 @@
+{
+  "table_id": "AAPL_10-Q_2026-06-27-T019",
+  "doc_id": "AAPL_10-Q_2026-06-27",
+  "title": "Share-based compensation expense and the related income tax benefit included in the Condensed Consolidated Statements of Operations for the three- and nine-month periods ended June 27, 2026 and June 28, 2025",
+  "caption": "The following table shows share-based compensation expense and the related income tax benefit included in the Condensed Consolidated Statements of Operations for the three- and nine-month periods ended June 27, 2026 and June 28, 2025 (in millions):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "in millions",
+  "durations": [
+    "3M",
+    "9M"
+  ],
+  "columns": [
+    "Three Months Ended June 27, 2026",
+    "Three Months Ended June 28, 2025",
+    "Nine Months Ended June 27, 2026",
+    "Nine Months Ended June 28, 2025"
+  ],
+  "rows": [
+    {
+      "label": "Share-based compensation expense",
+      "full_label": "Share-based compensation expense",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "3,401",
+          "num": 3401.0
+        },
+        {
+          "raw": "3,168",
+          "num": 3168.0
+        },
+        {
+          "raw": "10,523",
+          "num": 10523.0
+        },
+        {
+          "raw": "9,680",
+          "num": 9680.0
+        }
+      ]
+    },
+    {
+      "label": "Income tax benefit related to share-based compensation expense",
+      "full_label": "Income tax benefit related to share-based compensation expense",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "(1,122)",
+          "num": -1122.0
+        },
+        {
+          "raw": "(795)",
+          "num": -795.0
+        },
+        {
+          "raw": "(3,217)",
+          "num": -3217.0
+        },
+        {
+          "raw": "(2,870)",
+          "num": -2870.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 1. Financial Statements",
+    "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+    "Note 8 – Share-Based Compensation",
+    "Share-Based Compensation"
+  ],
+  "item_code": "10Q-P1-I1",
+  "pdf_page": 14,
+  "page_label": "11"
+}

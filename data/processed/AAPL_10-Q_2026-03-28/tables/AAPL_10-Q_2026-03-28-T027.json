@@ -1,0 +1,217 @@
+{
+  "table_id": "AAPL_10-Q_2026-03-28-T027",
+  "doc_id": "AAPL_10-Q_2026-03-28",
+  "title": "Operating expenses for the three- and six-month periods ended March 28, 2026 and March 29, 2025, were as follows",
+  "caption": "Operating expenses for the three- and six-month periods ended March 28, 2026 and March 29, 2025, were as follows (dollars in millions):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "dollars in millions",
+  "durations": [
+    "3M",
+    "6M"
+  ],
+  "columns": [
+    "Three Months Ended March 28, 2026",
+    "Three Months Ended March 29, 2025",
+    "Three Months Ended Change",
+    "Six Months Ended March 28, 2026",
+    "Six Months Ended March 29, 2025",
+    "Six Months Ended Change"
+  ],
+  "rows": [
+    {
+      "label": "Research and development",
+      "full_label": "Research and development",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "11,419",
+          "num": 11419.0
+        },
+        {
+          "raw": "8,550",
+          "num": 8550.0
+        },
+        {
+          "raw": "34 %",
+          "num": 34.0
+        },
+        {
+          "raw": "22,306",
+          "num": 22306.0
+        },
+        {
+          "raw": "16,818",
+          "num": 16818.0
+        },
+        {
+          "raw": "33 %",
+          "num": 33.0
+        }
+      ]
+    },
+    {
+      "label": "Percentage of total net sales",
+      "full_label": "Percentage of total net sales",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "10%",
+          "num": 10.0
+        },
+        {
+          "raw": "9%",
+          "num": 9.0
+        },
+        {
+          "raw": null,
+          "num": null
+        },
+        {
+          "raw": "9%",
+          "num": 9.0
+        },
+        {
+          "raw": "8%",
+          "num": 8.0
+        },
+        {
+          "raw": null,
+          "num": null
+        }
+      ]
+    },
+    {
+      "label": "Selling, general and administrative",
+      "full_label": "Selling, general and administrative",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "7,477",
+          "num": 7477.0
+        },
+        {
+          "raw": "6,728",
+          "num": 6728.0
+        },
+        {
+          "raw": "11 %",
+          "num": 11.0
+        },
+        {
+          "raw": "14,969",
+          "num": 14969.0
+        },
+        {
+          "raw": "13,903",
+          "num": 13903.0
+        },
+        {
+          "raw": "8 %",
+          "num": 8.0
+        }
+      ]
+    },
+    {
+      "label": "Percentage of total net sales",
+      "full_label": "Percentage of total net sales",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "7%",
+          "num": 7.0
+        },
+        {
+          "raw": "7%",
+          "num": 7.0
+        },
+        {
+          "raw": null,
+          "num": null
+        },
+        {
+          "raw": "6%",
+          "num": 6.0
+        },
+        {
+          "raw": "6%",
+          "num": 6.0
+        },
+        {
+          "raw": null,
+          "num": null
+        }
+      ]
+    },
+    {
+      "label": "Total operating expenses",
+      "full_label": "Total operating expenses",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "18,896",
+          "num": 18896.0
+        },
+        {
+          "raw": "15,278",
+          "num": 15278.0
+        },
+        {
+          "raw": "24 %",
+          "num": 24.0
+        },
+        {
+          "raw": "37,275",
+          "num": 37275.0
+        },
+        {
+          "raw": "30,721",
+          "num": 30721.0
+        },
+        {
+          "raw": "21 %",
+          "num": 21.0
+        }
+      ]
+    },
+    {
+      "label": "Percentage of total net sales",
+      "full_label": "Percentage of total net sales",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "17%",
+          "num": 17.0
+        },
+        {
+          "raw": "16%",
+          "num": 16.0
+        },
+        {
+          "raw": null,
+          "num": null
+        },
+        {
+          "raw": "15%",
+          "num": 15.0
+        },
+        {
+          "raw": "14%",
+          "num": 14.0
+        },
+        {
+          "raw": null,
+          "num": null
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+    "Operating Expenses"
+  ],
+  "item_code": "10Q-P1-I2",
+  "pdf_page": 20,
+  "page_label": "17"
+}

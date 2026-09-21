@@ -1,0 +1,101 @@
+{
+  "table_id": "AAPL_10-Q_2026-06-27-T018",
+  "doc_id": "AAPL_10-Q_2026-06-27",
+  "title": "A summary of the Company’s restricted stock unit (“RSU”) activity and related information for the nine months ended June 27, 2026, is as follows",
+  "caption": "A summary of the Company’s restricted stock unit (“RSU”) activity and related information for the nine months ended June 27, 2026, is as follows:",
+  "caption_source": "preceding_paragraph",
+  "units": null,
+  "units_note": null,
+  "durations": [],
+  "columns": [
+    "Number of RSUs (in thousands)",
+    "Weighted-Average Grant-Date Fair Value Per RSU"
+  ],
+  "rows": [
+    {
+      "label": "Balance as of September 27, 2025",
+      "full_label": "Balance as of September 27, 2025",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "151,574",
+          "num": 151574.0
+        },
+        {
+          "raw": "189.75",
+          "num": 189.75
+        }
+      ]
+    },
+    {
+      "label": "RSUs granted",
+      "full_label": "RSUs granted",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "72,400",
+          "num": 72400.0
+        },
+        {
+          "raw": "258.16",
+          "num": 258.16
+        }
+      ]
+    },
+    {
+      "label": "RSUs vested",
+      "full_label": "RSUs vested",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "(70,594)",
+          "num": -70594.0
+        },
+        {
+          "raw": "184.72",
+          "num": 184.72
+        }
+      ]
+    },
+    {
+      "label": "RSUs forfeited",
+      "full_label": "RSUs forfeited",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "(9,418)",
+          "num": -9418.0
+        },
+        {
+          "raw": "213.67",
+          "num": 213.67
+        }
+      ]
+    },
+    {
+      "label": "Balance as of June 27, 2026",
+      "full_label": "Balance as of June 27, 2026",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "143,962",
+          "num": 143962.0
+        },
+        {
+          "raw": "225.06",
+          "num": 225.06
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 1. Financial Statements",
+    "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+    "Note 8 – Share-Based Compensation",
+    "Restricted Stock Units"
+  ],
+  "item_code": "10Q-P1-I1",
+  "pdf_page": 14,
+  "page_label": "11"
+}

@@ -1,0 +1,159 @@
+{
+  "table_id": "AAPL_10-Q_2026-06-27-T030",
+  "doc_id": "AAPL_10-Q_2026-06-27",
+  "title": "Share repurchase activity during the three months ended June 27, 2026, was as follows",
+  "caption": "Share repurchase activity during the three months ended June 27, 2026, was as follows (in millions, except number of shares, which are reflected in thousands, and per-share amounts):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "in millions, except number of shares, which are reflected in thousands, and per-share amounts",
+  "durations": [],
+  "columns": [
+    "Total Number of Shares Purchased",
+    "Average Price Paid Per Share",
+    "Total Number of Shares Purchased as Part of Publicly Announced Plans or Programs",
+    "Approximate Dollar Value of Shares That May Yet Be Purchased Under the Plans or Programs"
+  ],
+  "rows": [
+    {
+      "label": "March 29, 2026 to May 2, 2026:",
+      "full_label": "March 29, 2026 to May 2, 2026:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Open market and privately negotiated purchases",
+      "full_label": "March 29, 2026 to May 2, 2026: Open market and privately negotiated purchases",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": null,
+          "num": null
+        }
+      ]
+    },
+    {
+      "label": "May 3, 2026 to May 30, 2026:",
+      "full_label": "May 3, 2026 to May 30, 2026:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "May 2026 ASRs",
+      "full_label": "May 3, 2026 to May 30, 2026: May 2026 ASRs",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "26,468",
+          "num": 26468.0
+        },
+        {
+          "raw": null,
+          "num": null
+        },
+        {
+          "raw": "26,468",
+          "num": 26468.0
+        },
+        {
+          "raw": null,
+          "num": null
+        }
+      ]
+    },
+    {
+      "label": "Open market and privately negotiated purchases",
+      "full_label": "May 3, 2026 to May 30, 2026: Open market and privately negotiated purchases",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "26,920",
+          "num": 26920.0
+        },
+        {
+          "raw": "297.18",
+          "num": 297.18
+        },
+        {
+          "raw": "26,920",
+          "num": 26920.0
+        },
+        {
+          "raw": null,
+          "num": null
+        }
+      ]
+    },
+    {
+      "label": "May 31, 2026 to June 27, 2026:",
+      "full_label": "May 31, 2026 to June 27, 2026:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Open market and privately negotiated purchases",
+      "full_label": "May 31, 2026 to June 27, 2026: Open market and privately negotiated purchases",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "26,223",
+          "num": 26223.0
+        },
+        {
+          "raw": "296.18",
+          "num": 296.18
+        },
+        {
+          "raw": "26,223",
+          "num": 26223.0
+        },
+        {
+          "raw": null,
+          "num": null
+        }
+      ]
+    },
+    {
+      "label": "Total",
+      "full_label": "May 31, 2026 to June 27, 2026: Total",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "79,611",
+          "num": 79611.0
+        },
+        {
+          "raw": null,
+          "num": null
+        },
+        {
+          "raw": null,
+          "num": null
+        },
+        {
+          "raw": "138,004",
+          "num": 138004.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part II",
+    "Item 2. Unregistered Sales of Equity Securities and Use of Proceeds",
+    "Purchases of Equity Securities by the Issuer and Affiliated Purchasers"
+  ],
+  "item_code": "10Q-P2-I2",
+  "pdf_page": 27,
+  "page_label": "24"
+}

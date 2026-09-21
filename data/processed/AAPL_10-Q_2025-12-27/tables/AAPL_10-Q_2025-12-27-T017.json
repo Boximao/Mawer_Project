@@ -1,0 +1,58 @@
+{
+  "table_id": "AAPL_10-Q_2025-12-27-T017",
+  "doc_id": "AAPL_10-Q_2025-12-27",
+  "title": "Share-based compensation expense and the related income tax benefit included in the Condensed Consolidated Statements of Operations for the three months ended December 27, 2025 and December 28, 2024",
+  "caption": "The following table shows share-based compensation expense and the related income tax benefit included in the Condensed Consolidated Statements of Operations for the three months ended December 27, 2025 and December 28, 2024 (in millions):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "in millions",
+  "durations": [
+    "3M"
+  ],
+  "columns": [
+    "Three Months Ended December 27, 2025",
+    "Three Months Ended December 28, 2024"
+  ],
+  "rows": [
+    {
+      "label": "Share-based compensation expense",
+      "full_label": "Share-based compensation expense",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "3,594",
+          "num": 3594.0
+        },
+        {
+          "raw": "3,286",
+          "num": 3286.0
+        }
+      ]
+    },
+    {
+      "label": "Income tax benefit related to share-based compensation expense",
+      "full_label": "Income tax benefit related to share-based compensation expense",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "(1,293)",
+          "num": -1293.0
+        },
+        {
+          "raw": "(1,332)",
+          "num": -1332.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 1. Financial Statements",
+    "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+    "Note 8 – Share-Based Compensation",
+    "Share-Based Compensation"
+  ],
+  "item_code": "10Q-P1-I1",
+  "pdf_page": 14,
+  "page_label": "11"
+}

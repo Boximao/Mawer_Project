@@ -1,0 +1,496 @@
+{
+  "table_id": "AAPL_10-Q_2026-03-28-T004",
+  "doc_id": "AAPL_10-Q_2026-03-28",
+  "title": "CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (Unaudited)",
+  "caption": "CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (Unaudited)",
+  "caption_source": "statement_title",
+  "units": "USD millions",
+  "units_note": "In millions, except number of shares, which are reflected in thousands, and per-share amounts",
+  "durations": [
+    "3M",
+    "6M"
+  ],
+  "columns": [
+    "Three Months Ended March 28, 2026",
+    "Three Months Ended March 29, 2025",
+    "Six Months Ended March 28, 2026",
+    "Six Months Ended March 29, 2025"
+  ],
+  "rows": [
+    {
+      "label": "Net sales:",
+      "full_label": "Net sales:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Products",
+      "full_label": "Products",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "80,208",
+          "num": 80208.0
+        },
+        {
+          "raw": "68,714",
+          "num": 68714.0
+        },
+        {
+          "raw": "193,951",
+          "num": 193951.0
+        },
+        {
+          "raw": "166,674",
+          "num": 166674.0
+        }
+      ]
+    },
+    {
+      "label": "Services",
+      "full_label": "Services",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "30,976",
+          "num": 30976.0
+        },
+        {
+          "raw": "26,645",
+          "num": 26645.0
+        },
+        {
+          "raw": "60,989",
+          "num": 60989.0
+        },
+        {
+          "raw": "52,985",
+          "num": 52985.0
+        }
+      ]
+    },
+    {
+      "label": "Total net sales",
+      "full_label": "Total net sales",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "111,184",
+          "num": 111184.0
+        },
+        {
+          "raw": "95,359",
+          "num": 95359.0
+        },
+        {
+          "raw": "254,940",
+          "num": 254940.0
+        },
+        {
+          "raw": "219,659",
+          "num": 219659.0
+        }
+      ]
+    },
+    {
+      "label": "Cost of sales:",
+      "full_label": "Cost of sales:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Products",
+      "full_label": "Products",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "49,179",
+          "num": 49179.0
+        },
+        {
+          "raw": "44,030",
+          "num": 44030.0
+        },
+        {
+          "raw": "116,657",
+          "num": 116657.0
+        },
+        {
+          "raw": "103,477",
+          "num": 103477.0
+        }
+      ]
+    },
+    {
+      "label": "Services",
+      "full_label": "Services",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "7,224",
+          "num": 7224.0
+        },
+        {
+          "raw": "6,462",
+          "num": 6462.0
+        },
+        {
+          "raw": "14,271",
+          "num": 14271.0
+        },
+        {
+          "raw": "13,040",
+          "num": 13040.0
+        }
+      ]
+    },
+    {
+      "label": "Total cost of sales",
+      "full_label": "Total cost of sales",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "56,403",
+          "num": 56403.0
+        },
+        {
+          "raw": "50,492",
+          "num": 50492.0
+        },
+        {
+          "raw": "130,928",
+          "num": 130928.0
+        },
+        {
+          "raw": "116,517",
+          "num": 116517.0
+        }
+      ]
+    },
+    {
+      "label": "Gross margin",
+      "full_label": "Gross margin",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "54,781",
+          "num": 54781.0
+        },
+        {
+          "raw": "44,867",
+          "num": 44867.0
+        },
+        {
+          "raw": "124,012",
+          "num": 124012.0
+        },
+        {
+          "raw": "103,142",
+          "num": 103142.0
+        }
+      ]
+    },
+    {
+      "label": "Operating expenses:",
+      "full_label": "Operating expenses:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Research and development",
+      "full_label": "Operating expenses: Research and development",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "11,419",
+          "num": 11419.0
+        },
+        {
+          "raw": "8,550",
+          "num": 8550.0
+        },
+        {
+          "raw": "22,306",
+          "num": 22306.0
+        },
+        {
+          "raw": "16,818",
+          "num": 16818.0
+        }
+      ]
+    },
+    {
+      "label": "Selling, general and administrative",
+      "full_label": "Operating expenses: Selling, general and administrative",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "7,477",
+          "num": 7477.0
+        },
+        {
+          "raw": "6,728",
+          "num": 6728.0
+        },
+        {
+          "raw": "14,969",
+          "num": 14969.0
+        },
+        {
+          "raw": "13,903",
+          "num": 13903.0
+        }
+      ]
+    },
+    {
+      "label": "Total operating expenses",
+      "full_label": "Total operating expenses",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "18,896",
+          "num": 18896.0
+        },
+        {
+          "raw": "15,278",
+          "num": 15278.0
+        },
+        {
+          "raw": "37,275",
+          "num": 37275.0
+        },
+        {
+          "raw": "30,721",
+          "num": 30721.0
+        }
+      ]
+    },
+    {
+      "label": "Operating income",
+      "full_label": "Operating income",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "35,885",
+          "num": 35885.0
+        },
+        {
+          "raw": "29,589",
+          "num": 29589.0
+        },
+        {
+          "raw": "86,737",
+          "num": 86737.0
+        },
+        {
+          "raw": "72,421",
+          "num": 72421.0
+        }
+      ]
+    },
+    {
+      "label": "Other income/(expense), net",
+      "full_label": "Other income/(expense), net",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "(52)",
+          "num": -52.0
+        },
+        {
+          "raw": "(279)",
+          "num": -279.0
+        },
+        {
+          "raw": "98",
+          "num": 98.0
+        },
+        {
+          "raw": "(527)",
+          "num": -527.0
+        }
+      ]
+    },
+    {
+      "label": "Income before provision for income taxes",
+      "full_label": "Income before provision for income taxes",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "35,833",
+          "num": 35833.0
+        },
+        {
+          "raw": "29,310",
+          "num": 29310.0
+        },
+        {
+          "raw": "86,835",
+          "num": 86835.0
+        },
+        {
+          "raw": "71,894",
+          "num": 71894.0
+        }
+      ]
+    },
+    {
+      "label": "Provision for income taxes",
+      "full_label": "Provision for income taxes",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "6,255",
+          "num": 6255.0
+        },
+        {
+          "raw": "4,530",
+          "num": 4530.0
+        },
+        {
+          "raw": "15,160",
+          "num": 15160.0
+        },
+        {
+          "raw": "10,784",
+          "num": 10784.0
+        }
+      ]
+    },
+    {
+      "label": "Net income",
+      "full_label": "Net income",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "29,578",
+          "num": 29578.0
+        },
+        {
+          "raw": "24,780",
+          "num": 24780.0
+        },
+        {
+          "raw": "71,675",
+          "num": 71675.0
+        },
+        {
+          "raw": "61,110",
+          "num": 61110.0
+        }
+      ]
+    },
+    {
+      "label": "Earnings per share:",
+      "full_label": "Earnings per share:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Basic",
+      "full_label": "Earnings per share: Basic",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "2.02",
+          "num": 2.02
+        },
+        {
+          "raw": "1.65",
+          "num": 1.65
+        },
+        {
+          "raw": "4.87",
+          "num": 4.87
+        },
+        {
+          "raw": "4.06",
+          "num": 4.06
+        }
+      ]
+    },
+    {
+      "label": "Diluted",
+      "full_label": "Earnings per share: Diluted",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "2.01",
+          "num": 2.01
+        },
+        {
+          "raw": "1.65",
+          "num": 1.65
+        },
+        {
+          "raw": "4.85",
+          "num": 4.85
+        },
+        {
+          "raw": "4.05",
+          "num": 4.05
+        }
+      ]
+    },
+    {
+      "label": "Shares used in computing earnings per share:",
+      "full_label": "Shares used in computing earnings per share:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Basic",
+      "full_label": "Shares used in computing earnings per share: Basic",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "14,673,278",
+          "num": 14673278.0
+        },
+        {
+          "raw": "14,994,082",
+          "num": 14994082.0
+        },
+        {
+          "raw": "14,710,718",
+          "num": 14710718.0
+        },
+        {
+          "raw": "15,037,903",
+          "num": 15037903.0
+        }
+      ]
+    },
+    {
+      "label": "Diluted",
+      "full_label": "Shares used in computing earnings per share: Diluted",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "14,725,873",
+          "num": 14725873.0
+        },
+        {
+          "raw": "15,056,133",
+          "num": 15056133.0
+        },
+        {
+          "raw": "14,768,115",
+          "num": 14768115.0
+        },
+        {
+          "raw": "15,103,499",
+          "num": 15103499.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 1. Financial Statements",
+    "CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (Unaudited)"
+  ],
+  "item_code": "10Q-P1-I1",
+  "pdf_page": 4,
+  "page_label": "1"
+}

@@ -1,0 +1,277 @@
+{
+  "table_id": "AAPL_10-Q_2026-06-27-T005",
+  "doc_id": "AAPL_10-Q_2026-06-27",
+  "title": "CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (Unaudited)",
+  "caption": "CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (Unaudited)",
+  "caption_source": "statement_title",
+  "units": "USD millions",
+  "units_note": "In millions",
+  "durations": [
+    "3M",
+    "9M"
+  ],
+  "columns": [
+    "Three Months Ended June 27, 2026",
+    "Three Months Ended June 28, 2025",
+    "Nine Months Ended June 27, 2026",
+    "Nine Months Ended June 28, 2025"
+  ],
+  "rows": [
+    {
+      "label": "Net income",
+      "full_label": "Net income",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "29,789",
+          "num": 29789.0
+        },
+        {
+          "raw": "23,434",
+          "num": 23434.0
+        },
+        {
+          "raw": "101,464",
+          "num": 101464.0
+        },
+        {
+          "raw": "84,544",
+          "num": 84544.0
+        }
+      ]
+    },
+    {
+      "label": "Other comprehensive income/(loss):",
+      "full_label": "Other comprehensive income/(loss):",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Change in foreign currency translation, net of tax",
+      "full_label": "Other comprehensive income/(loss): Change in foreign currency translation, net of tax",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "(24)",
+          "num": -24.0
+        },
+        {
+          "raw": "449",
+          "num": 449.0
+        },
+        {
+          "raw": "(116)",
+          "num": -116.0
+        },
+        {
+          "raw": "(86)",
+          "num": -86.0
+        }
+      ]
+    },
+    {
+      "label": "Change in unrealized gains/losses on derivative instruments, net of tax:",
+      "full_label": "Change in unrealized gains/losses on derivative instruments, net of tax:",
+      "indent": 1,
+      "values": []
+    },
+    {
+      "label": "Change in fair value of derivative instruments",
+      "full_label": "Change in unrealized gains/losses on derivative instruments, net of tax: Change in fair value of derivative instruments",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "356",
+          "num": 356.0
+        },
+        {
+          "raw": "(523)",
+          "num": -523.0
+        },
+        {
+          "raw": "729",
+          "num": 729.0
+        },
+        {
+          "raw": "810",
+          "num": 810.0
+        }
+      ]
+    },
+    {
+      "label": "Adjustment for net (gains)/losses realized and included in net income",
+      "full_label": "Change in unrealized gains/losses on derivative instruments, net of tax: Adjustment for net (gains)/losses realized and included in net income",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "67",
+          "num": 67.0
+        },
+        {
+          "raw": "(571)",
+          "num": -571.0
+        },
+        {
+          "raw": "348",
+          "num": 348.0
+        },
+        {
+          "raw": "(415)",
+          "num": -415.0
+        }
+      ]
+    },
+    {
+      "label": "Total change in unrealized gains/losses on derivative instruments",
+      "full_label": "Change in unrealized gains/losses on derivative instruments, net of tax: Total change in unrealized gains/losses on derivative instruments",
+      "indent": 3,
+      "values": [
+        {
+          "raw": "423",
+          "num": 423.0
+        },
+        {
+          "raw": "(1,094)",
+          "num": -1094.0
+        },
+        {
+          "raw": "1,077",
+          "num": 1077.0
+        },
+        {
+          "raw": "395",
+          "num": 395.0
+        }
+      ]
+    },
+    {
+      "label": "Change in unrealized gains/losses on marketable debt securities, net of tax:",
+      "full_label": "Change in unrealized gains/losses on marketable debt securities, net of tax:",
+      "indent": 1,
+      "values": []
+    },
+    {
+      "label": "Change in fair value of marketable debt securities",
+      "full_label": "Change in unrealized gains/losses on marketable debt securities, net of tax: Change in fair value of marketable debt securities",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "441",
+          "num": 441.0
+        },
+        {
+          "raw": "640",
+          "num": 640.0
+        },
+        {
+          "raw": "57",
+          "num": 57.0
+        },
+        {
+          "raw": "90",
+          "num": 90.0
+        }
+      ]
+    },
+    {
+      "label": "Adjustment for net (gains)/losses realized and included in net income",
+      "full_label": "Change in unrealized gains/losses on marketable debt securities, net of tax: Adjustment for net (gains)/losses realized and included in net income",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "27",
+          "num": 27.0
+        },
+        {
+          "raw": "(1)",
+          "num": -1.0
+        },
+        {
+          "raw": "45",
+          "num": 45.0
+        },
+        {
+          "raw": "404",
+          "num": 404.0
+        }
+      ]
+    },
+    {
+      "label": "Total change in unrealized gains/losses on marketable debt securities",
+      "full_label": "Change in unrealized gains/losses on marketable debt securities, net of tax: Total change in unrealized gains/losses on marketable debt securities",
+      "indent": 4,
+      "values": [
+        {
+          "raw": "468",
+          "num": 468.0
+        },
+        {
+          "raw": "639",
+          "num": 639.0
+        },
+        {
+          "raw": "102",
+          "num": 102.0
+        },
+        {
+          "raw": "494",
+          "num": 494.0
+        }
+      ]
+    },
+    {
+      "label": "Total other comprehensive income/(loss)",
+      "full_label": "Total other comprehensive income/(loss)",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "867",
+          "num": 867.0
+        },
+        {
+          "raw": "(6)",
+          "num": -6.0
+        },
+        {
+          "raw": "1,063",
+          "num": 1063.0
+        },
+        {
+          "raw": "803",
+          "num": 803.0
+        }
+      ]
+    },
+    {
+      "label": "Total comprehensive income",
+      "full_label": "Total comprehensive income",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "30,656",
+          "num": 30656.0
+        },
+        {
+          "raw": "23,428",
+          "num": 23428.0
+        },
+        {
+          "raw": "102,527",
+          "num": 102527.0
+        },
+        {
+          "raw": "85,347",
+          "num": 85347.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 1. Financial Statements",
+    "CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (Unaudited)"
+  ],
+  "item_code": "10Q-P1-I1",
+  "pdf_page": 5,
+  "page_label": "2"
+}

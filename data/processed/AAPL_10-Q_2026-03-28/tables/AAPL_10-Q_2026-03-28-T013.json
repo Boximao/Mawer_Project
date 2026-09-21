@@ -1,0 +1,86 @@
+{
+  "table_id": "AAPL_10-Q_2026-03-28-T013",
+  "doc_id": "AAPL_10-Q_2026-03-28",
+  "title": "The notional amounts of the Company’s outstanding derivative instruments as of March 28, 2026 and September 27, 2025, were as follows",
+  "caption": "The notional amounts of the Company’s outstanding derivative instruments as of March 28, 2026 and September 27, 2025, were as follows (in millions):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "in millions",
+  "durations": [
+    "instant"
+  ],
+  "columns": [
+    "March 28, 2026",
+    "September 27, 2025"
+  ],
+  "rows": [
+    {
+      "label": "Derivative instruments designated as accounting hedges:",
+      "full_label": "Derivative instruments designated as accounting hedges:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Foreign exchange contracts",
+      "full_label": "Derivative instruments designated as accounting hedges: Foreign exchange contracts",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "57,963",
+          "num": 57963.0
+        },
+        {
+          "raw": "62,647",
+          "num": 62647.0
+        }
+      ]
+    },
+    {
+      "label": "Interest rate contracts",
+      "full_label": "Derivative instruments designated as accounting hedges: Interest rate contracts",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "10,625",
+          "num": 10625.0
+        },
+        {
+          "raw": "12,875",
+          "num": 12875.0
+        }
+      ]
+    },
+    {
+      "label": "Derivative instruments not designated as accounting hedges:",
+      "full_label": "Derivative instruments not designated as accounting hedges:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Foreign exchange contracts",
+      "full_label": "Derivative instruments not designated as accounting hedges: Foreign exchange contracts",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "96,341",
+          "num": 96341.0
+        },
+        {
+          "raw": "109,079",
+          "num": 109079.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 1. Financial Statements",
+    "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+    "Note 4 – Financial Instruments",
+    "Derivative Instruments and Hedging",
+    "Interest Rate Risk"
+  ],
+  "item_code": "10Q-P1-I1",
+  "pdf_page": 12,
+  "page_label": "9"
+}

@@ -1,0 +1,191 @@
+{
+  "table_id": "AAPL_10-Q_2026-06-27-T009",
+  "doc_id": "AAPL_10-Q_2026-06-27",
+  "title": "Disaggregated net sales, as well as the portion of total net sales that was previously deferred, for the three- and nine-month periods ended June 27, 2026 and June 28, 2025",
+  "caption": "The following table shows disaggregated net sales, as well as the portion of total net sales that was previously deferred, for the three- and nine-month periods ended June 27, 2026 and June 28, 2025 (in millions):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "in millions",
+  "durations": [
+    "3M",
+    "9M"
+  ],
+  "columns": [
+    "Three Months Ended June 27, 2026",
+    "Three Months Ended June 28, 2025",
+    "Nine Months Ended June 27, 2026",
+    "Nine Months Ended June 28, 2025"
+  ],
+  "rows": [
+    {
+      "label": "iPhone",
+      "full_label": "iPhone",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "54,252",
+          "num": 54252.0
+        },
+        {
+          "raw": "44,582",
+          "num": 44582.0
+        },
+        {
+          "raw": "196,515",
+          "num": 196515.0
+        },
+        {
+          "raw": "160,561",
+          "num": 160561.0
+        }
+      ]
+    },
+    {
+      "label": "Mac",
+      "full_label": "Mac",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "10,352",
+          "num": 10352.0
+        },
+        {
+          "raw": "8,046",
+          "num": 8046.0
+        },
+        {
+          "raw": "27,137",
+          "num": 27137.0
+        },
+        {
+          "raw": "24,982",
+          "num": 24982.0
+        }
+      ]
+    },
+    {
+      "label": "iPad",
+      "full_label": "iPad",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "6,191",
+          "num": 6191.0
+        },
+        {
+          "raw": "6,581",
+          "num": 6581.0
+        },
+        {
+          "raw": "21,700",
+          "num": 21700.0
+        },
+        {
+          "raw": "21,071",
+          "num": 21071.0
+        }
+      ]
+    },
+    {
+      "label": "Wearables, Home and Accessories",
+      "full_label": "Wearables, Home and Accessories",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "7,883",
+          "num": 7883.0
+        },
+        {
+          "raw": "7,404",
+          "num": 7404.0
+        },
+        {
+          "raw": "27,277",
+          "num": 27277.0
+        },
+        {
+          "raw": "26,673",
+          "num": 26673.0
+        }
+      ]
+    },
+    {
+      "label": "Services",
+      "full_label": "Services",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "30,739",
+          "num": 30739.0
+        },
+        {
+          "raw": "27,423",
+          "num": 27423.0
+        },
+        {
+          "raw": "91,728",
+          "num": 91728.0
+        },
+        {
+          "raw": "80,408",
+          "num": 80408.0
+        }
+      ]
+    },
+    {
+      "label": "Total net sales",
+      "full_label": "Total net sales",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "109,417",
+          "num": 109417.0
+        },
+        {
+          "raw": "94,036",
+          "num": 94036.0
+        },
+        {
+          "raw": "364,357",
+          "num": 364357.0
+        },
+        {
+          "raw": "313,695",
+          "num": 313695.0
+        }
+      ]
+    },
+    {
+      "label": "Portion of total net sales that was included in deferred revenue as of the beginning of the period",
+      "full_label": "Portion of total net sales that was included in deferred revenue as of the beginning of the period",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "4,086",
+          "num": 4086.0
+        },
+        {
+          "raw": "4,015",
+          "num": 4015.0
+        },
+        {
+          "raw": "7,260",
+          "num": 7260.0
+        },
+        {
+          "raw": "6,958",
+          "num": 6958.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 1. Financial Statements",
+    "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+    "Note 2 – Revenue"
+  ],
+  "item_code": "10Q-P1-I1",
+  "pdf_page": 9,
+  "page_label": "6"
+}

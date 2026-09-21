@@ -1,0 +1,128 @@
+{
+  "table_id": "AAPL_10-Q_2025-12-27-T023",
+  "doc_id": "AAPL_10-Q_2025-12-27",
+  "title": "Products and Services gross margin and gross margin percentage for the three months ended December 27, 2025 and December 28, 2024, were as follows",
+  "caption": "Products and Services gross margin and gross margin percentage for the three months ended December 27, 2025 and December 28, 2024, were as follows (dollars in millions):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "dollars in millions",
+  "durations": [
+    "3M"
+  ],
+  "columns": [
+    "Three Months Ended December 27, 2025",
+    "Three Months Ended December 28, 2024"
+  ],
+  "rows": [
+    {
+      "label": "Gross margin:",
+      "full_label": "Gross margin:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Products",
+      "full_label": "Gross margin: Products",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "46,265",
+          "num": 46265.0
+        },
+        {
+          "raw": "38,513",
+          "num": 38513.0
+        }
+      ]
+    },
+    {
+      "label": "Services",
+      "full_label": "Gross margin: Services",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "22,966",
+          "num": 22966.0
+        },
+        {
+          "raw": "19,762",
+          "num": 19762.0
+        }
+      ]
+    },
+    {
+      "label": "Total gross margin",
+      "full_label": "Total gross margin",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "69,231",
+          "num": 69231.0
+        },
+        {
+          "raw": "58,275",
+          "num": 58275.0
+        }
+      ]
+    },
+    {
+      "label": "Gross margin percentage:",
+      "full_label": "Gross margin percentage:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Products",
+      "full_label": "Gross margin percentage: Products",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "40.7%",
+          "num": 40.7
+        },
+        {
+          "raw": "39.3%",
+          "num": 39.3
+        }
+      ]
+    },
+    {
+      "label": "Services",
+      "full_label": "Gross margin percentage: Services",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "76.5%",
+          "num": 76.5
+        },
+        {
+          "raw": "75.0%",
+          "num": 75.0
+        }
+      ]
+    },
+    {
+      "label": "Total gross margin percentage",
+      "full_label": "Total gross margin percentage",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "48.2%",
+          "num": 48.2
+        },
+        {
+          "raw": "46.9%",
+          "num": 46.9
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+    "Gross Margin"
+  ],
+  "item_code": "10Q-P1-I2",
+  "pdf_page": 19,
+  "page_label": "16"
+}

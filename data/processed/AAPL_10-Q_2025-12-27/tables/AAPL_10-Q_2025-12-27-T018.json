@@ -1,0 +1,102 @@
+{
+  "table_id": "AAPL_10-Q_2025-12-27-T018",
+  "doc_id": "AAPL_10-Q_2025-12-27",
+  "title": "Future payments under unconditional purchase obligations with a remaining term in excess of one year as of December 27, 2025, are as follows",
+  "caption": "The Company has entered into certain off–balance sheet commitments that require the future purchase of goods or services (“unconditional purchase obligations”). The Company’s unconditional purchase obligations primarily consist of supplier arrangements, licensed intellectual property and content, and distribution rights. Future payments under unconditional purchase obligations with a remaining term in excess of one year as of December 27, 2025, are as follows (in millions):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "in millions",
+  "durations": [],
+  "columns": [
+    "Amount"
+  ],
+  "rows": [
+    {
+      "label": "2026 (remaining nine months)",
+      "full_label": "2026 (remaining nine months)",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "4,754",
+          "num": 4754.0
+        }
+      ]
+    },
+    {
+      "label": "2027",
+      "full_label": "2027",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "8,066",
+          "num": 8066.0
+        }
+      ]
+    },
+    {
+      "label": "2028",
+      "full_label": "2028",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "7,005",
+          "num": 7005.0
+        }
+      ]
+    },
+    {
+      "label": "2029",
+      "full_label": "2029",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "6,538",
+          "num": 6538.0
+        }
+      ]
+    },
+    {
+      "label": "2030",
+      "full_label": "2030",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "5,992",
+          "num": 5992.0
+        }
+      ]
+    },
+    {
+      "label": "Thereafter",
+      "full_label": "Thereafter",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "827",
+          "num": 827.0
+        }
+      ]
+    },
+    {
+      "label": "Total",
+      "full_label": "Total",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "33,182",
+          "num": 33182.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 1. Financial Statements",
+    "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+    "Note 9 – Commitments and Contingencies",
+    "Unconditional Purchase Obligations"
+  ],
+  "item_code": "10Q-P1-I1",
+  "pdf_page": 14,
+  "page_label": "11"
+}

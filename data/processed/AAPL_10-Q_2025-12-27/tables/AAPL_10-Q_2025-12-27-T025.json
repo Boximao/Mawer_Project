@@ -1,0 +1,71 @@
+{
+  "table_id": "AAPL_10-Q_2025-12-27-T025",
+  "doc_id": "AAPL_10-Q_2025-12-27",
+  "title": "Provision for income taxes, effective tax rate and statutory federal income tax rate for the three months ended December 27, 2025 and December 28, 2024, were as follows",
+  "caption": "Provision for income taxes, effective tax rate and statutory federal income tax rate for the three months ended December 27, 2025 and December 28, 2024, were as follows (dollars in millions):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "dollars in millions",
+  "durations": [
+    "3M"
+  ],
+  "columns": [
+    "Three Months Ended December 27, 2025",
+    "Three Months Ended December 28, 2024"
+  ],
+  "rows": [
+    {
+      "label": "Provision for income taxes",
+      "full_label": "Provision for income taxes",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "8,905",
+          "num": 8905.0
+        },
+        {
+          "raw": "6,254",
+          "num": 6254.0
+        }
+      ]
+    },
+    {
+      "label": "Effective tax rate",
+      "full_label": "Effective tax rate",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "17.5%",
+          "num": 17.5
+        },
+        {
+          "raw": "14.7%",
+          "num": 14.7
+        }
+      ]
+    },
+    {
+      "label": "Statutory federal income tax rate",
+      "full_label": "Statutory federal income tax rate",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "21%",
+          "num": 21.0
+        },
+        {
+          "raw": "21%",
+          "num": 21.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+    "Provision for Income Taxes"
+  ],
+  "item_code": "10Q-P1-I2",
+  "pdf_page": 20,
+  "page_label": "17"
+}

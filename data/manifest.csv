@@ -1,0 +1,4 @@
+ticker,cik,company_name,form_type,accession_no,filing_date,period_end,fiscal_year,fiscal_quarter,source_url,pdf_path,amends
+AAPL,0000320193,Apple Inc.,10-Q,0000320193-26-000006,2026-01-30,2025-12-27,2026,1,https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/,data/raw/AAPL/10-Q_2025-12-27/filing.pdf,
+AAPL,0000320193,Apple Inc.,10-Q,0000320193-26-000013,2026-05-01,2026-03-28,2026,2,https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/,data/raw/AAPL/10-Q_2026-03-28/filing.pdf,
+AAPL,0000320193,Apple Inc.,10-Q,0000320193-26-000020,2026-07-31,2026-06-27,2026,3,https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/,data/raw/AAPL/10-Q_2026-06-27/filing.pdf,

@@ -1,0 +1,73 @@
+{
+  "table_id": "AAPL_10-Q_2026-06-27-T014",
+  "doc_id": "AAPL_10-Q_2026-06-27",
+  "title": "Inventories",
+  "caption": "Inventories",
+  "caption_source": "section_heading",
+  "units": "USD millions",
+  "units_note": "in millions",
+  "durations": [
+    "instant"
+  ],
+  "columns": [
+    "June 27, 2026",
+    "September 27, 2025"
+  ],
+  "rows": [
+    {
+      "label": "Components",
+      "full_label": "Components",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "7,645",
+          "num": 7645.0
+        },
+        {
+          "raw": "2,124",
+          "num": 2124.0
+        }
+      ]
+    },
+    {
+      "label": "Finished goods",
+      "full_label": "Finished goods",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "3,447",
+          "num": 3447.0
+        },
+        {
+          "raw": "3,594",
+          "num": 3594.0
+        }
+      ]
+    },
+    {
+      "label": "Total inventories",
+      "full_label": "Total inventories",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "11,092",
+          "num": 11092.0
+        },
+        {
+          "raw": "5,718",
+          "num": 5718.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 1. Financial Statements",
+    "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+    "Note 5 – Condensed Consolidated Financial Statement Details",
+    "Inventories"
+  ],
+  "item_code": "10Q-P1-I1",
+  "pdf_page": 12,
+  "page_label": "9"
+}

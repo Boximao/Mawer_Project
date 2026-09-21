@@ -1,0 +1,98 @@
+{
+  "table_id": "AAPL_10-Q_2026-06-27-T029",
+  "doc_id": "AAPL_10-Q_2026-06-27",
+  "title": "Provision for income taxes, effective tax rate and statutory federal income tax rate for the three- and nine-month periods ended June 27, 2026 and June 28, 2025, were as follows",
+  "caption": "Provision for income taxes, effective tax rate and statutory federal income tax rate for the three- and nine-month periods ended June 27, 2026 and June 28, 2025, were as follows (dollars in millions):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "dollars in millions",
+  "durations": [
+    "3M",
+    "9M"
+  ],
+  "columns": [
+    "Three Months Ended June 27, 2026",
+    "Three Months Ended June 28, 2025",
+    "Nine Months Ended June 27, 2026",
+    "Nine Months Ended June 28, 2025"
+  ],
+  "rows": [
+    {
+      "label": "Provision for income taxes",
+      "full_label": "Provision for income taxes",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "6,478",
+          "num": 6478.0
+        },
+        {
+          "raw": "4,597",
+          "num": 4597.0
+        },
+        {
+          "raw": "21,638",
+          "num": 21638.0
+        },
+        {
+          "raw": "15,381",
+          "num": 15381.0
+        }
+      ]
+    },
+    {
+      "label": "Effective tax rate",
+      "full_label": "Effective tax rate",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "17.9%",
+          "num": 17.9
+        },
+        {
+          "raw": "16.4%",
+          "num": 16.4
+        },
+        {
+          "raw": "17.6%",
+          "num": 17.6
+        },
+        {
+          "raw": "15.4%",
+          "num": 15.4
+        }
+      ]
+    },
+    {
+      "label": "Statutory federal income tax rate",
+      "full_label": "Statutory federal income tax rate",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "21%",
+          "num": 21.0
+        },
+        {
+          "raw": "21%",
+          "num": 21.0
+        },
+        {
+          "raw": "21%",
+          "num": 21.0
+        },
+        {
+          "raw": "21%",
+          "num": 21.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+    "Provision for Income Taxes"
+  ],
+  "item_code": "10Q-P1-I2",
+  "pdf_page": 20,
+  "page_label": "17"
+}

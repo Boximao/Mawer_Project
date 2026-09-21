@@ -1,0 +1,141 @@
+{
+  "table_id": "AAPL_10-Q_2025-12-27-T021",
+  "doc_id": "AAPL_10-Q_2025-12-27",
+  "title": "Net sales by reportable segment for the three months ended December 27, 2025 and December 28, 2024",
+  "caption": "The following table shows net sales by reportable segment for the three months ended December 27, 2025 and December 28, 2024 (dollars in millions):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "dollars in millions",
+  "durations": [
+    "3M"
+  ],
+  "columns": [
+    "Three Months Ended December 27, 2025",
+    "Three Months Ended December 28, 2024",
+    "Three Months Ended Change"
+  ],
+  "rows": [
+    {
+      "label": "Americas",
+      "full_label": "Americas",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "58,529",
+          "num": 58529.0
+        },
+        {
+          "raw": "52,648",
+          "num": 52648.0
+        },
+        {
+          "raw": "11 %",
+          "num": 11.0
+        }
+      ]
+    },
+    {
+      "label": "Europe",
+      "full_label": "Europe",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "38,146",
+          "num": 38146.0
+        },
+        {
+          "raw": "33,861",
+          "num": 33861.0
+        },
+        {
+          "raw": "13 %",
+          "num": 13.0
+        }
+      ]
+    },
+    {
+      "label": "Greater China",
+      "full_label": "Greater China",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "25,526",
+          "num": 25526.0
+        },
+        {
+          "raw": "18,513",
+          "num": 18513.0
+        },
+        {
+          "raw": "38 %",
+          "num": 38.0
+        }
+      ]
+    },
+    {
+      "label": "Japan",
+      "full_label": "Japan",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "9,413",
+          "num": 9413.0
+        },
+        {
+          "raw": "8,987",
+          "num": 8987.0
+        },
+        {
+          "raw": "5 %",
+          "num": 5.0
+        }
+      ]
+    },
+    {
+      "label": "Rest of Asia Pacific",
+      "full_label": "Rest of Asia Pacific",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "12,142",
+          "num": 12142.0
+        },
+        {
+          "raw": "10,291",
+          "num": 10291.0
+        },
+        {
+          "raw": "18 %",
+          "num": 18.0
+        }
+      ]
+    },
+    {
+      "label": "Total net sales",
+      "full_label": "Total net sales",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "143,756",
+          "num": 143756.0
+        },
+        {
+          "raw": "124,300",
+          "num": 124300.0
+        },
+        {
+          "raw": "16 %",
+          "num": 16.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+    "Segment Operating Performance"
+  ],
+  "item_code": "10Q-P1-I2",
+  "pdf_page": 17,
+  "page_label": "14"
+}

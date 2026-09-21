@@ -1,0 +1,1192 @@
+{
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#item": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#item",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 3664,
+    "char_end": 37177,
+    "pdf_page_start": 4,
+    "pdf_page_end": 15
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#condensed-consolidated-state": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#condensed-consolidated-state",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (Unaudited)"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 3694,
+    "char_end": 14538,
+    "pdf_page_start": 4,
+    "pdf_page_end": 8
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#condensed-consolidated-balan": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#condensed-consolidated-balan",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "CONDENSED CONSOLIDATED BALANCE SHEETS (Unaudited)"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 7253,
+    "char_end": 9376,
+    "pdf_page_start": 6,
+    "pdf_page_end": 6
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 14540,
+    "char_end": 37177,
+    "pdf_page_start": 9,
+    "pdf_page_end": 15
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-1-summary-of-significan": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-1-summary-of-significan",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 1 – Summary of Significant Accounting Policies"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 14606,
+    "char_end": 16270,
+    "pdf_page_start": 9,
+    "pdf_page_end": 9
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-1-summary-of-significan--basis-of-pr-10ea2eab": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-1-summary-of-significan--basis-of-pr-10ea2eab",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 1 – Summary of Significant Accounting Policies",
+      "Basis of Presentation and Preparation"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 14659,
+    "char_end": 16270,
+    "pdf_page_start": 9,
+    "pdf_page_end": 9
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-2-revenue": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-2-revenue",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 2 – Revenue"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 16272,
+    "char_end": 17944,
+    "pdf_page_start": 9,
+    "pdf_page_end": 9
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-3-earnings-per-share": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-3-earnings-per-share",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 3 – Earnings Per Share"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 17946,
+    "char_end": 18998,
+    "pdf_page_start": 10,
+    "pdf_page_end": 10
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-4-financial-instruments": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-4-financial-instruments",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 4 – Financial Instruments"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 19000,
+    "char_end": 27343,
+    "pdf_page_start": 10,
+    "pdf_page_end": 12
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-4-financial-instruments--cash-cash-e-c280f519": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-4-financial-instruments--cash-cash-e-c280f519",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 4 – Financial Instruments",
+      "Cash, Cash Equivalents and Marketable Securities"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 19032,
+    "char_end": 23001,
+    "pdf_page_start": 10,
+    "pdf_page_end": 11
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-4-financial-instruments--derivative-6a051d95": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-4-financial-instruments--derivative-6a051d95",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 4 – Financial Instruments",
+      "Derivative Instruments and Hedging"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 23003,
+    "char_end": 25978,
+    "pdf_page_start": 11,
+    "pdf_page_end": 12
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-4-financial-instruments--derivative-46ba9813": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-4-financial-instruments--derivative-46ba9813",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 4 – Financial Instruments",
+      "Derivative Instruments and Hedging",
+      "Foreign Exchange Rate Risk"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 23517,
+    "char_end": 24736,
+    "pdf_page_start": 11,
+    "pdf_page_end": 11
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-4-financial-instruments--derivative-43fd1ca6": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-4-financial-instruments--derivative-43fd1ca6",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 4 – Financial Instruments",
+      "Derivative Instruments and Hedging",
+      "Interest Rate Risk"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 24738,
+    "char_end": 25978,
+    "pdf_page_start": 11,
+    "pdf_page_end": 12
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-4-financial-instruments--accounts-receivable": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-4-financial-instruments--accounts-receivable",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 4 – Financial Instruments",
+      "Accounts Receivable"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 25980,
+    "char_end": 27343,
+    "pdf_page_start": 12,
+    "pdf_page_end": 12
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-4-financial-instruments--accounts-re-07e5eccb": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-4-financial-instruments--accounts-re-07e5eccb",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 4 – Financial Instruments",
+      "Accounts Receivable",
+      "Trade Receivables"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 26001,
+    "char_end": 26473,
+    "pdf_page_start": 12,
+    "pdf_page_end": 12
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-4-financial-instruments--accounts-re-d31e2119": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-4-financial-instruments--accounts-re-d31e2119",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 4 – Financial Instruments",
+      "Accounts Receivable",
+      "Vendor Non-Trade Receivables"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 26475,
+    "char_end": 27343,
+    "pdf_page_start": 12,
+    "pdf_page_end": 12
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-5-condensed-consolidate": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-5-condensed-consolidate",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 5 – Condensed Consolidated Financial Statement Details"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 27345,
+    "char_end": 28239,
+    "pdf_page_start": 12,
+    "pdf_page_end": 12
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-5-condensed-consolidate--property-pl-40722bb4": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-5-condensed-consolidate--property-pl-40722bb4",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 5 – Condensed Consolidated Financial Statement Details",
+      "Property, Plant and Equipment, Net"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 27557,
+    "char_end": 27856,
+    "pdf_page_start": 12,
+    "pdf_page_end": 12
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-5-condensed-consolidate--intangible-528d3241": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-5-condensed-consolidate--intangible-528d3241",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 5 – Condensed Consolidated Financial Statement Details",
+      "Intangible Assets, Net"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 27858,
+    "char_end": 28239,
+    "pdf_page_start": 12,
+    "pdf_page_end": 12
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-6-debt": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-6-debt",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 6 – Debt"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 28241,
+    "char_end": 29702,
+    "pdf_page_start": 13,
+    "pdf_page_end": 13
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-6-debt--commercial-paper": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-6-debt--commercial-paper",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 6 – Debt",
+      "Commercial Paper"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 28256,
+    "char_end": 29306,
+    "pdf_page_start": 13,
+    "pdf_page_end": 13
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-6-debt--term-debt": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-6-debt--term-debt",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 6 – Debt",
+      "Term Debt"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 29308,
+    "char_end": 29702,
+    "pdf_page_start": 13,
+    "pdf_page_end": 13
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-7-shareholders-equity": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-7-shareholders-equity",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 7 – Shareholders’ Equity"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 29704,
+    "char_end": 30213,
+    "pdf_page_start": 13,
+    "pdf_page_end": 13
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-7-shareholders-equity--share-repurch-d8a0e59a": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-7-shareholders-equity--share-repurch-d8a0e59a",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 7 – Shareholders’ Equity",
+      "Share Repurchase Program"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 29735,
+    "char_end": 30213,
+    "pdf_page_start": 13,
+    "pdf_page_end": 13
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-8-share-based-compensat": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-8-share-based-compensat",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 8 – Share-Based Compensation"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 30215,
+    "char_end": 32138,
+    "pdf_page_start": 13,
+    "pdf_page_end": 14
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-8-share-based-compensat--restricted-e0f3a18d": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-8-share-based-compensat--restricted-e0f3a18d",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 8 – Share-Based Compensation",
+      "Restricted Stock Units"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 30250,
+    "char_end": 31123,
+    "pdf_page_start": 13,
+    "pdf_page_end": 13
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-8-share-based-compensat--share-based-c74f8522": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-8-share-based-compensat--share-based-c74f8522",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 8 – Share-Based Compensation",
+      "Share-Based Compensation"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 31125,
+    "char_end": 32138,
+    "pdf_page_start": 14,
+    "pdf_page_end": 14
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-9-commitments-and-conti": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-9-commitments-and-conti",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 9 – Commitments and Contingencies"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 32140,
+    "char_end": 33453,
+    "pdf_page_start": 14,
+    "pdf_page_end": 14
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-9-commitments-and-conti--uncondition-af58b2ab": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-9-commitments-and-conti--uncondition-af58b2ab",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 9 – Commitments and Contingencies",
+      "Unconditional Purchase Obligations"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 32180,
+    "char_end": 32988,
+    "pdf_page_start": 14,
+    "pdf_page_end": 14
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-9-commitments-and-conti--contingencies": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-9-commitments-and-conti--contingencies",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 9 – Commitments and Contingencies",
+      "Contingencies"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 32990,
+    "char_end": 33453,
+    "pdf_page_start": 14,
+    "pdf_page_end": 14
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-10-segment-information": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I1#notes-to-condensed-consolida--note-10-segment-information",
+    "section_path": [
+      "Part I",
+      "Item 1. Financial Statements",
+      "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+      "Note 10 – Segment Information"
+    ],
+    "item_code": "10Q-P1-I1",
+    "char_start": 33455,
+    "char_end": 37177,
+    "pdf_page_start": 15,
+    "pdf_page_end": 15
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#item": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#item",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 37179,
+    "char_end": 60376,
+    "pdf_page_start": 16,
+    "pdf_page_end": 22
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#available-information": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#available-information",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Available Information"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 39232,
+    "char_end": 39830,
+    "pdf_page_start": 16,
+    "pdf_page_end": 16
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#business-seasonality-and-pro": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#business-seasonality-and-pro",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Business Seasonality and Product Introductions"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 39832,
+    "char_end": 40741,
+    "pdf_page_start": 16,
+    "pdf_page_end": 16
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#macroeconomic-conditions": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#macroeconomic-conditions",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Macroeconomic Conditions"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 40743,
+    "char_end": 41576,
+    "pdf_page_start": 16,
+    "pdf_page_end": 16
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#tariffs-and-other-measures": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#tariffs-and-other-measures",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Tariffs and Other Measures"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 41578,
+    "char_end": 44166,
+    "pdf_page_start": 17,
+    "pdf_page_end": 17
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#segment-operating-performanc": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#segment-operating-performanc",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Segment Operating Performance"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 44168,
+    "char_end": 46816,
+    "pdf_page_start": 17,
+    "pdf_page_end": 18
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#segment-operating-performanc--americas": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#segment-operating-performanc--americas",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Segment Operating Performance",
+      "Americas"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 45071,
+    "char_end": 45407,
+    "pdf_page_start": 17,
+    "pdf_page_end": 17
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#segment-operating-performanc--europe": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#segment-operating-performanc--europe",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Segment Operating Performance",
+      "Europe"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 45409,
+    "char_end": 45774,
+    "pdf_page_start": 17,
+    "pdf_page_end": 17
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#segment-operating-performanc--greater-china": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#segment-operating-performanc--greater-china",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Segment Operating Performance",
+      "Greater China"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 45776,
+    "char_end": 46108,
+    "pdf_page_start": 17,
+    "pdf_page_end": 17
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#segment-operating-performanc--japan": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#segment-operating-performanc--japan",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Segment Operating Performance",
+      "Japan"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 46110,
+    "char_end": 46428,
+    "pdf_page_start": 18,
+    "pdf_page_end": 18
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#segment-operating-performanc--rest-of-asia-pacific": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#segment-operating-performanc--rest-of-asia-pacific",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Segment Operating Performance",
+      "Rest of Asia Pacific"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 46430,
+    "char_end": 46816,
+    "pdf_page_start": 18,
+    "pdf_page_end": 18
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#products-and-services-perfor": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#products-and-services-perfor",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Products and Services Performance"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 46818,
+    "char_end": 48865,
+    "pdf_page_start": 18,
+    "pdf_page_end": 18
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#products-and-services-perfor--iphone": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#products-and-services-perfor--iphone",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Products and Services Performance",
+      "iPhone"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 47700,
+    "char_end": 47865,
+    "pdf_page_start": 18,
+    "pdf_page_end": 18
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#products-and-services-perfor--mac": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#products-and-services-perfor--mac",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Products and Services Performance",
+      "Mac"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 47867,
+    "char_end": 48091,
+    "pdf_page_start": 18,
+    "pdf_page_end": 18
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#products-and-services-perfor--ipad": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#products-and-services-perfor--ipad",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Products and Services Performance",
+      "iPad"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 48093,
+    "char_end": 48309,
+    "pdf_page_start": 18,
+    "pdf_page_end": 18
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#products-and-services-perfor--wearables-home-and-accessori": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#products-and-services-perfor--wearables-home-and-accessori",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Products and Services Performance",
+      "Wearables, Home and Accessories"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 48311,
+    "char_end": 48647,
+    "pdf_page_start": 18,
+    "pdf_page_end": 18
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#products-and-services-perfor--services": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#products-and-services-perfor--services",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Products and Services Performance",
+      "Services"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 48649,
+    "char_end": 48865,
+    "pdf_page_start": 18,
+    "pdf_page_end": 18
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#gross-margin": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#gross-margin",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Gross Margin"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 48867,
+    "char_end": 50957,
+    "pdf_page_start": 19,
+    "pdf_page_end": 19
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#gross-margin--products-gross-margin": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#gross-margin--products-gross-margin",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Gross Margin",
+      "Products Gross Margin"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 49805,
+    "char_end": 50122,
+    "pdf_page_start": 19,
+    "pdf_page_end": 19
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#gross-margin--services-gross-margin": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#gross-margin--services-gross-margin",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Gross Margin",
+      "Services Gross Margin"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 50124,
+    "char_end": 50957,
+    "pdf_page_start": 19,
+    "pdf_page_end": 19
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#operating-expenses": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#operating-expenses",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Operating Expenses"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 50959,
+    "char_end": 52408,
+    "pdf_page_start": 20,
+    "pdf_page_end": 20
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#operating-expenses--research-and-development": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#operating-expenses--research-and-development",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Operating Expenses",
+      "Research and Development"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 51866,
+    "char_end": 52119,
+    "pdf_page_start": 20,
+    "pdf_page_end": 20
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#operating-expenses--selling-general-and-administ": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#operating-expenses--selling-general-and-administ",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Operating Expenses",
+      "Selling, General and Administrative"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 52121,
+    "char_end": 52408,
+    "pdf_page_start": 20,
+    "pdf_page_end": 20
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#provision-for-income-taxes": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#provision-for-income-taxes",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Provision for Income Taxes"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 52410,
+    "char_end": 54433,
+    "pdf_page_start": 20,
+    "pdf_page_end": 20
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#liquidity-and-capital-resour": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#liquidity-and-capital-resour",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Liquidity and Capital Resources"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 54435,
+    "char_end": 56990,
+    "pdf_page_start": 21,
+    "pdf_page_end": 21
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#liquidity-and-capital-resour--manufacturing-purchase-oblig": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#liquidity-and-capital-resour--manufacturing-purchase-oblig",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Liquidity and Capital Resources",
+      "Manufacturing Purchase Obligations"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 54968,
+    "char_end": 55418,
+    "pdf_page_start": 21,
+    "pdf_page_end": 21
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#liquidity-and-capital-resour--other-purchase-obligations": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#liquidity-and-capital-resour--other-purchase-obligations",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Liquidity and Capital Resources",
+      "Other Purchase Obligations"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 55420,
+    "char_end": 55833,
+    "pdf_page_start": 21,
+    "pdf_page_end": 21
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#liquidity-and-capital-resour--deemed-repatriation-tax-paya": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#liquidity-and-capital-resour--deemed-repatriation-tax-paya",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Liquidity and Capital Resources",
+      "Deemed Repatriation Tax Payable"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 55835,
+    "char_end": 56046,
+    "pdf_page_start": 21,
+    "pdf_page_end": 21
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#liquidity-and-capital-resour--capital-return-program": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#liquidity-and-capital-resour--capital-return-program",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Liquidity and Capital Resources",
+      "Capital Return Program"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 56048,
+    "char_end": 56990,
+    "pdf_page_start": 21,
+    "pdf_page_end": 21
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#recent-accounting-pronouncem": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#recent-accounting-pronouncem",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Recent Accounting Pronouncements"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 56992,
+    "char_end": 59557,
+    "pdf_page_start": 21,
+    "pdf_page_end": 22
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#recent-accounting-pronouncem--internal-use-software": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#recent-accounting-pronouncem--internal-use-software",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Recent Accounting Pronouncements",
+      "Internal-Use Software"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 57026,
+    "char_end": 57832,
+    "pdf_page_start": 21,
+    "pdf_page_end": 21
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#recent-accounting-pronouncem--disaggregation-of-income-sta": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#recent-accounting-pronouncem--disaggregation-of-income-sta",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Recent Accounting Pronouncements",
+      "Disaggregation of Income Statement Expenses"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 57834,
+    "char_end": 58891,
+    "pdf_page_start": 22,
+    "pdf_page_end": 22
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#recent-accounting-pronouncem--income-taxes": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#recent-accounting-pronouncem--income-taxes",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Recent Accounting Pronouncements",
+      "Income Taxes"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 58893,
+    "char_end": 59557,
+    "pdf_page_start": 22,
+    "pdf_page_end": 22
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I2#critical-accounting-estimate": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I2#critical-accounting-estimate",
+    "section_path": [
+      "Part I",
+      "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "Critical Accounting Estimates"
+    ],
+    "item_code": "10Q-P1-I2",
+    "char_start": 59559,
+    "char_end": 60376,
+    "pdf_page_start": 22,
+    "pdf_page_end": 22
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I3#item": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I3#item",
+    "section_path": [
+      "Part I",
+      "Item 3. Quantitative and Qualitative Disclosures About Market Risk"
+    ],
+    "item_code": "10Q-P1-I3",
+    "char_start": 60378,
+    "char_end": 60768,
+    "pdf_page_start": 22,
+    "pdf_page_end": 22
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I4#item": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I4#item",
+    "section_path": [
+      "Part I",
+      "Item 4. Controls and Procedures"
+    ],
+    "item_code": "10Q-P1-I4",
+    "char_start": 60770,
+    "char_end": 62122,
+    "pdf_page_start": 22,
+    "pdf_page_end": 22
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I4#evaluation-of-disclosure-con": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I4#evaluation-of-disclosure-con",
+    "section_path": [
+      "Part I",
+      "Item 4. Controls and Procedures",
+      "Evaluation of Disclosure Controls and Procedures"
+    ],
+    "item_code": "10Q-P1-I4",
+    "char_start": 60803,
+    "char_end": 61674,
+    "pdf_page_start": 22,
+    "pdf_page_end": 22
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P1-I4#changes-in-internal-control": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P1-I4#changes-in-internal-control",
+    "section_path": [
+      "Part I",
+      "Item 4. Controls and Procedures",
+      "Changes in Internal Control over Financial Reporting"
+    ],
+    "item_code": "10Q-P1-I4",
+    "char_start": 61676,
+    "char_end": 62122,
+    "pdf_page_start": 22,
+    "pdf_page_end": 22
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I1#item": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I1#item",
+    "section_path": [
+      "Part II",
+      "Item 1. Legal Proceedings"
+    ],
+    "item_code": "10Q-P2-I1",
+    "char_start": 62153,
+    "char_end": 67273,
+    "pdf_page_start": 23,
+    "pdf_page_end": 23
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I1#digital-markets-act-investig": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I1#digital-markets-act-investig",
+    "section_path": [
+      "Part II",
+      "Item 1. Legal Proceedings",
+      "Digital Markets Act Investigations"
+    ],
+    "item_code": "10Q-P2-I1",
+    "char_start": 62180,
+    "char_end": 63945,
+    "pdf_page_start": 23,
+    "pdf_page_end": 23
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I1#department-of-justice-lawsui": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I1#department-of-justice-lawsui",
+    "section_path": [
+      "Part II",
+      "Item 1. Legal Proceedings",
+      "Department of Justice Lawsuit"
+    ],
+    "item_code": "10Q-P2-I1",
+    "char_start": 63947,
+    "char_end": 64737,
+    "pdf_page_start": 23,
+    "pdf_page_end": 23
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I1#epic-games": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I1#epic-games",
+    "section_path": [
+      "Part II",
+      "Item 1. Legal Proceedings",
+      "Epic Games"
+    ],
+    "item_code": "10Q-P2-I1",
+    "char_start": 64739,
+    "char_end": 66594,
+    "pdf_page_start": 23,
+    "pdf_page_end": 23
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I1#other-legal-proceedings": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I1#other-legal-proceedings",
+    "section_path": [
+      "Part II",
+      "Item 1. Legal Proceedings",
+      "Other Legal Proceedings"
+    ],
+    "item_code": "10Q-P2-I1",
+    "char_start": 66596,
+    "char_end": 67273,
+    "pdf_page_start": 23,
+    "pdf_page_end": 23
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I1A#item": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I1A#item",
+    "section_path": [
+      "Part II",
+      "Item 1A. Risk Factors"
+    ],
+    "item_code": "10Q-P2-I1A",
+    "char_start": 67275,
+    "char_end": 89284,
+    "pdf_page_start": 24,
+    "pdf_page_end": 27
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I1A#the-companys-products-and-se": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I1A#the-companys-products-and-se",
+    "section_path": [
+      "Part II",
+      "Item 1A. Risk Factors",
+      "The Company’s products and services may be affected from time to time by design and manufacturing defects that could materially adversely affect the Company’s business and result in harm to the Company’s reputation."
+    ],
+    "item_code": "10Q-P2-I1A",
+    "char_start": 67715,
+    "char_end": 70188,
+    "pdf_page_start": 24,
+    "pdf_page_end": 24
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I1A#losses-or-unauthorized-acces": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I1A#losses-or-unauthorized-acces",
+    "section_path": [
+      "Part II",
+      "Item 1A. Risk Factors",
+      "Losses or unauthorized access to or releases of confidential information, including personal information, could subject the Company to significant reputational, financial, legal and operational consequences."
+    ],
+    "item_code": "10Q-P2-I1A",
+    "char_start": 70190,
+    "char_end": 75424,
+    "pdf_page_start": 24,
+    "pdf_page_end": 25
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I1A#the-technology-industry-incl": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I1A#the-technology-industry-incl",
+    "section_path": [
+      "Part II",
+      "Item 1A. Risk Factors",
+      "The technology industry, including, in some instances, the Company, is subject to intense media, political and regulatory scrutiny, which exposes the Company to increasing regulation, government investigations, legal actions and penalties."
+    ],
+    "item_code": "10Q-P2-I1A",
+    "char_start": 75426,
+    "char_end": 81691,
+    "pdf_page_start": 25,
+    "pdf_page_end": 26
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I1A#the-companys-business-is-sub": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I1A#the-companys-business-is-sub",
+    "section_path": [
+      "Part II",
+      "Item 1A. Risk Factors",
+      "The Company’s business is subject to a variety of U.S. and international laws, rules, policies and other obligations regarding the collection, use, protection and transfer of personal data."
+    ],
+    "item_code": "10Q-P2-I1A",
+    "char_start": 81693,
+    "char_end": 85859,
+    "pdf_page_start": 26,
+    "pdf_page_end": 26
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I1A#issues-related-to-artificial": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I1A#issues-related-to-artificial",
+    "section_path": [
+      "Part II",
+      "Item 1A. Risk Factors",
+      "Issues related to artificial intelligence may result in reputational, competitive and financial harm to the Company, regulatory action, legal liability, and other material adverse effects to the Company’s business, results of operations, financial condition and stock price."
+    ],
+    "item_code": "10Q-P2-I1A",
+    "char_start": 85861,
+    "char_end": 87356,
+    "pdf_page_start": 27,
+    "pdf_page_end": 27
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I1A#the-companys-net-sales-and-g": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I1A#the-companys-net-sales-and-g",
+    "section_path": [
+      "Part II",
+      "Item 1A. Risk Factors",
+      "The Company’s net sales and gross margins are subject to volatility and downward pressure due to a variety of factors."
+    ],
+    "item_code": "10Q-P2-I1A",
+    "char_start": 87358,
+    "char_end": 89284,
+    "pdf_page_start": 27,
+    "pdf_page_end": 27
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I2#item": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I2#item",
+    "section_path": [
+      "Part II",
+      "Item 2. Unregistered Sales of Equity Securities and Use of Proceeds"
+    ],
+    "item_code": "10Q-P2-I2",
+    "char_start": 89286,
+    "char_end": 91161,
+    "pdf_page_start": 27,
+    "pdf_page_end": 27
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I2#purchases-of-equity-securiti": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I2#purchases-of-equity-securiti",
+    "section_path": [
+      "Part II",
+      "Item 2. Unregistered Sales of Equity Securities and Use of Proceeds",
+      "Purchases of Equity Securities by the Issuer and Affiliated Purchasers"
+    ],
+    "item_code": "10Q-P2-I2",
+    "char_start": 89355,
+    "char_end": 91161,
+    "pdf_page_start": 27,
+    "pdf_page_end": 27
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I3#item": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I3#item",
+    "section_path": [
+      "Part II",
+      "Item 3. Defaults Upon Senior Securities"
+    ],
+    "item_code": "10Q-P2-I3",
+    "char_start": 91163,
+    "char_end": 91202,
+    "pdf_page_start": 28,
+    "pdf_page_end": 28
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I4#item": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I4#item",
+    "section_path": [
+      "Part II",
+      "Item 4. Mine Safety Disclosures"
+    ],
+    "item_code": "10Q-P2-I4",
+    "char_start": 91211,
+    "char_end": 91242,
+    "pdf_page_start": 28,
+    "pdf_page_end": 28
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I5#item": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I5#item",
+    "section_path": [
+      "Part II",
+      "Item 5. Other Information"
+    ],
+    "item_code": "10Q-P2-I5",
+    "char_start": 91261,
+    "char_end": 91981,
+    "pdf_page_start": 28,
+    "pdf_page_end": 28
+  },
+  "AAPL_10-Q_2026-03-28#10Q-P2-I5#insider-trading-arrangements": {
+    "parent_id": "AAPL_10-Q_2026-03-28#10Q-P2-I5#insider-trading-arrangements",
+    "section_path": [
+      "Part II",
+      "Item 5. Other Information",
+      "Insider Trading Arrangements"
+    ],
+    "item_code": "10Q-P2-I5",
+    "char_start": 91288,
+    "char_end": 91981,
+    "pdf_page_start": 28,
+    "pdf_page_end": 28
+  }
+}

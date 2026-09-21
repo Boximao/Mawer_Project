@@ -1,0 +1,73 @@
+{
+  "table_id": "AAPL_10-Q_2025-12-27-T014",
+  "doc_id": "AAPL_10-Q_2025-12-27",
+  "title": "Property, Plant and Equipment, Net",
+  "caption": "Property, Plant and Equipment, Net",
+  "caption_source": "section_heading",
+  "units": "USD millions",
+  "units_note": "in millions",
+  "durations": [
+    "instant"
+  ],
+  "columns": [
+    "December 27, 2025",
+    "September 27, 2025"
+  ],
+  "rows": [
+    {
+      "label": "Gross property, plant and equipment",
+      "full_label": "Gross property, plant and equipment",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "127,320",
+          "num": 127320.0
+        },
+        {
+          "raw": "125,848",
+          "num": 125848.0
+        }
+      ]
+    },
+    {
+      "label": "Accumulated depreciation",
+      "full_label": "Accumulated depreciation",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "(77,161)",
+          "num": -77161.0
+        },
+        {
+          "raw": "(76,014)",
+          "num": -76014.0
+        }
+      ]
+    },
+    {
+      "label": "Total property, plant and equipment, net",
+      "full_label": "Total property, plant and equipment, net",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "50,159",
+          "num": 50159.0
+        },
+        {
+          "raw": "49,834",
+          "num": 49834.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 1. Financial Statements",
+    "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+    "Note 5 – Condensed Consolidated Financial Statement Details",
+    "Property, Plant and Equipment, Net"
+  ],
+  "item_code": "10Q-P1-I1",
+  "pdf_page": 12,
+  "page_label": "9"
+}

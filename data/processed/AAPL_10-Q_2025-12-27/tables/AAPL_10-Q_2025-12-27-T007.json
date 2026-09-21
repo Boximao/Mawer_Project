@@ -1,0 +1,284 @@
+{
+  "table_id": "AAPL_10-Q_2025-12-27-T007",
+  "doc_id": "AAPL_10-Q_2025-12-27",
+  "title": "CONDENSED CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY (Unaudited) (Three Months Ended)",
+  "caption": "CONDENSED CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY (Unaudited)",
+  "caption_source": "statement_title",
+  "units": "USD millions",
+  "units_note": "In millions, except per-share amounts",
+  "durations": [
+    "3M"
+  ],
+  "columns": [
+    "Three Months Ended December 27, 2025",
+    "Three Months Ended December 28, 2024"
+  ],
+  "rows": [
+    {
+      "label": "Total shareholders’ equity, beginning balances",
+      "full_label": "Total shareholders’ equity, beginning balances",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "73,733",
+          "num": 73733.0
+        },
+        {
+          "raw": "56,950",
+          "num": 56950.0
+        }
+      ]
+    },
+    {
+      "label": "Common stock and additional paid-in capital:",
+      "full_label": "Common stock and additional paid-in capital:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Beginning balances",
+      "full_label": "Common stock and additional paid-in capital: Beginning balances",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "93,568",
+          "num": 93568.0
+        },
+        {
+          "raw": "83,276",
+          "num": 83276.0
+        }
+      ]
+    },
+    {
+      "label": "Common stock withheld related to net share settlement of equity awards",
+      "full_label": "Common stock and additional paid-in capital: Common stock withheld related to net share settlement of equity awards",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "(2,058)",
+          "num": -2058.0
+        },
+        {
+          "raw": "(1,891)",
+          "num": -1891.0
+        }
+      ]
+    },
+    {
+      "label": "Share-based compensation",
+      "full_label": "Common stock and additional paid-in capital: Share-based compensation",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "3,711",
+          "num": 3711.0
+        },
+        {
+          "raw": "3,383",
+          "num": 3383.0
+        }
+      ]
+    },
+    {
+      "label": "Ending balances",
+      "full_label": "Common stock and additional paid-in capital: Ending balances",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "95,221",
+          "num": 95221.0
+        },
+        {
+          "raw": "84,768",
+          "num": 84768.0
+        }
+      ]
+    },
+    {
+      "label": "Accumulated deficit:",
+      "full_label": "Accumulated deficit:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Beginning balances",
+      "full_label": "Accumulated deficit: Beginning balances",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "(14,264)",
+          "num": -14264.0
+        },
+        {
+          "raw": "(19,154)",
+          "num": -19154.0
+        }
+      ]
+    },
+    {
+      "label": "Net income",
+      "full_label": "Accumulated deficit: Net income",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "42,097",
+          "num": 42097.0
+        },
+        {
+          "raw": "36,330",
+          "num": 36330.0
+        }
+      ]
+    },
+    {
+      "label": "Dividends and dividend equivalents declared",
+      "full_label": "Accumulated deficit: Dividends and dividend equivalents declared",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "(3,880)",
+          "num": -3880.0
+        },
+        {
+          "raw": "(3,819)",
+          "num": -3819.0
+        }
+      ]
+    },
+    {
+      "label": "Common stock withheld related to net share settlement of equity awards",
+      "full_label": "Accumulated deficit: Common stock withheld related to net share settlement of equity awards",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "(936)",
+          "num": -936.0
+        },
+        {
+          "raw": "(1,102)",
+          "num": -1102.0
+        }
+      ]
+    },
+    {
+      "label": "Common stock repurchased",
+      "full_label": "Accumulated deficit: Common stock repurchased",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "(25,194)",
+          "num": -25194.0
+        },
+        {
+          "raw": "(23,476)",
+          "num": -23476.0
+        }
+      ]
+    },
+    {
+      "label": "Ending balances",
+      "full_label": "Accumulated deficit: Ending balances",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "(2,177)",
+          "num": -2177.0
+        },
+        {
+          "raw": "(11,221)",
+          "num": -11221.0
+        }
+      ]
+    },
+    {
+      "label": "Accumulated other comprehensive loss:",
+      "full_label": "Accumulated other comprehensive loss:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Beginning balances",
+      "full_label": "Accumulated other comprehensive loss: Beginning balances",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "(5,571)",
+          "num": -5571.0
+        },
+        {
+          "raw": "(7,172)",
+          "num": -7172.0
+        }
+      ]
+    },
+    {
+      "label": "Other comprehensive income",
+      "full_label": "Accumulated other comprehensive loss: Other comprehensive income",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "717",
+          "num": 717.0
+        },
+        {
+          "raw": "383",
+          "num": 383.0
+        }
+      ]
+    },
+    {
+      "label": "Ending balances",
+      "full_label": "Accumulated other comprehensive loss: Ending balances",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "(4,854)",
+          "num": -4854.0
+        },
+        {
+          "raw": "(6,789)",
+          "num": -6789.0
+        }
+      ]
+    },
+    {
+      "label": "Total shareholders’ equity, ending balances",
+      "full_label": "Total shareholders’ equity, ending balances",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "88,190",
+          "num": 88190.0
+        },
+        {
+          "raw": "66,758",
+          "num": 66758.0
+        }
+      ]
+    },
+    {
+      "label": "Dividends and dividend equivalents declared per share or RSU",
+      "full_label": "Dividends and dividend equivalents declared per share or RSU",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "0.26",
+          "num": 0.26
+        },
+        {
+          "raw": "0.25",
+          "num": 0.25
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 1. Financial Statements",
+    "CONDENSED CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY (Unaudited)"
+  ],
+  "item_code": "10Q-P1-I1",
+  "pdf_page": 7,
+  "page_label": "4"
+}

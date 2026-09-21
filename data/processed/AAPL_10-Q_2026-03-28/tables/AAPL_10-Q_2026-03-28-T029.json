@@ -1,0 +1,136 @@
+{
+  "table_id": "AAPL_10-Q_2026-03-28-T029",
+  "doc_id": "AAPL_10-Q_2026-03-28",
+  "title": "Share repurchase activity during the three months ended March 28, 2026, was as follows",
+  "caption": "Share repurchase activity during the three months ended March 28, 2026, was as follows (in millions, except number of shares, which are reflected in thousands, and per-share amounts):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "in millions, except number of shares, which are reflected in thousands, and per-share amounts",
+  "durations": [],
+  "columns": [
+    "Total Number of Shares Purchased",
+    "Average Price Paid Per Share",
+    "Total Number of Shares Purchased as Part of Publicly Announced Plans or Programs",
+    "Approximate Dollar Value of Shares That May Yet Be Purchased Under the Plans or Programs"
+  ],
+  "rows": [
+    {
+      "label": "December 28, 2025 to January 31, 2026:",
+      "full_label": "December 28, 2025 to January 31, 2026:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Open market and privately negotiated purchases",
+      "full_label": "December 28, 2025 to January 31, 2026: Open market and privately negotiated purchases",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "41,032",
+          "num": 41032.0
+        },
+        {
+          "raw": "259.26",
+          "num": 259.26
+        },
+        {
+          "raw": "41,032",
+          "num": 41032.0
+        },
+        {
+          "raw": null,
+          "num": null
+        }
+      ]
+    },
+    {
+      "label": "February 1, 2026 to February 28, 2026:",
+      "full_label": "February 1, 2026 to February 28, 2026:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Open market and privately negotiated purchases",
+      "full_label": "February 1, 2026 to February 28, 2026: Open market and privately negotiated purchases",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "1,395",
+          "num": 1395.0
+        },
+        {
+          "raw": "265.20",
+          "num": 265.2
+        },
+        {
+          "raw": "1,395",
+          "num": 1395.0
+        },
+        {
+          "raw": null,
+          "num": null
+        }
+      ]
+    },
+    {
+      "label": "March 1, 2026 to March 28, 2026:",
+      "full_label": "March 1, 2026 to March 28, 2026:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Open market and privately negotiated purchases",
+      "full_label": "March 1, 2026 to March 28, 2026: Open market and privately negotiated purchases",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": null,
+          "num": null
+        }
+      ]
+    },
+    {
+      "label": "Total",
+      "full_label": "March 1, 2026 to March 28, 2026: Total",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "42,427",
+          "num": 42427.0
+        },
+        {
+          "raw": null,
+          "num": null
+        },
+        {
+          "raw": null,
+          "num": null
+        },
+        {
+          "raw": "63,771",
+          "num": 63771.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part II",
+    "Item 2. Unregistered Sales of Equity Securities and Use of Proceeds",
+    "Purchases of Equity Securities by the Issuer and Affiliated Purchasers"
+  ],
+  "item_code": "10Q-P2-I2",
+  "pdf_page": 27,
+  "page_label": "24"
+}

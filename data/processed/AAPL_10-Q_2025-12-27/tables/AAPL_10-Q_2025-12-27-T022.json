@@ -1,0 +1,141 @@
+{
+  "table_id": "AAPL_10-Q_2025-12-27-T022",
+  "doc_id": "AAPL_10-Q_2025-12-27",
+  "title": "Net sales by category for the three months ended December 27, 2025 and December 28, 2024",
+  "caption": "The following table shows net sales by category for the three months ended December 27, 2025 and December 28, 2024 (dollars in millions):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "dollars in millions",
+  "durations": [
+    "3M"
+  ],
+  "columns": [
+    "Three Months Ended December 27, 2025",
+    "Three Months Ended December 28, 2024",
+    "Three Months Ended Change"
+  ],
+  "rows": [
+    {
+      "label": "iPhone",
+      "full_label": "iPhone",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "85,269",
+          "num": 85269.0
+        },
+        {
+          "raw": "69,138",
+          "num": 69138.0
+        },
+        {
+          "raw": "23 %",
+          "num": 23.0
+        }
+      ]
+    },
+    {
+      "label": "Mac",
+      "full_label": "Mac",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "8,386",
+          "num": 8386.0
+        },
+        {
+          "raw": "8,987",
+          "num": 8987.0
+        },
+        {
+          "raw": "(7)%",
+          "num": -7.0
+        }
+      ]
+    },
+    {
+      "label": "iPad",
+      "full_label": "iPad",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "8,595",
+          "num": 8595.0
+        },
+        {
+          "raw": "8,088",
+          "num": 8088.0
+        },
+        {
+          "raw": "6 %",
+          "num": 6.0
+        }
+      ]
+    },
+    {
+      "label": "Wearables, Home and Accessories",
+      "full_label": "Wearables, Home and Accessories",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "11,493",
+          "num": 11493.0
+        },
+        {
+          "raw": "11,747",
+          "num": 11747.0
+        },
+        {
+          "raw": "(2)%",
+          "num": -2.0
+        }
+      ]
+    },
+    {
+      "label": "Services",
+      "full_label": "Services",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "30,013",
+          "num": 30013.0
+        },
+        {
+          "raw": "26,340",
+          "num": 26340.0
+        },
+        {
+          "raw": "14 %",
+          "num": 14.0
+        }
+      ]
+    },
+    {
+      "label": "Total net sales",
+      "full_label": "Total net sales",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "143,756",
+          "num": 143756.0
+        },
+        {
+          "raw": "124,300",
+          "num": 124300.0
+        },
+        {
+          "raw": "16 %",
+          "num": 16.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+    "Products and Services Performance"
+  ],
+  "item_code": "10Q-P1-I2",
+  "pdf_page": 18,
+  "page_label": "15"
+}

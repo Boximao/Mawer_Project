@@ -1,0 +1,103 @@
+{
+  "table_id": "AAPL_10-Q_2026-06-27-T016",
+  "doc_id": "AAPL_10-Q_2026-06-27",
+  "title": "Intangible Assets, Net",
+  "caption": "Intangible Assets, Net",
+  "caption_source": "section_heading",
+  "units": "USD millions",
+  "units_note": "in millions",
+  "durations": [
+    "instant"
+  ],
+  "columns": [
+    "June 27, 2026",
+    "September 27, 2025"
+  ],
+  "rows": [
+    {
+      "label": "Gross intangible assets",
+      "full_label": "Gross intangible assets",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "38,220",
+          "num": 38220.0
+        },
+        {
+          "raw": "24,950",
+          "num": 24950.0
+        }
+      ]
+    },
+    {
+      "label": "Accumulated amortization",
+      "full_label": "Accumulated amortization",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "(12,803)",
+          "num": -12803.0
+        },
+        {
+          "raw": "(11,649)",
+          "num": -11649.0
+        }
+      ]
+    },
+    {
+      "label": "Total intangible assets, net",
+      "full_label": "Total intangible assets, net",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "25,417",
+          "num": 25417.0
+        },
+        {
+          "raw": "13,301",
+          "num": 13301.0
+        }
+      ]
+    },
+    {
+      "label": "Less: Current portion of intangible assets, net",
+      "full_label": "Less: Current portion of intangible assets, net",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "(5,075)",
+          "num": -5075.0
+        },
+        {
+          "raw": "(2,208)",
+          "num": -2208.0
+        }
+      ]
+    },
+    {
+      "label": "Non-current portion of intangible assets, net",
+      "full_label": "Non-current portion of intangible assets, net",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "20,342",
+          "num": 20342.0
+        },
+        {
+          "raw": "11,093",
+          "num": 11093.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 1. Financial Statements",
+    "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+    "Note 5 – Condensed Consolidated Financial Statement Details",
+    "Intangible Assets, Net"
+  ],
+  "item_code": "10Q-P1-I1",
+  "pdf_page": 13,
+  "page_label": "10"
+}

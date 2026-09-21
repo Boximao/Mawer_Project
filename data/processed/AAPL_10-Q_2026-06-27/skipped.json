@@ -1,0 +1,674 @@
+[
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "UNITED STATES"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "SECURITIES AND EXCHANGE COMMISSION"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "Washington, D.C. 20549"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "FORM 10-Q"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "(Mark One) ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES "
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "For the quarterly period ended June 27, 2026 or ☐ TRANSITION REPORT PURSUANT TO "
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "For the transition period from to . Commission File Number: 001-36743"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "(Exact name of Registrant as specified in its charter)"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "California 94-2404110"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "(State or other jurisdiction (I.R.S. Employer Identification No.) of incorporati"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "One Apple Park Way"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "table",
+    "preview": "[Table] Table\nColumns: Amount\nCupertino, California | 95014"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "(Address of principal executive offices) (Zip Code)"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "(408) 996-1010"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "(Registrant’s telephone number, including area code)"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "Securities registered pursuant to Section 12(b) of the Act:"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "Title of each class Trading symbol(s) Name of each exchange on which registered"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "Common Stock, $0.00001 par value per share AAPL The Nasdaq Stock Market LLC"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "1.625% Notes due 2026 — The Nasdaq Stock Market LLC"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "2.000% Notes due 2027 — The Nasdaq Stock Market LLC"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "1.375% Notes due 2029 — The Nasdaq Stock Market LLC"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "3.050% Notes due 2029 — The Nasdaq Stock Market LLC"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "0.500% Notes due 2031 — The Nasdaq Stock Market LLC"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "3.600% Notes due 2042 — The Nasdaq Stock Market LLC"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "Indicate by check mark whether the Registrant (1) has filed all reports required"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "Indicate by check mark whether the Registrant has submitted electronically every"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "Indicate by check mark whether the Registrant is a large accelerated filer, an a"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "☒ ☐ Large accelerated filer Accelerated filer ☐ ☐ Non-accelerated filer Smaller "
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "Emerging growth company"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 1,
+    "kind": "paragraph",
+    "preview": "If an emerging growth company, indicate by check mark if the Registrant has elec"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 2,
+    "kind": "paragraph",
+    "preview": "Indicate by check mark whether the Registrant is a shell company (as defined in "
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 2,
+    "kind": "paragraph",
+    "preview": "14,594,180,000 shares of common stock were issued and outstanding as of July 17,"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 3,
+    "kind": "paragraph",
+    "preview": "Form 10-Q"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 3,
+    "kind": "paragraph",
+    "preview": "For the Fiscal Quarter Ended June 27, 2026"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 3,
+    "kind": "paragraph",
+    "preview": "Page"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 3,
+    "kind": "paragraph",
+    "preview": "Part I"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 3,
+    "kind": "table",
+    "preview": "[Table] TABLE OF CONTENTS\nColumns: Amount\nItem 1. Financial Statements | 1\nItem "
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 3,
+    "kind": "paragraph",
+    "preview": "Part II"
+  },
+  {
+    "reason": "cover_or_toc",
+    "item_code": null,
+    "page": 3,
+    "kind": "table",
+    "preview": "[Table] TABLE OF CONTENTS\nColumns: Amount\nItem 1. Legal Proceedings | 20\nItem 1A"
+  },
+  {
+    "reason": "trivial_item",
+    "item_code": "10Q-P2-I3",
+    "page": 27,
+    "kind": "paragraph",
+    "preview": "None."
+  },
+  {
+    "reason": "trivial_item",
+    "item_code": "10Q-P2-I4",
+    "page": 27,
+    "kind": "paragraph",
+    "preview": "Not applicable."
+  },
+  {
+    "reason": "exhibit_index",
+    "item_code": "10Q-P2-I6",
+    "page": 28,
+    "kind": "paragraph",
+    "preview": "Incorporated by Reference"
+  },
+  {
+    "reason": "exhibit_index",
+    "item_code": "10Q-P2-I6",
+    "page": 28,
+    "kind": "paragraph",
+    "preview": "Filing Date/"
+  },
+  {
+    "reason": "exhibit_index",
+    "item_code": "10Q-P2-I6",
+    "page": 28,
+    "kind": "paragraph",
+    "preview": "Exhibit Period End"
+  },
+  {
+    "reason": "exhibit_index",
+    "item_code": "10Q-P2-I6",
+    "page": 28,
+    "kind": "paragraph",
+    "preview": "Number Exhibit Description Form Exhibit Date"
+  },
+  {
+    "reason": "exhibit_index",
+    "item_code": "10Q-P2-I6",
+    "page": 28,
+    "kind": "paragraph",
+    "preview": "31.1* Rule 13a-14(a) / 15d-14(a) Certification of Chief Executive Officer. 31.2*"
+  },
+  {
+    "reason": "exhibit_index",
+    "item_code": "10Q-P2-I6",
+    "page": 28,
+    "kind": "paragraph",
+    "preview": "* Filed herewith."
+  },
+  {
+    "reason": "exhibit_index",
+    "item_code": "10Q-P2-I6",
+    "page": 28,
+    "kind": "paragraph",
+    "preview": "** Furnished herewith."
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 29,
+    "kind": "paragraph",
+    "preview": "SIGNATURE"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 29,
+    "kind": "paragraph",
+    "preview": "Pursuant to the requirements of the Securities Exchange Act of 1934, the Registr"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 29,
+    "kind": "paragraph",
+    "preview": "Date: July 31, 2026 Apple Inc."
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 29,
+    "kind": "paragraph",
+    "preview": "By: /s/ Kevan Parekh Kevan Parekh Senior Vice President, Chief Financial Officer"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 30,
+    "kind": "paragraph",
+    "preview": "Exhibit 31.1"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 30,
+    "kind": "paragraph",
+    "preview": "CERTIFICATION"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 30,
+    "kind": "paragraph",
+    "preview": "I, Timothy D. Cook, certify that:"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 30,
+    "kind": "paragraph",
+    "preview": "1. I have reviewed this quarterly report on Form 10-Q of Apple Inc.;"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 30,
+    "kind": "paragraph",
+    "preview": "2. Based on my knowledge, this report does not contain any untrue statement of a"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 30,
+    "kind": "paragraph",
+    "preview": "3. Based on my knowledge, the financial statements, and other financial informat"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 30,
+    "kind": "paragraph",
+    "preview": "4. The Registrant’s other certifying officer(s) and I are responsible for establ"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 30,
+    "kind": "paragraph",
+    "preview": "(a) Designed such disclosure controls and procedures, or caused such disclosure "
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 30,
+    "kind": "paragraph",
+    "preview": "(b) Designed such internal control over financial reporting, or caused such inte"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 30,
+    "kind": "paragraph",
+    "preview": "(c) Evaluated the effectiveness of the Registrant’s disclosure controls and proc"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 30,
+    "kind": "paragraph",
+    "preview": "(d) Disclosed in this report any change in the Registrant’s internal control ove"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 30,
+    "kind": "paragraph",
+    "preview": "5. The Registrant’s other certifying officer(s) and I have disclosed, based on o"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 30,
+    "kind": "paragraph",
+    "preview": "(a) All significant deficiencies and material weaknesses in the design or operat"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 30,
+    "kind": "paragraph",
+    "preview": "(b) Any fraud, whether or not material, that involves management or other employ"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 30,
+    "kind": "paragraph",
+    "preview": "Date: July 31, 2026"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 30,
+    "kind": "paragraph",
+    "preview": "By: /s/ Timothy D. Cook"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 30,
+    "kind": "paragraph",
+    "preview": "Timothy D. Cook Chief Executive Officer"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 31,
+    "kind": "paragraph",
+    "preview": "Exhibit 31.2"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 31,
+    "kind": "paragraph",
+    "preview": "CERTIFICATION"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 31,
+    "kind": "paragraph",
+    "preview": "I, Kevan Parekh, certify that:"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 31,
+    "kind": "paragraph",
+    "preview": "1. I have reviewed this quarterly report on Form 10-Q of Apple Inc.;"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 31,
+    "kind": "paragraph",
+    "preview": "2. Based on my knowledge, this report does not contain any untrue statement of a"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 31,
+    "kind": "paragraph",
+    "preview": "3. Based on my knowledge, the financial statements, and other financial informat"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 31,
+    "kind": "paragraph",
+    "preview": "4. The Registrant’s other certifying officer(s) and I are responsible for establ"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 31,
+    "kind": "paragraph",
+    "preview": "(a) Designed such disclosure controls and procedures, or caused such disclosure "
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 31,
+    "kind": "paragraph",
+    "preview": "(b) Designed such internal control over financial reporting, or caused such inte"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 31,
+    "kind": "paragraph",
+    "preview": "(c) Evaluated the effectiveness of the Registrant’s disclosure controls and proc"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 31,
+    "kind": "paragraph",
+    "preview": "(d) Disclosed in this report any change in the Registrant’s internal control ove"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 31,
+    "kind": "paragraph",
+    "preview": "5. The Registrant’s other certifying officer(s) and I have disclosed, based on o"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 31,
+    "kind": "paragraph",
+    "preview": "(a) All significant deficiencies and material weaknesses in the design or operat"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 31,
+    "kind": "paragraph",
+    "preview": "(b) Any fraud, whether or not material, that involves management or other employ"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 31,
+    "kind": "paragraph",
+    "preview": "Date: July 31, 2026"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 31,
+    "kind": "paragraph",
+    "preview": "By: /s/ Kevan Parekh"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 31,
+    "kind": "paragraph",
+    "preview": "Kevan Parekh Senior Vice President, Chief Financial Officer"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 32,
+    "kind": "paragraph",
+    "preview": "Exhibit 32.1"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 32,
+    "kind": "paragraph",
+    "preview": "PURSUANT TO"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 32,
+    "kind": "paragraph",
+    "preview": "I, Timothy D. Cook, certify, as of the date hereof, pursuant to 18 U.S.C. Sectio"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 32,
+    "kind": "paragraph",
+    "preview": "Date: July 31, 2026"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 32,
+    "kind": "paragraph",
+    "preview": "By: /s/ Timothy D. Cook"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 32,
+    "kind": "paragraph",
+    "preview": "Timothy D. Cook Chief Executive Officer"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 32,
+    "kind": "paragraph",
+    "preview": "I, Kevan Parekh, certify, as of the date hereof, pursuant to 18 U.S.C. Section 1"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 32,
+    "kind": "paragraph",
+    "preview": "Date: July 31, 2026"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 32,
+    "kind": "paragraph",
+    "preview": "By: /s/ Kevan Parekh Kevan Parekh Senior Vice President, Chief Financial Officer"
+  },
+  {
+    "reason": "signatures_and_certifications",
+    "item_code": null,
+    "page": 32,
+    "kind": "paragraph",
+    "preview": "A signed original of this written statement required by Section 906 has been pro"
+  }
+]

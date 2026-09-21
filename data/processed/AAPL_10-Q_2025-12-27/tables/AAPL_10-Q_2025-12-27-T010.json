@@ -1,0 +1,129 @@
+{
+  "table_id": "AAPL_10-Q_2025-12-27-T010",
+  "doc_id": "AAPL_10-Q_2025-12-27",
+  "title": "Computation of basic and diluted earnings per share for the three months ended December 27, 2025 and December 28, 2024",
+  "caption": "The following table shows the computation of basic and diluted earnings per share for the three months ended December 27, 2025 and December 28, 2024 (net income in millions and shares in thousands):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "net income in millions and shares in thousands",
+  "durations": [
+    "3M"
+  ],
+  "columns": [
+    "Three Months Ended December 27, 2025",
+    "Three Months Ended December 28, 2024"
+  ],
+  "rows": [
+    {
+      "label": "Numerator:",
+      "full_label": "Numerator:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Net income",
+      "full_label": "Numerator: Net income",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "42,097",
+          "num": 42097.0
+        },
+        {
+          "raw": "36,330",
+          "num": 36330.0
+        }
+      ]
+    },
+    {
+      "label": "Denominator:",
+      "full_label": "Denominator:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Weighted-average basic shares outstanding",
+      "full_label": "Denominator: Weighted-average basic shares outstanding",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "14,748,158",
+          "num": 14748158.0
+        },
+        {
+          "raw": "15,081,724",
+          "num": 15081724.0
+        }
+      ]
+    },
+    {
+      "label": "Effect of dilutive share-based awards",
+      "full_label": "Denominator: Effect of dilutive share-based awards",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "62,198",
+          "num": 62198.0
+        },
+        {
+          "raw": "69,141",
+          "num": 69141.0
+        }
+      ]
+    },
+    {
+      "label": "Weighted-average diluted shares",
+      "full_label": "Denominator: Weighted-average diluted shares",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "14,810,356",
+          "num": 14810356.0
+        },
+        {
+          "raw": "15,150,865",
+          "num": 15150865.0
+        }
+      ]
+    },
+    {
+      "label": "Basic earnings per share",
+      "full_label": "Basic earnings per share",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "2.85",
+          "num": 2.85
+        },
+        {
+          "raw": "2.41",
+          "num": 2.41
+        }
+      ]
+    },
+    {
+      "label": "Diluted earnings per share",
+      "full_label": "Diluted earnings per share",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "2.84",
+          "num": 2.84
+        },
+        {
+          "raw": "2.40",
+          "num": 2.4
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 1. Financial Statements",
+    "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+    "Note 3 – Earnings Per Share"
+  ],
+  "item_code": "10Q-P1-I1",
+  "pdf_page": 10,
+  "page_label": "7"
+}

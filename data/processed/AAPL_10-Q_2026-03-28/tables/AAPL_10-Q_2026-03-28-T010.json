@@ -1,0 +1,180 @@
+{
+  "table_id": "AAPL_10-Q_2026-03-28-T010",
+  "doc_id": "AAPL_10-Q_2026-03-28",
+  "title": "Computation of basic and diluted earnings per share for the three- and six-month periods ended March 28, 2026 and March 29, 2025",
+  "caption": "The following table shows the computation of basic and diluted earnings per share for the three- and six-month periods ended March 28, 2026 and March 29, 2025 (net income in millions and shares in thousands):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "net income in millions and shares in thousands",
+  "durations": [
+    "3M",
+    "6M"
+  ],
+  "columns": [
+    "Three Months Ended March 28, 2026",
+    "Three Months Ended March 29, 2025",
+    "Six Months Ended March 28, 2026",
+    "Six Months Ended March 29, 2025"
+  ],
+  "rows": [
+    {
+      "label": "Numerator:",
+      "full_label": "Numerator:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Net income",
+      "full_label": "Numerator: Net income",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "29,578",
+          "num": 29578.0
+        },
+        {
+          "raw": "24,780",
+          "num": 24780.0
+        },
+        {
+          "raw": "71,675",
+          "num": 71675.0
+        },
+        {
+          "raw": "61,110",
+          "num": 61110.0
+        }
+      ]
+    },
+    {
+      "label": "Denominator:",
+      "full_label": "Denominator:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Weighted-average basic shares outstanding",
+      "full_label": "Denominator: Weighted-average basic shares outstanding",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "14,673,278",
+          "num": 14673278.0
+        },
+        {
+          "raw": "14,994,082",
+          "num": 14994082.0
+        },
+        {
+          "raw": "14,710,718",
+          "num": 14710718.0
+        },
+        {
+          "raw": "15,037,903",
+          "num": 15037903.0
+        }
+      ]
+    },
+    {
+      "label": "Effect of dilutive share-based awards",
+      "full_label": "Denominator: Effect of dilutive share-based awards",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "52,595",
+          "num": 52595.0
+        },
+        {
+          "raw": "62,051",
+          "num": 62051.0
+        },
+        {
+          "raw": "57,397",
+          "num": 57397.0
+        },
+        {
+          "raw": "65,596",
+          "num": 65596.0
+        }
+      ]
+    },
+    {
+      "label": "Weighted-average diluted shares",
+      "full_label": "Denominator: Weighted-average diluted shares",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "14,725,873",
+          "num": 14725873.0
+        },
+        {
+          "raw": "15,056,133",
+          "num": 15056133.0
+        },
+        {
+          "raw": "14,768,115",
+          "num": 14768115.0
+        },
+        {
+          "raw": "15,103,499",
+          "num": 15103499.0
+        }
+      ]
+    },
+    {
+      "label": "Basic earnings per share",
+      "full_label": "Basic earnings per share",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "2.02",
+          "num": 2.02
+        },
+        {
+          "raw": "1.65",
+          "num": 1.65
+        },
+        {
+          "raw": "4.87",
+          "num": 4.87
+        },
+        {
+          "raw": "4.06",
+          "num": 4.06
+        }
+      ]
+    },
+    {
+      "label": "Diluted earnings per share",
+      "full_label": "Diluted earnings per share",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "2.01",
+          "num": 2.01
+        },
+        {
+          "raw": "1.65",
+          "num": 1.65
+        },
+        {
+          "raw": "4.85",
+          "num": 4.85
+        },
+        {
+          "raw": "4.05",
+          "num": 4.05
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 1. Financial Statements",
+    "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+    "Note 3 – Earnings Per Share"
+  ],
+  "item_code": "10Q-P1-I1",
+  "pdf_page": 10,
+  "page_label": "7"
+}

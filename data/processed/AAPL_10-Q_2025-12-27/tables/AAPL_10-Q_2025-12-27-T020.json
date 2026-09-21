@@ -1,0 +1,242 @@
+{
+  "table_id": "AAPL_10-Q_2025-12-27-T020",
+  "doc_id": "AAPL_10-Q_2025-12-27",
+  "title": "Note 10 – Segment Information (Three Months Ended December 28, 2024)",
+  "caption": "Note 10 – Segment Information",
+  "caption_source": "section_heading",
+  "units": "USD millions",
+  "units_note": "in millions",
+  "durations": [
+    "3M"
+  ],
+  "columns": [
+    "Three Months Ended December 28, 2024 Americas",
+    "Three Months Ended December 28, 2024 Europe",
+    "Three Months Ended December 28, 2024 Greater China",
+    "Three Months Ended December 28, 2024 Japan",
+    "Three Months Ended December 28, 2024 Rest of Asia Pacific",
+    "Three Months Ended December 28, 2024 Corporate",
+    "Three Months Ended December 28, 2024 Total"
+  ],
+  "rows": [
+    {
+      "label": "Net sales",
+      "full_label": "Net sales",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "52,648",
+          "num": 52648.0
+        },
+        {
+          "raw": "33,861",
+          "num": 33861.0
+        },
+        {
+          "raw": "18,513",
+          "num": 18513.0
+        },
+        {
+          "raw": "8,987",
+          "num": 8987.0
+        },
+        {
+          "raw": "10,291",
+          "num": 10291.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "124,300",
+          "num": 124300.0
+        }
+      ]
+    },
+    {
+      "label": "Cost of sales",
+      "full_label": "Cost of sales",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "(28,495)",
+          "num": -28495.0
+        },
+        {
+          "raw": "(18,043)",
+          "num": -18043.0
+        },
+        {
+          "raw": "(9,759)",
+          "num": -9759.0
+        },
+        {
+          "raw": "(4,393)",
+          "num": -4393.0
+        },
+        {
+          "raw": "(5,335)",
+          "num": -5335.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "(66,025)",
+          "num": -66025.0
+        }
+      ]
+    },
+    {
+      "label": "Research and development",
+      "full_label": "Research and development",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "(8,268)",
+          "num": -8268.0
+        },
+        {
+          "raw": "(8,268)",
+          "num": -8268.0
+        }
+      ]
+    },
+    {
+      "label": "Selling and marketing",
+      "full_label": "Selling and marketing",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "(2,644)",
+          "num": -2644.0
+        },
+        {
+          "raw": "(1,211)",
+          "num": -1211.0
+        },
+        {
+          "raw": "(594)",
+          "num": -594.0
+        },
+        {
+          "raw": "(280)",
+          "num": -280.0
+        },
+        {
+          "raw": "(372)",
+          "num": -372.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "(5,101)",
+          "num": -5101.0
+        }
+      ]
+    },
+    {
+      "label": "General and administrative",
+      "full_label": "General and administrative",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "(2,074)",
+          "num": -2074.0
+        },
+        {
+          "raw": "(2,074)",
+          "num": -2074.0
+        }
+      ]
+    },
+    {
+      "label": "Operating income/(loss)",
+      "full_label": "Operating income/(loss)",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "21,509",
+          "num": 21509.0
+        },
+        {
+          "raw": "14,607",
+          "num": 14607.0
+        },
+        {
+          "raw": "8,160",
+          "num": 8160.0
+        },
+        {
+          "raw": "4,314",
+          "num": 4314.0
+        },
+        {
+          "raw": "4,584",
+          "num": 4584.0
+        },
+        {
+          "raw": "(10,342)",
+          "num": -10342.0
+        },
+        {
+          "raw": "42,832",
+          "num": 42832.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 1. Financial Statements",
+    "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+    "Note 10 – Segment Information"
+  ],
+  "item_code": "10Q-P1-I1",
+  "pdf_page": 15,
+  "page_label": "12"
+}

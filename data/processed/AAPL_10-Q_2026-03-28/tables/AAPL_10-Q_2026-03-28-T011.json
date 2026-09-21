@@ -1,0 +1,535 @@
+{
+  "table_id": "AAPL_10-Q_2026-03-28-T011",
+  "doc_id": "AAPL_10-Q_2026-03-28",
+  "title": "Company’s cash, cash equivalents and marketable securities by significant investment category as of March 28, 2026 and September 27, 2025",
+  "caption": "The following tables show the Company’s cash, cash equivalents and marketable securities by significant investment category as of March 28, 2026 and September 27, 2025 (in millions):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "in millions",
+  "durations": [
+    "instant"
+  ],
+  "columns": [
+    "March 28, 2026 Adjusted Cost",
+    "March 28, 2026 Unrealized Gains",
+    "March 28, 2026 Unrealized Losses",
+    "March 28, 2026 Fair Value",
+    "March 28, 2026 Cash and Cash Equivalents",
+    "March 28, 2026 Current Marketable Securities",
+    "March 28, 2026 Non-Current Marketable Securities"
+  ],
+  "rows": [
+    {
+      "label": "Cash",
+      "full_label": "Cash",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "29,740",
+          "num": 29740.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "29,740",
+          "num": 29740.0
+        },
+        {
+          "raw": "29,740",
+          "num": 29740.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        }
+      ]
+    },
+    {
+      "label": "Level 1:",
+      "full_label": "Level 1:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Money market funds",
+      "full_label": "Level 1: Money market funds",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "6,588",
+          "num": 6588.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "6,588",
+          "num": 6588.0
+        },
+        {
+          "raw": "6,588",
+          "num": 6588.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        }
+      ]
+    },
+    {
+      "label": "Mutual funds",
+      "full_label": "Level 1: Mutual funds",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "821",
+          "num": 821.0
+        },
+        {
+          "raw": "128",
+          "num": 128.0
+        },
+        {
+          "raw": "(14)",
+          "num": -14.0
+        },
+        {
+          "raw": "935",
+          "num": 935.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "935",
+          "num": 935.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        }
+      ]
+    },
+    {
+      "label": "Subtotal",
+      "full_label": "Level 1: Subtotal",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "7,409",
+          "num": 7409.0
+        },
+        {
+          "raw": "128",
+          "num": 128.0
+        },
+        {
+          "raw": "(14)",
+          "num": -14.0
+        },
+        {
+          "raw": "7,523",
+          "num": 7523.0
+        },
+        {
+          "raw": "6,588",
+          "num": 6588.0
+        },
+        {
+          "raw": "935",
+          "num": 935.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        }
+      ]
+    },
+    {
+      "label": "Level 2 :",
+      "full_label": "Level 2 :",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "U.S. Treasury securities",
+      "full_label": "Level 2: U.S. Treasury securities",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "18,650",
+          "num": 18650.0
+        },
+        {
+          "raw": "14",
+          "num": 14.0
+        },
+        {
+          "raw": "(254)",
+          "num": -254.0
+        },
+        {
+          "raw": "18,410",
+          "num": 18410.0
+        },
+        {
+          "raw": "2,935",
+          "num": 2935.0
+        },
+        {
+          "raw": "4,174",
+          "num": 4174.0
+        },
+        {
+          "raw": "11,301",
+          "num": 11301.0
+        }
+      ]
+    },
+    {
+      "label": "U.S. agency securities",
+      "full_label": "Level 2: U.S. agency securities",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "7,483",
+          "num": 7483.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "(112)",
+          "num": -112.0
+        },
+        {
+          "raw": "7,371",
+          "num": 7371.0
+        },
+        {
+          "raw": "2,923",
+          "num": 2923.0
+        },
+        {
+          "raw": "2,470",
+          "num": 2470.0
+        },
+        {
+          "raw": "1,978",
+          "num": 1978.0
+        }
+      ]
+    },
+    {
+      "label": "Non-U.S. government securities",
+      "full_label": "Level 2: Non-U.S. government securities",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "5,906",
+          "num": 5906.0
+        },
+        {
+          "raw": "45",
+          "num": 45.0
+        },
+        {
+          "raw": "(493)",
+          "num": -493.0
+        },
+        {
+          "raw": "5,458",
+          "num": 5458.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "576",
+          "num": 576.0
+        },
+        {
+          "raw": "4,882",
+          "num": 4882.0
+        }
+      ]
+    },
+    {
+      "label": "Certificates of deposit and time deposits",
+      "full_label": "Level 2: Certificates of deposit and time deposits",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "3,263",
+          "num": 3263.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "3,263",
+          "num": 3263.0
+        },
+        {
+          "raw": "2,987",
+          "num": 2987.0
+        },
+        {
+          "raw": "276",
+          "num": 276.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        }
+      ]
+    },
+    {
+      "label": "Commercial paper",
+      "full_label": "Level 2: Commercial paper",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "3,628",
+          "num": 3628.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "3,628",
+          "num": 3628.0
+        },
+        {
+          "raw": "399",
+          "num": 399.0
+        },
+        {
+          "raw": "3,229",
+          "num": 3229.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        }
+      ]
+    },
+    {
+      "label": "Corporate debt securities",
+      "full_label": "Level 2: Corporate debt securities",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "48,111",
+          "num": 48111.0
+        },
+        {
+          "raw": "83",
+          "num": 83.0
+        },
+        {
+          "raw": "(982)",
+          "num": -982.0
+        },
+        {
+          "raw": "47,212",
+          "num": 47212.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "11,042",
+          "num": 11042.0
+        },
+        {
+          "raw": "36,170",
+          "num": 36170.0
+        }
+      ]
+    },
+    {
+      "label": "Municipal securities",
+      "full_label": "Level 2: Municipal securities",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "122",
+          "num": 122.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "(1)",
+          "num": -1.0
+        },
+        {
+          "raw": "121",
+          "num": 121.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "95",
+          "num": 95.0
+        },
+        {
+          "raw": "26",
+          "num": 26.0
+        }
+      ]
+    },
+    {
+      "label": "Mortgage- and asset-backed securities",
+      "full_label": "Level 2: Mortgage- and asset-backed securities",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "25,106",
+          "num": 25106.0
+        },
+        {
+          "raw": "64",
+          "num": 64.0
+        },
+        {
+          "raw": "(1,301)",
+          "num": -1301.0
+        },
+        {
+          "raw": "23,869",
+          "num": 23869.0
+        },
+        {
+          "raw": "—",
+          "num": null
+        },
+        {
+          "raw": "138",
+          "num": 138.0
+        },
+        {
+          "raw": "23,731",
+          "num": 23731.0
+        }
+      ]
+    },
+    {
+      "label": "Subtotal",
+      "full_label": "Level 2: Subtotal",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "112,269",
+          "num": 112269.0
+        },
+        {
+          "raw": "206",
+          "num": 206.0
+        },
+        {
+          "raw": "(3,143)",
+          "num": -3143.0
+        },
+        {
+          "raw": "109,332",
+          "num": 109332.0
+        },
+        {
+          "raw": "9,244",
+          "num": 9244.0
+        },
+        {
+          "raw": "22,000",
+          "num": 22000.0
+        },
+        {
+          "raw": "78,088",
+          "num": 78088.0
+        }
+      ]
+    },
+    {
+      "label": "Total",
+      "full_label": "Level 2: Total",
+      "indent": 3,
+      "values": [
+        {
+          "raw": "149,418",
+          "num": 149418.0
+        },
+        {
+          "raw": "334",
+          "num": 334.0
+        },
+        {
+          "raw": "(3,157)",
+          "num": -3157.0
+        },
+        {
+          "raw": "146,595",
+          "num": 146595.0
+        },
+        {
+          "raw": "45,572",
+          "num": 45572.0
+        },
+        {
+          "raw": "22,935",
+          "num": 22935.0
+        },
+        {
+          "raw": "78,088",
+          "num": 78088.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 1. Financial Statements",
+    "Notes to Condensed Consolidated Financial Statements (Unaudited)",
+    "Note 4 – Financial Instruments",
+    "Cash, Cash Equivalents and Marketable Securities"
+  ],
+  "item_code": "10Q-P1-I1",
+  "pdf_page": 10,
+  "page_label": "7"
+}

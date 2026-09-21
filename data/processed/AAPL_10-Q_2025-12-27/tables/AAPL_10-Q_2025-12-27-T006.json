@@ -1,0 +1,473 @@
+{
+  "table_id": "AAPL_10-Q_2025-12-27-T006",
+  "doc_id": "AAPL_10-Q_2025-12-27",
+  "title": "CONDENSED CONSOLIDATED BALANCE SHEETS (Unaudited)",
+  "caption": "CONDENSED CONSOLIDATED BALANCE SHEETS (Unaudited)",
+  "caption_source": "statement_title",
+  "units": "USD millions",
+  "units_note": "In millions, except number of shares, which are reflected in thousands, and par value",
+  "durations": [
+    "instant"
+  ],
+  "columns": [
+    "December 27, 2025",
+    "September 27, 2025"
+  ],
+  "rows": [
+    {
+      "label": "ASSETS:",
+      "full_label": "ASSETS:",
+      "indent": 6,
+      "values": []
+    },
+    {
+      "label": "Current assets:",
+      "full_label": "Current assets:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Cash and cash equivalents",
+      "full_label": "Current assets: Cash and cash equivalents",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "45,317",
+          "num": 45317.0
+        },
+        {
+          "raw": "35,934",
+          "num": 35934.0
+        }
+      ]
+    },
+    {
+      "label": "Marketable securities",
+      "full_label": "Current assets: Marketable securities",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "21,590",
+          "num": 21590.0
+        },
+        {
+          "raw": "18,763",
+          "num": 18763.0
+        }
+      ]
+    },
+    {
+      "label": "Accounts receivable, net",
+      "full_label": "Current assets: Accounts receivable, net",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "39,921",
+          "num": 39921.0
+        },
+        {
+          "raw": "39,777",
+          "num": 39777.0
+        }
+      ]
+    },
+    {
+      "label": "Vendor non-trade receivables",
+      "full_label": "Current assets: Vendor non-trade receivables",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "30,399",
+          "num": 30399.0
+        },
+        {
+          "raw": "33,180",
+          "num": 33180.0
+        }
+      ]
+    },
+    {
+      "label": "Inventories",
+      "full_label": "Current assets: Inventories",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "5,875",
+          "num": 5875.0
+        },
+        {
+          "raw": "5,718",
+          "num": 5718.0
+        }
+      ]
+    },
+    {
+      "label": "Other current assets",
+      "full_label": "Other current assets",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "15,002",
+          "num": 15002.0
+        },
+        {
+          "raw": "14,585",
+          "num": 14585.0
+        }
+      ]
+    },
+    {
+      "label": "Total current assets",
+      "full_label": "Total current assets",
+      "indent": 3,
+      "values": [
+        {
+          "raw": "158,104",
+          "num": 158104.0
+        },
+        {
+          "raw": "147,957",
+          "num": 147957.0
+        }
+      ]
+    },
+    {
+      "label": "Non-current assets:",
+      "full_label": "Non-current assets:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Marketable securities",
+      "full_label": "Non-current assets: Marketable securities",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "77,888",
+          "num": 77888.0
+        },
+        {
+          "raw": "77,723",
+          "num": 77723.0
+        }
+      ]
+    },
+    {
+      "label": "Property, plant and equipment, net",
+      "full_label": "Non-current assets: Property, plant and equipment, net",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "50,159",
+          "num": 50159.0
+        },
+        {
+          "raw": "49,834",
+          "num": 49834.0
+        }
+      ]
+    },
+    {
+      "label": "Other non-current assets",
+      "full_label": "Other non-current assets",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "93,146",
+          "num": 93146.0
+        },
+        {
+          "raw": "83,727",
+          "num": 83727.0
+        }
+      ]
+    },
+    {
+      "label": "Total non-current assets",
+      "full_label": "Total non-current assets",
+      "indent": 3,
+      "values": [
+        {
+          "raw": "221,193",
+          "num": 221193.0
+        },
+        {
+          "raw": "211,284",
+          "num": 211284.0
+        }
+      ]
+    },
+    {
+      "label": "Total assets",
+      "full_label": "Total assets",
+      "indent": 4,
+      "values": [
+        {
+          "raw": "379,297",
+          "num": 379297.0
+        },
+        {
+          "raw": "359,241",
+          "num": 359241.0
+        }
+      ]
+    },
+    {
+      "label": "LIABILITIES AND SHAREHOLDERS’ EQUITY:",
+      "full_label": "LIABILITIES AND SHAREHOLDERS’ EQUITY:",
+      "indent": 5,
+      "values": []
+    },
+    {
+      "label": "Current liabilities:",
+      "full_label": "Current liabilities:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Accounts payable",
+      "full_label": "Current liabilities: Accounts payable",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "70,587",
+          "num": 70587.0
+        },
+        {
+          "raw": "69,860",
+          "num": 69860.0
+        }
+      ]
+    },
+    {
+      "label": "Other current liabilities",
+      "full_label": "Other current liabilities",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "68,543",
+          "num": 68543.0
+        },
+        {
+          "raw": "66,387",
+          "num": 66387.0
+        }
+      ]
+    },
+    {
+      "label": "Deferred revenue",
+      "full_label": "Current liabilities: Deferred revenue",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "9,413",
+          "num": 9413.0
+        },
+        {
+          "raw": "9,055",
+          "num": 9055.0
+        }
+      ]
+    },
+    {
+      "label": "Commercial paper",
+      "full_label": "Current liabilities: Commercial paper",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "1,997",
+          "num": 1997.0
+        },
+        {
+          "raw": "7,979",
+          "num": 7979.0
+        }
+      ]
+    },
+    {
+      "label": "Term debt",
+      "full_label": "Current liabilities: Term debt",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "11,827",
+          "num": 11827.0
+        },
+        {
+          "raw": "12,350",
+          "num": 12350.0
+        }
+      ]
+    },
+    {
+      "label": "Total current liabilities",
+      "full_label": "Total current liabilities",
+      "indent": 3,
+      "values": [
+        {
+          "raw": "162,367",
+          "num": 162367.0
+        },
+        {
+          "raw": "165,631",
+          "num": 165631.0
+        }
+      ]
+    },
+    {
+      "label": "Non-current liabilities:",
+      "full_label": "Non-current liabilities:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Term debt",
+      "full_label": "Non-current liabilities: Term debt",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "76,685",
+          "num": 76685.0
+        },
+        {
+          "raw": "78,328",
+          "num": 78328.0
+        }
+      ]
+    },
+    {
+      "label": "Other non-current liabilities",
+      "full_label": "Other non-current liabilities",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "52,055",
+          "num": 52055.0
+        },
+        {
+          "raw": "41,549",
+          "num": 41549.0
+        }
+      ]
+    },
+    {
+      "label": "Total non-current liabilities",
+      "full_label": "Total non-current liabilities",
+      "indent": 3,
+      "values": [
+        {
+          "raw": "128,740",
+          "num": 128740.0
+        },
+        {
+          "raw": "119,877",
+          "num": 119877.0
+        }
+      ]
+    },
+    {
+      "label": "Total liabilities",
+      "full_label": "Total liabilities",
+      "indent": 4,
+      "values": [
+        {
+          "raw": "291,107",
+          "num": 291107.0
+        },
+        {
+          "raw": "285,508",
+          "num": 285508.0
+        }
+      ]
+    },
+    {
+      "label": "Shareholders’ equity:",
+      "full_label": "Shareholders’ equity:",
+      "indent": 0,
+      "values": []
+    },
+    {
+      "label": "Common stock and additional paid-in capital, $0.00001 par value: 50,400,000 shares authorized; 14,702,703 and 14,773,260 shares issued and outstanding, respectively",
+      "full_label": "Shareholders’ equity: Common stock and additional paid-in capital, $0.00001 par value: 50,400,000 shares authorized; 14,702,703 and 14,773,260 shares issued and outstanding, respectively",
+      "indent": 2,
+      "values": [
+        {
+          "raw": "95,221",
+          "num": 95221.0
+        },
+        {
+          "raw": "93,568",
+          "num": 93568.0
+        }
+      ]
+    },
+    {
+      "label": "Accumulated deficit",
+      "full_label": "Shareholders’ equity: Accumulated deficit",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "(2,177)",
+          "num": -2177.0
+        },
+        {
+          "raw": "(14,264)",
+          "num": -14264.0
+        }
+      ]
+    },
+    {
+      "label": "Accumulated other comprehensive loss",
+      "full_label": "Shareholders’ equity: Accumulated other comprehensive loss",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "(4,854)",
+          "num": -4854.0
+        },
+        {
+          "raw": "(5,571)",
+          "num": -5571.0
+        }
+      ]
+    },
+    {
+      "label": "Total shareholders’ equity",
+      "full_label": "Total shareholders’ equity",
+      "indent": 3,
+      "values": [
+        {
+          "raw": "88,190",
+          "num": 88190.0
+        },
+        {
+          "raw": "73,733",
+          "num": 73733.0
+        }
+      ]
+    },
+    {
+      "label": "Total liabilities and shareholders’ equity",
+      "full_label": "Total liabilities and shareholders’ equity",
+      "indent": 4,
+      "values": [
+        {
+          "raw": "379,297",
+          "num": 379297.0
+        },
+        {
+          "raw": "359,241",
+          "num": 359241.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 1. Financial Statements",
+    "CONDENSED CONSOLIDATED BALANCE SHEETS (Unaudited)"
+  ],
+  "item_code": "10Q-P1-I1",
+  "pdf_page": 6,
+  "page_label": "3"
+}

@@ -1,0 +1,217 @@
+{
+  "table_id": "AAPL_10-Q_2026-03-28-T025",
+  "doc_id": "AAPL_10-Q_2026-03-28",
+  "title": "Net sales by category for the three- and six-month periods ended March 28, 2026 and March 29, 2025",
+  "caption": "The following table shows net sales by category for the three- and six-month periods ended March 28, 2026 and March 29, 2025 (dollars in millions):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "dollars in millions",
+  "durations": [
+    "3M",
+    "6M"
+  ],
+  "columns": [
+    "Three Months Ended March 28, 2026",
+    "Three Months Ended March 29, 2025",
+    "Three Months Ended Change",
+    "Six Months Ended March 28, 2026",
+    "Six Months Ended March 29, 2025",
+    "Six Months Ended Change"
+  ],
+  "rows": [
+    {
+      "label": "iPhone",
+      "full_label": "iPhone",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "56,994",
+          "num": 56994.0
+        },
+        {
+          "raw": "46,841",
+          "num": 46841.0
+        },
+        {
+          "raw": "22 %",
+          "num": 22.0
+        },
+        {
+          "raw": "142,263",
+          "num": 142263.0
+        },
+        {
+          "raw": "115,979",
+          "num": 115979.0
+        },
+        {
+          "raw": "23 %",
+          "num": 23.0
+        }
+      ]
+    },
+    {
+      "label": "Mac",
+      "full_label": "Mac",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "8,399",
+          "num": 8399.0
+        },
+        {
+          "raw": "7,949",
+          "num": 7949.0
+        },
+        {
+          "raw": "6 %",
+          "num": 6.0
+        },
+        {
+          "raw": "16,785",
+          "num": 16785.0
+        },
+        {
+          "raw": "16,936",
+          "num": 16936.0
+        },
+        {
+          "raw": "(1)%",
+          "num": -1.0
+        }
+      ]
+    },
+    {
+      "label": "iPad",
+      "full_label": "iPad",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "6,914",
+          "num": 6914.0
+        },
+        {
+          "raw": "6,402",
+          "num": 6402.0
+        },
+        {
+          "raw": "8 %",
+          "num": 8.0
+        },
+        {
+          "raw": "15,509",
+          "num": 15509.0
+        },
+        {
+          "raw": "14,490",
+          "num": 14490.0
+        },
+        {
+          "raw": "7 %",
+          "num": 7.0
+        }
+      ]
+    },
+    {
+      "label": "Wearables, Home and Accessories",
+      "full_label": "Wearables, Home and Accessories",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "7,901",
+          "num": 7901.0
+        },
+        {
+          "raw": "7,522",
+          "num": 7522.0
+        },
+        {
+          "raw": "5 %",
+          "num": 5.0
+        },
+        {
+          "raw": "19,394",
+          "num": 19394.0
+        },
+        {
+          "raw": "19,269",
+          "num": 19269.0
+        },
+        {
+          "raw": "1 %",
+          "num": 1.0
+        }
+      ]
+    },
+    {
+      "label": "Services",
+      "full_label": "Services",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "30,976",
+          "num": 30976.0
+        },
+        {
+          "raw": "26,645",
+          "num": 26645.0
+        },
+        {
+          "raw": "16 %",
+          "num": 16.0
+        },
+        {
+          "raw": "60,989",
+          "num": 60989.0
+        },
+        {
+          "raw": "52,985",
+          "num": 52985.0
+        },
+        {
+          "raw": "15 %",
+          "num": 15.0
+        }
+      ]
+    },
+    {
+      "label": "Total net sales",
+      "full_label": "Total net sales",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "111,184",
+          "num": 111184.0
+        },
+        {
+          "raw": "95,359",
+          "num": 95359.0
+        },
+        {
+          "raw": "17 %",
+          "num": 17.0
+        },
+        {
+          "raw": "254,940",
+          "num": 254940.0
+        },
+        {
+          "raw": "219,659",
+          "num": 219659.0
+        },
+        {
+          "raw": "16 %",
+          "num": 16.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+    "Products and Services Performance"
+  ],
+  "item_code": "10Q-P1-I2",
+  "pdf_page": 18,
+  "page_label": "15"
+}

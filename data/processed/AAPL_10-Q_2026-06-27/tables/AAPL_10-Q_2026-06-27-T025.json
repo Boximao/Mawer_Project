@@ -1,0 +1,217 @@
+{
+  "table_id": "AAPL_10-Q_2026-06-27-T025",
+  "doc_id": "AAPL_10-Q_2026-06-27",
+  "title": "Net sales by reportable segment for the three- and nine-month periods ended June 27, 2026 and June 28, 2025",
+  "caption": "The following table shows net sales by reportable segment for the three- and nine-month periods ended June 27, 2026 and June 28, 2025 (dollars in millions):",
+  "caption_source": "preceding_paragraph",
+  "units": "USD millions",
+  "units_note": "dollars in millions",
+  "durations": [
+    "3M",
+    "9M"
+  ],
+  "columns": [
+    "Three Months Ended June 27, 2026",
+    "Three Months Ended June 28, 2025",
+    "Three Months Ended Change",
+    "Nine Months Ended June 27, 2026",
+    "Nine Months Ended June 28, 2025",
+    "Nine Months Ended Change"
+  ],
+  "rows": [
+    {
+      "label": "Americas",
+      "full_label": "Americas",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "45,781",
+          "num": 45781.0
+        },
+        {
+          "raw": "41,198",
+          "num": 41198.0
+        },
+        {
+          "raw": "11%",
+          "num": 11.0
+        },
+        {
+          "raw": "149,403",
+          "num": 149403.0
+        },
+        {
+          "raw": "134,161",
+          "num": 134161.0
+        },
+        {
+          "raw": "11%",
+          "num": 11.0
+        }
+      ]
+    },
+    {
+      "label": "Europe",
+      "full_label": "Europe",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "29,395",
+          "num": 29395.0
+        },
+        {
+          "raw": "24,014",
+          "num": 24014.0
+        },
+        {
+          "raw": "22%",
+          "num": 22.0
+        },
+        {
+          "raw": "95,596",
+          "num": 95596.0
+        },
+        {
+          "raw": "82,329",
+          "num": 82329.0
+        },
+        {
+          "raw": "16%",
+          "num": 16.0
+        }
+      ]
+    },
+    {
+      "label": "Greater China",
+      "full_label": "Greater China",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "18,816",
+          "num": 18816.0
+        },
+        {
+          "raw": "15,369",
+          "num": 15369.0
+        },
+        {
+          "raw": "22%",
+          "num": 22.0
+        },
+        {
+          "raw": "64,839",
+          "num": 64839.0
+        },
+        {
+          "raw": "49,884",
+          "num": 49884.0
+        },
+        {
+          "raw": "30%",
+          "num": 30.0
+        }
+      ]
+    },
+    {
+      "label": "Japan",
+      "full_label": "Japan",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "6,554",
+          "num": 6554.0
+        },
+        {
+          "raw": "5,782",
+          "num": 5782.0
+        },
+        {
+          "raw": "13%",
+          "num": 13.0
+        },
+        {
+          "raw": "24,368",
+          "num": 24368.0
+        },
+        {
+          "raw": "22,067",
+          "num": 22067.0
+        },
+        {
+          "raw": "10%",
+          "num": 10.0
+        }
+      ]
+    },
+    {
+      "label": "Rest of Asia Pacific",
+      "full_label": "Rest of Asia Pacific",
+      "indent": 0,
+      "values": [
+        {
+          "raw": "8,871",
+          "num": 8871.0
+        },
+        {
+          "raw": "7,673",
+          "num": 7673.0
+        },
+        {
+          "raw": "16%",
+          "num": 16.0
+        },
+        {
+          "raw": "30,151",
+          "num": 30151.0
+        },
+        {
+          "raw": "25,254",
+          "num": 25254.0
+        },
+        {
+          "raw": "19%",
+          "num": 19.0
+        }
+      ]
+    },
+    {
+      "label": "Total net sales",
+      "full_label": "Total net sales",
+      "indent": 1,
+      "values": [
+        {
+          "raw": "109,417",
+          "num": 109417.0
+        },
+        {
+          "raw": "94,036",
+          "num": 94036.0
+        },
+        {
+          "raw": "16%",
+          "num": 16.0
+        },
+        {
+          "raw": "364,357",
+          "num": 364357.0
+        },
+        {
+          "raw": "313,695",
+          "num": 313695.0
+        },
+        {
+          "raw": "16%",
+          "num": 16.0
+        }
+      ]
+    }
+  ],
+  "section_path": [
+    "Part I",
+    "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+    "Segment Operating Performance"
+  ],
+  "item_code": "10Q-P1-I2",
+  "pdf_page": 17,
+  "page_label": "14"
+}
