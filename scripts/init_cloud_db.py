@@ -18,7 +18,7 @@ def load_env(path: Path) -> None:
         if not s or s.startswith("#") or "=" not in s:
             continue
         k, v = s.split("=", 1)
-        os.environ.setdefault(k.strip(), v)
+        os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 
 
 def main() -> int:
@@ -31,7 +31,12 @@ def main() -> int:
     import psycopg
 
     sql = SQL_PATH.read_text(encoding="utf-8")
-    with psycopg.connect(dsn, connect_timeout=30) as conn:
+    try:
+        conn = psycopg.connect(dsn, connect_timeout=30)
+    except Exception as exc:
+        print(f"connect failed: {type(exc).__name__} (DSN not printed)", file=sys.stderr)
+        return 1
+    with conn:
         conn.execute("SELECT 1")
         conn.execute(sql)
         conn.commit()
