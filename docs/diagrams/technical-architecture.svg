@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1230" viewBox="0 0 1700 1230" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5b6a85"/>
+    </marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2a6fdb"/>
+    </marker>
+    <linearGradient id="hdr2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#14263f"/>
+      <stop offset="100%" stop-color="#2a4b78"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1700" height="1230" fill="#f5f7fb"/>
+  <rect x="0" y="0" width="1700" height="96" fill="url(#hdr2)"/>
+  <text x="40" y="44" fill="#ffffff" font-size="28" font-weight="700">Agentic Filing Research Assistant &#8212; Technical Project Structure</text>
+  <text x="40" y="74" fill="#c3d2e8" font-size="16">Repository layout on the left, what each package does at run time on the right. Source PDFs live in Git; vectors and run state live in Neon Postgres with pgvector.</text>
+
+  <!-- ================= LEFT: repo tree ================= -->
+  <rect x="40" y="128" width="520" height="956" rx="12" fill="#ffffff" stroke="#d7dfec"/>
+  <rect x="40" y="128" width="520" height="40" rx="12" fill="#eef3fb"/>
+  <rect x="40" y="156" width="520" height="12" fill="#eef3fb"/>
+  <text x="64" y="155" font-size="16" font-weight="700" fill="#14263f">Repository layout</text>
+  <g xml:space="preserve" font-family="Consolas, Cascadia Mono, Menlo, monospace" font-size="12.8" fill="#33415c">
+    <text xml:space="preserve" x="62" y="192">Mawer_Project/</text>
+    <text xml:space="preserve" x="62" y="210">+-- docs/                    specs + these diagrams</text>
+    <text xml:space="preserve" x="62" y="228">|   +-- AGENTIC_RAG_SPEC.md      contract (wins)</text>
+    <text xml:space="preserve" x="62" y="246">|   +-- RUNNING_ENVIRONMENT.md   runtime topology</text>
+    <text xml:space="preserve" x="62" y="264">|   +-- TECHNICAL_SOLUTION.md    architecture map</text>
+    <text xml:space="preserve" x="62" y="282">|   `-- diagrams/                product + technical</text>
+    <text xml:space="preserve" x="62" y="300">+-- demo/                    scored 3-minute talk path</text>
+    <text xml:space="preserve" x="62" y="318">|   `-- index.html  app.js  styles.css</text>
+    <text xml:space="preserve" x="62" y="336">+-- data/</text>
+    <text xml:space="preserve" x="62" y="354">|   +-- raw/AAPL/            source 10-Q / 10-K PDFs</text>
+    <text xml:space="preserve" x="62" y="372">|   +-- processed/&lt;doc_id&gt;/  clean.txt, records.jsonl,</text>
+    <text xml:space="preserve" x="62" y="390">|   |                        tables/*.json, embeddings_bge.npz</text>
+    <text xml:space="preserve" x="62" y="408">|   +-- manifest.csv         filing metadata (truth)</text>
+    <text xml:space="preserve" x="62" y="426">|   `-- corpus_manifest.json allowlist: id, sha256, period</text>
+    <text xml:space="preserve" x="62" y="450" fill="#14263f" font-weight="700">+-- src/</text>
+    <text xml:space="preserve" x="62" y="468" fill="#1f3354">|   +-- finembed/            ingest -&gt; chunk -&gt; embed -&gt; store</text>
+    <text xml:space="preserve" x="62" y="486">|   |   +-- parse.py  tables.py      PDF layout + tables</text>
+    <text xml:space="preserve" x="62" y="504">|   |   +-- chunk.py  text_utils.py  section-aware chunks</text>
+    <text xml:space="preserve" x="62" y="522">|   |   +-- embed_text.py  embedder.py</text>
+    <text xml:space="preserve" x="62" y="540">|   |   +-- store.py  neon_chunks.py pgvector upsert</text>
+    <text xml:space="preserve" x="62" y="558">|   |   `-- config.py  models.py  pipeline.py</text>
+    <text xml:space="preserve" x="62" y="576" fill="#1f3354">|   +-- retrieve/            grounding</text>
+    <text xml:space="preserve" x="62" y="594">|   |   `-- allowlist.py hybrid.py rrf.py rerank.py</text>
+    <text xml:space="preserve" x="62" y="612" fill="#1f3354">|   +-- agent/               bounded control loop</text>
+    <text xml:space="preserve" x="62" y="630">|   |   +-- app.py           FastAPI surface</text>
+    <text xml:space="preserve" x="62" y="648">|   |   +-- loop.py          4 steps / 40k tok / 45 s</text>
+    <text xml:space="preserve" x="62" y="666">|   |   +-- tools.py         3 allowed tools only</text>
+    <text xml:space="preserve" x="62" y="684">|   |   +-- generate.py      JSON claims, temp 0</text>
+    <text xml:space="preserve" x="62" y="702">|   |   `-- validate.py      quote + number checks</text>
+    <text xml:space="preserve" x="62" y="720" fill="#1f3354">|   +-- hitl/                release gate</text>
+    <text xml:space="preserve" x="62" y="738">|   |   +-- crypto.py        HMAC-SHA256 signature</text>
+    <text xml:space="preserve" x="62" y="756">|   |   `-- approve.py  store.py</text>
+    <text xml:space="preserve" x="62" y="774" fill="#1f3354">|   `-- eval/                run_eval, run_agent_eval</text>
+    <text xml:space="preserve" x="62" y="798">+-- migrations/              001_initial, 002_runtime,</text>
+    <text xml:space="preserve" x="62" y="816">|                            003_runtime_integrity (guards)</text>
+    <text xml:space="preserve" x="62" y="834">+-- prompts/                 system.txt, user_template.txt</text>
+    <text xml:space="preserve" x="62" y="852">+-- eval/                    questions.jsonl, metrics.md</text>
+    <text xml:space="preserve" x="62" y="870">+-- scripts/                 init_cloud_db, eval_retrieval,</text>
+    <text xml:space="preserve" x="62" y="888">|                            eval_agent</text>
+    <text xml:space="preserve" x="62" y="906">+-- tests/                   parse, chunk, retrieve, hitl</text>
+    <text xml:space="preserve" x="62" y="924">+-- config.yaml  requirements.txt  pyproject.toml</text>
+    <text xml:space="preserve" x="62" y="942">+-- neon.ts  package.json    Neon project binding</text>
+    <text xml:space="preserve" x="62" y="960">+-- docker-compose.yml       optional local pgvector</text>
+    <text xml:space="preserve" x="62" y="978">`-- .env / .env.local        gitignored secrets</text>
+  </g>
+  <rect x="62" y="1000" width="476" height="66" rx="8" fill="#fdf6e6" stroke="#e3cf9a"/>
+  <text x="78" y="1022" font-size="12.5" fill="#7a5c12">Ownership: finembed = Max (ingest, run once).</text>
+  <text x="78" y="1042" font-size="12.5" fill="#7a5c12">agent, hitl and demo = Jason.</text>
+  <text x="78" y="1058" font-size="12.5" fill="#7a5c12">retrieve and the Neon schema are shared.</text>
+
+  <!-- ================= RIGHT: ingest band ================= -->
+  <rect x="590" y="128" width="1070" height="184" rx="12" fill="#ffffff" stroke="#d7dfec"/>
+  <text x="614" y="156" font-size="16" font-weight="700" fill="#14263f">Ingest path &#8212; offline, run once, writes to Neon</text>
+
+  <rect x="614" y="176" width="146" height="76" rx="8" fill="#eef3fb" stroke="#c9d6ea"/>
+  <text x="687" y="202" font-size="13.5" font-weight="600" fill="#1f3354" text-anchor="middle">data/raw/AAPL</text>
+  <text x="687" y="222" font-size="12" fill="#6b7891" text-anchor="middle">10-Q / 10-K PDFs</text>
+  <text x="687" y="240" font-size="12" fill="#6b7891" text-anchor="middle">+ manifest.csv</text>
+
+  <rect x="788" y="176" width="160" height="76" rx="8" fill="#eef3fb" stroke="#c9d6ea"/>
+  <text x="868" y="202" font-size="13.5" font-weight="600" fill="#1f3354" text-anchor="middle">parse.py &#183; tables.py</text>
+  <text x="868" y="222" font-size="12" fill="#6b7891" text-anchor="middle">fonts to section stack,</text>
+  <text x="868" y="240" font-size="12" fill="#6b7891" text-anchor="middle">numeric rows to tables</text>
+
+  <rect x="976" y="176" width="160" height="76" rx="8" fill="#eef3fb" stroke="#c9d6ea"/>
+  <text x="1056" y="202" font-size="13.5" font-weight="600" fill="#1f3354" text-anchor="middle">chunk.py</text>
+  <text x="1056" y="222" font-size="12" fill="#6b7891" text-anchor="middle">paragraph bounds, never</text>
+  <text x="1056" y="240" font-size="12" fill="#6b7891" text-anchor="middle">across an Item; 1 table = 1</text>
+
+  <rect x="1164" y="176" width="170" height="76" rx="8" fill="#eef3fb" stroke="#c9d6ea"/>
+  <text x="1249" y="202" font-size="13.5" font-weight="600" fill="#1f3354" text-anchor="middle">embed_text &#183; embedder</text>
+  <text x="1249" y="222" font-size="12" fill="#6b7891" text-anchor="middle">header-prefixed text,</text>
+  <text x="1249" y="240" font-size="12" fill="#6b7891" text-anchor="middle">one model for the team</text>
+
+  <rect x="1362" y="176" width="274" height="76" rx="8" fill="#e8f5ee" stroke="#9ccfb5"/>
+  <text x="1499" y="202" font-size="13.5" font-weight="600" fill="#1d5a41" text-anchor="middle">store.py &#183; neon_chunks.py</text>
+  <text x="1499" y="222" font-size="12" fill="#4b7a64" text-anchor="middle">atomic replace per filing; unchanged</text>
+  <text x="1499" y="240" font-size="12" fill="#4b7a64" text-anchor="middle">chunks reuse vectors (no API calls)</text>
+
+  <line x1="762" y1="214" x2="786" y2="214" stroke="#5b6a85" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="950" y1="214" x2="974" y2="214" stroke="#5b6a85" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="1138" y1="214" x2="1162" y2="214" stroke="#5b6a85" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="1336" y1="214" x2="1360" y2="214" stroke="#5b6a85" stroke-width="2" marker-end="url(#a)"/>
+  <text x="614" y="282" font-size="12.5" fill="#8a94a6">Each document is also written to data/corpus_manifest.json (document_id, sha256, form, period) &#8212; that file is the allowlist the query path enforces.</text>
+  <text x="614" y="300" font-size="12.5" fill="#8a94a6">Vector dimension is a whole-team decision: spec default is 384-d local BGE. Switching to 1536-d means both machines re-embed; never mix dimensions.</text>
+
+  <!-- ================= RIGHT: query runtime ================= -->
+  <rect x="590" y="332" width="1070" height="458" rx="12" fill="#ffffff" stroke="#d7dfec"/>
+  <text x="614" y="360" font-size="16" font-weight="700" fill="#14263f">Query runtime &#8212; three planes</text>
+
+  <!-- talk plane -->
+  <rect x="614" y="376" width="1022" height="72" rx="10" fill="#f0f4fb" stroke="#c9d6ea"/>
+  <text x="634" y="402" font-size="14" font-weight="700" fill="#2a6fdb">Talk plane</text>
+  <text x="634" y="426" font-size="13" fill="#3c4a60">demo/index.html + app.js + styles.css, full screen in Edge or Chrome, HDMI to the room TV. Fixture-driven, so it runs offline.</text>
+  <text x="1450" y="402" font-size="12.5" fill="#8a94a6">PIN 2026 (stand-in)</text>
+  <text x="1450" y="426" font-size="12.5" fill="#8a94a6">no network needed</text>
+
+  <!-- control plane: agent -->
+  <rect x="614" y="464" width="500" height="212" rx="10" fill="#ffffff" stroke="#2a6fdb" stroke-width="1.6"/>
+  <text x="634" y="490" font-size="14" font-weight="700" fill="#2a6fdb">Control plane &#8212; src/agent</text>
+  <text x="634" y="514" font-size="13" fill="#3c4a60">app.py &#8212; FastAPI on 127.0.0.1:8000, one worker</text>
+  <text x="634" y="536" font-size="13" fill="#3c4a60">loop.py &#8212; plain for-loop, no graph framework</text>
+  <text x="654" y="556" font-size="12.5" fill="#6b7891">stops: 4 steps &#183; 40 000 tokens &#183; 45 s &#183; no new chunk</text>
+  <text x="634" y="580" font-size="13" fill="#3c4a60">tools.py &#8212; the only callable surface:</text>
+  <text x="654" y="600" font-size="12.5" fill="#6b7891">search_chunks &#183; get_chunk &#183; get_document_meta</text>
+  <text x="634" y="624" font-size="13" fill="#3c4a60">generate.py &#8212; JSON claims + quotes, temp 0, top_p 1</text>
+  <text x="634" y="646" font-size="13" fill="#3c4a60">validate.py &#8212; each quote must sit inside its cited</text>
+  <text x="654" y="666" font-size="12.5" fill="#6b7891">chunk, and each figure must appear in that chunk</text>
+
+  <!-- retrieval -->
+  <rect x="1132" y="464" width="504" height="212" rx="10" fill="#ffffff" stroke="#c9d6ea" stroke-width="1.6"/>
+  <text x="1152" y="490" font-size="14" font-weight="700" fill="#2a6fdb">Grounding &#8212; src/retrieve</text>
+  <text x="1152" y="514" font-size="13" fill="#3c4a60">allowlist.py &#8212; corpus filter applied before any search</text>
+  <text x="1152" y="536" font-size="13" fill="#3c4a60">hybrid.py &#8212; vector top 20 + keyword top 20</text>
+  <text x="1152" y="558" font-size="13" fill="#3c4a60">rrf.py &#8212; reciprocal rank fusion (k = 60), cap 30</text>
+  <text x="1172" y="578" font-size="12.5" fill="#6b7891">anything below fusion 0.40 is discarded</text>
+  <text x="1152" y="602" font-size="13" fill="#3c4a60">rerank.py &#8212; Cohere rerank-v3.5 or Jina, top_n 6, 8 s</text>
+  <text x="1172" y="622" font-size="12.5" fill="#6b7891">no key: RRF-only, and the panel says so</text>
+  <text x="1152" y="648" font-size="13" fill="#3c4a60">The agent never fetches a URL at query time; it only</text>
+  <text x="1152" y="668" font-size="13" fill="#3c4a60">ever sees allowlisted chunk text.</text>
+
+  <!-- hitl -->
+  <rect x="614" y="692" width="1022" height="80" rx="10" fill="#fff7ee" stroke="#e0b57e"/>
+  <text x="634" y="718" font-size="14" font-weight="700" fill="#a05c12">Release gate &#8212; src/hitl</text>
+  <text x="634" y="742" font-size="13" fill="#5c4a33">crypto.py signs v1|run_id|from|to|step_id|payload_sha256|approver_id|ts with HMAC-SHA256; approve.py and store.py apply the transition.</text>
+  <text x="634" y="762" font-size="12.5" fill="#8a7a63">The signing key never enters a prompt, a tool result, or client JavaScript. The browser WebCrypto in demo/app.js is talk-only.</text>
+
+  <line x1="864" y1="450" x2="864" y2="462" stroke="#2a6fdb" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="1116" y1="570" x2="1130" y2="570" stroke="#2a6fdb" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="864" y1="678" x2="864" y2="690" stroke="#2a6fdb" stroke-width="2" marker-end="url(#ab)"/>
+
+  <!-- ================= RIGHT: data plane ================= -->
+  <rect x="590" y="808" width="1070" height="276" rx="12" fill="#ffffff" stroke="#9ccfb5" stroke-width="1.6"/>
+  <text x="614" y="836" font-size="16" font-weight="700" fill="#1d5a41">Data plane &#8212; Neon Postgres 16 + pgvector (project dawn-moon-44249230, production branch)</text>
+  <text x="614" y="858" font-size="12.5" fill="#6b7891">One pooled DATABASE_URL shared by both laptops, sslmode=require, kept in .env.local only. Retrieval reads this, not embeddings.npz on disk.</text>
+
+  <rect x="614" y="874" width="330" height="128" rx="8" fill="#f2faf6" stroke="#bfe0cf"/>
+  <text x="634" y="900" font-size="13.5" font-weight="700" fill="#1d5a41">Corpus tables</text>
+  <text x="634" y="924" font-size="12.5" fill="#3c4a60">documents &#8212; one row per filing, sha256, period</text>
+  <text x="634" y="946" font-size="12.5" fill="#3c4a60">filing_chunks &#8212; chunk text + vector</text>
+  <text x="634" y="968" font-size="12.5" fill="#6b7891">HNSW cosine (m 16, ef_construction 64)</text>
+  <text x="634" y="988" font-size="12.5" fill="#6b7891">GIN on search_vector (tsvector) for keyword</text>
+
+  <rect x="962" y="874" width="330" height="128" rx="8" fill="#f2faf6" stroke="#bfe0cf"/>
+  <text x="982" y="900" font-size="13.5" font-weight="700" fill="#1d5a41">Run state tables</text>
+  <text x="982" y="924" font-size="12.5" fill="#3c4a60">runs &#8212; state, draft, answer, reason codes</text>
+  <text x="982" y="946" font-size="12.5" fill="#3c4a60">agent_steps &#8212; one row per step, for the trace</text>
+  <text x="982" y="968" font-size="12.5" fill="#3c4a60">approvals &#8212; approver, signature, timestamp</text>
+  <text x="982" y="988" font-size="12.5" fill="#6b7891">migrations/002 and /003 create all of this</text>
+
+  <rect x="1310" y="874" width="326" height="128" rx="8" fill="#eef7f2" stroke="#9ccfb5"/>
+  <text x="1330" y="900" font-size="13.5" font-weight="700" fill="#1d5a41">Database-side guards</text>
+  <text x="1330" y="924" font-size="12.5" fill="#3c4a60">runs_terminal_guard &#8212; a finished run cannot</text>
+  <text x="1330" y="944" font-size="12.5" fill="#3c4a60">be edited back into an open state</text>
+  <text x="1330" y="968" font-size="12.5" fill="#3c4a60">runs_integrity_guard &#8212; illegal transitions are</text>
+  <text x="1330" y="988" font-size="12.5" fill="#3c4a60">rejected by Postgres, not by the model</text>
+
+  <rect x="614" y="1014" width="1022" height="56" rx="8" fill="#14263f"/>
+  <text x="634" y="1038" font-size="13.5" fill="#dbe8ff">Control lives in Postgres and in HMAC, not in the language model.</text>
+  <text x="634" y="1058" font-size="13.5" fill="#dbe8ff">The only external services at query time are the rerank API and an optional chat API; neither one can release an answer.</text>
+
+  <!-- ================= state machine strip ================= -->
+  <rect x="40" y="1104" width="1620" height="90" rx="12" fill="#ffffff" stroke="#d7dfec"/>
+  <text x="64" y="1132" font-size="15" font-weight="700" fill="#14263f">Run state machine &#8212; enforced by src/hitl and by SQL triggers</text>
+
+  <g font-size="12.5" font-weight="600">
+    <rect x="64" y="1146" width="132" height="32" rx="16" fill="#eef3fb" stroke="#c9d6ea"/>
+    <text x="130" y="1167" fill="#1f3354" text-anchor="middle">RECEIVED</text>
+    <rect x="222" y="1146" width="132" height="32" rx="16" fill="#eef3fb" stroke="#c9d6ea"/>
+    <text x="288" y="1167" fill="#1f3354" text-anchor="middle">RETRIEVING</text>
+    <rect x="380" y="1146" width="132" height="32" rx="16" fill="#eef3fb" stroke="#c9d6ea"/>
+    <text x="446" y="1167" fill="#1f3354" text-anchor="middle">RERANKING</text>
+    <rect x="538" y="1146" width="132" height="32" rx="16" fill="#eef3fb" stroke="#c9d6ea"/>
+    <text x="604" y="1167" fill="#1f3354" text-anchor="middle">DRAFTING</text>
+    <rect x="696" y="1146" width="132" height="32" rx="16" fill="#eef3fb" stroke="#c9d6ea"/>
+    <text x="762" y="1167" fill="#1f3354" text-anchor="middle">VALIDATING</text>
+    <rect x="854" y="1146" width="170" height="32" rx="16" fill="#fff0da" stroke="#e0b57e" stroke-width="1.6"/>
+    <text x="939" y="1167" fill="#a05c12" text-anchor="middle">AWAITING_HUMAN</text>
+    <rect x="1096" y="1146" width="132" height="32" rx="16" fill="#e8f5ee" stroke="#2e7d5b" stroke-width="1.6"/>
+    <text x="1162" y="1167" fill="#1d5a41" text-anchor="middle">RELEASED</text>
+    <rect x="1256" y="1146" width="132" height="32" rx="16" fill="#f6eef0" stroke="#b05a63" stroke-width="1.6"/>
+    <text x="1322" y="1167" fill="#8c3d46" text-anchor="middle">ABSTAINED</text>
+  </g>
+  <line x1="198" y1="1162" x2="220" y2="1162" stroke="#5b6a85" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="356" y1="1162" x2="378" y2="1162" stroke="#5b6a85" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="514" y1="1162" x2="536" y2="1162" stroke="#5b6a85" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="672" y1="1162" x2="694" y2="1162" stroke="#5b6a85" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="830" y1="1162" x2="852" y2="1162" stroke="#5b6a85" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="1026" y1="1162" x2="1094" y2="1162" stroke="#2a6fdb" stroke-width="3" marker-end="url(#ab)"/>
+  <line x1="1230" y1="1162" x2="1254" y2="1162" stroke="#5b6a85" stroke-width="2" marker-end="url(#a)"/>
+  <text x="1408" y="1144" font-size="12" fill="#6b7891">Only a signed human decision</text>
+  <text x="1408" y="1162" font-size="12" fill="#6b7891">crosses the bold arrow. Until then</text>
+  <text x="1408" y="1180" font-size="12" fill="#6b7891">runs.answer stays null.</text>
+</svg>

@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8a94a6"/>
+    </marker>
+    <marker id="arrowDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f3354"/>
+    </marker>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#14263f"/>
+      <stop offset="100%" stop-color="#2a4b78"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#f5f7fb"/>
+
+  <!-- header -->
+  <rect x="0" y="0" width="1600" height="96" fill="url(#hdr)"/>
+  <text x="48" y="44" fill="#ffffff" font-size="28" font-weight="700">Agentic Filing Research Assistant &#8212; Product Design</text>
+  <text x="48" y="74" fill="#c3d2e8" font-size="16">Ask a question about an Apple SEC filing, get a draft where every claim carries a page and a verbatim quote, and nothing reaches the reader without a human release.</text>
+
+  <!-- who / problem -->
+  <rect x="48" y="128" width="748" height="132" rx="10" fill="#ffffff" stroke="#d7dfec"/>
+  <rect x="48" y="128" width="6" height="132" rx="3" fill="#2a6fdb"/>
+  <text x="76" y="160" font-size="17" font-weight="700" fill="#14263f">Who it is for</text>
+  <text x="76" y="188" font-size="14.5" fill="#3c4a60">An investment research analyst who has to quote a filing correctly:</text>
+  <text x="76" y="212" font-size="14.5" fill="#3c4a60">&#8226; needs the number, the period and the page, not a summary</text>
+  <text x="76" y="236" font-size="14.5" fill="#3c4a60">&#8226; is accountable for anything that leaves the desk</text>
+
+  <rect x="820" y="128" width="732" height="132" rx="10" fill="#ffffff" stroke="#d7dfec"/>
+  <rect x="820" y="128" width="6" height="132" rx="3" fill="#c0392b"/>
+  <text x="848" y="160" font-size="17" font-weight="700" fill="#14263f">Why plain chat or single-shot RAG is not enough</text>
+  <text x="848" y="188" font-size="14.5" fill="#3c4a60">&#8226; fluent answers with invented or mis-dated figures</text>
+  <text x="848" y="212" font-size="14.5" fill="#3c4a60">&#8226; one confidence score instead of evidence per claim</text>
+  <text x="848" y="236" font-size="14.5" fill="#3c4a60">&#8226; nothing stops a wrong answer from being sent onward</text>
+
+  <!-- journey -->
+  <text x="48" y="304" font-size="18" font-weight="700" fill="#14263f">The product journey &#8212; one question, five stages</text>
+
+  <!-- card 1 -->
+  <rect x="48" y="324" width="280" height="240" rx="12" fill="#ffffff" stroke="#c9d6ea" stroke-width="1.5"/>
+  <rect x="48" y="324" width="280" height="44" rx="12" fill="#e8f0fd"/>
+  <rect x="48" y="356" width="280" height="12" fill="#e8f0fd"/>
+  <circle cx="76" cy="346" r="13" fill="#2a6fdb"/>
+  <text x="76" y="351" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="100" y="352" font-size="16" font-weight="700" fill="#14263f">Ask</text>
+  <text x="70" y="398" font-size="14" fill="#3c4a60">The analyst types a plain question.</text>
+  <text x="70" y="432" font-size="13.5" fill="#1f3354" font-style="italic">&#8220;What did Apple say about</text>
+  <text x="70" y="452" font-size="13.5" fill="#1f3354" font-style="italic">Services revenue in Q3 FY2026?&#8221;</text>
+  <text x="70" y="490" font-size="13.5" fill="#6b7891">No prompt engineering, no</text>
+  <text x="70" y="510" font-size="13.5" fill="#6b7891">picking a document by hand.</text>
+  <text x="70" y="540" font-size="12.5" fill="#8a94a6">Screen shows the question and the run id.</text>
+
+  <!-- card 2 -->
+  <rect x="353" y="324" width="280" height="240" rx="12" fill="#ffffff" stroke="#c9d6ea" stroke-width="1.5"/>
+  <rect x="353" y="324" width="280" height="44" rx="12" fill="#e8f0fd"/>
+  <rect x="353" y="356" width="280" height="12" fill="#e8f0fd"/>
+  <circle cx="381" cy="346" r="13" fill="#2a6fdb"/>
+  <text x="381" y="351" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="405" y="352" font-size="16" font-weight="700" fill="#14263f">Ground</text>
+  <text x="375" y="398" font-size="14" fill="#3c4a60">Search runs only over a closed,</text>
+  <text x="375" y="418" font-size="14" fill="#3c4a60">approved set of Apple filings.</text>
+  <text x="375" y="452" font-size="13.5" fill="#6b7891">&#8226; 10-Q and 10-K text and tables</text>
+  <text x="375" y="474" font-size="13.5" fill="#6b7891">&#8226; no live web, no open internet</text>
+  <text x="375" y="496" font-size="13.5" fill="#6b7891">&#8226; passages ranked, then re-ranked</text>
+  <text x="375" y="518" font-size="13.5" fill="#6b7891">&#8226; weak matches are thrown away</text>
+  <text x="375" y="548" font-size="12.5" fill="#8a94a6">Screen shows which filings were allowed.</text>
+
+  <!-- card 3 -->
+  <rect x="658" y="324" width="280" height="240" rx="12" fill="#ffffff" stroke="#c9d6ea" stroke-width="1.5"/>
+  <rect x="658" y="324" width="280" height="44" rx="12" fill="#e8f0fd"/>
+  <rect x="658" y="356" width="280" height="12" fill="#e8f0fd"/>
+  <circle cx="686" cy="346" r="13" fill="#2a6fdb"/>
+  <text x="686" y="351" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="710" y="352" font-size="16" font-weight="700" fill="#14263f">Draft with evidence</text>
+  <text x="680" y="398" font-size="14" fill="#3c4a60">The draft is a list of claims, not</text>
+  <text x="680" y="418" font-size="14" fill="#3c4a60">a paragraph of prose.</text>
+  <text x="680" y="452" font-size="13.5" fill="#6b7891">Each claim must carry:</text>
+  <text x="680" y="474" font-size="13.5" fill="#6b7891">&#8226; the document and the period</text>
+  <text x="680" y="496" font-size="13.5" fill="#6b7891">&#8226; the printed page number</text>
+  <text x="680" y="518" font-size="13.5" fill="#6b7891">&#8226; the quote it was taken from</text>
+  <text x="680" y="548" font-size="12.5" fill="#8a94a6">A claim without a source is not written.</text>
+
+  <!-- card 4 -->
+  <rect x="963" y="324" width="280" height="240" rx="12" fill="#ffffff" stroke="#c9d6ea" stroke-width="1.5"/>
+  <rect x="963" y="324" width="280" height="44" rx="12" fill="#e8f0fd"/>
+  <rect x="963" y="356" width="280" height="12" fill="#e8f0fd"/>
+  <circle cx="991" cy="346" r="13" fill="#2a6fdb"/>
+  <text x="991" y="351" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="1015" y="352" font-size="16" font-weight="700" fill="#14263f">Check</text>
+  <text x="985" y="398" font-size="14" fill="#3c4a60">The draft is verified against the</text>
+  <text x="985" y="418" font-size="14" fill="#3c4a60">filing before a human sees it.</text>
+  <text x="985" y="452" font-size="13.5" fill="#6b7891">&#8226; every quote must exist in the</text>
+  <text x="985" y="472" font-size="13.5" fill="#6b7891">&#160;&#160;cited passage, word for word</text>
+  <text x="985" y="496" font-size="13.5" fill="#6b7891">&#8226; every figure must appear in that</text>
+  <text x="985" y="516" font-size="13.5" fill="#6b7891">&#160;&#160;same passage</text>
+  <text x="985" y="548" font-size="12.5" fill="#8a94a6">Any failure sends the run to abstain.</text>
+
+  <!-- card 5 -->
+  <rect x="1268" y="324" width="284" height="240" rx="12" fill="#ffffff" stroke="#2a6fdb" stroke-width="2"/>
+  <rect x="1268" y="324" width="284" height="44" rx="12" fill="#dbe8ff"/>
+  <rect x="1268" y="356" width="284" height="12" fill="#dbe8ff"/>
+  <circle cx="1296" cy="346" r="13" fill="#14263f"/>
+  <text x="1296" y="351" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+  <text x="1320" y="352" font-size="16" font-weight="700" fill="#14263f">Human release</text>
+  <text x="1290" y="398" font-size="14" fill="#3c4a60">A reviewer reads the claims next</text>
+  <text x="1290" y="418" font-size="14" fill="#3c4a60">to their quotes and decides.</text>
+  <text x="1290" y="452" font-size="13.5" fill="#6b7891">&#8226; release, with an approval that is</text>
+  <text x="1290" y="472" font-size="13.5" fill="#6b7891">&#160;&#160;signed and recorded</text>
+  <text x="1290" y="496" font-size="13.5" fill="#6b7891">&#8226; or acknowledge the abstain</text>
+  <text x="1290" y="526" font-size="13" font-weight="700" fill="#14263f">The system cannot skip this step.</text>
+  <text x="1290" y="548" font-size="12.5" fill="#8a94a6">Until then the answer field stays empty.</text>
+
+  <line x1="330" y1="444" x2="350" y2="444" stroke="#8a94a6" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="635" y1="444" x2="655" y2="444" stroke="#8a94a6" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="940" y1="444" x2="960" y2="444" stroke="#8a94a6" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="1245" y1="444" x2="1265" y2="444" stroke="#1f3354" stroke-width="2.5" marker-end="url(#arrowDark)"/>
+
+  <!-- outcomes -->
+  <text x="48" y="614" font-size="18" font-weight="700" fill="#14263f">Only two things can come out</text>
+
+  <rect x="48" y="634" width="480" height="150" rx="12" fill="#ffffff" stroke="#2e7d5b" stroke-width="1.8"/>
+  <rect x="48" y="634" width="6" height="150" rx="3" fill="#2e7d5b"/>
+  <text x="76" y="668" font-size="16.5" font-weight="700" fill="#1d5a41">Released, cited answer</text>
+  <text x="76" y="698" font-size="14" fill="#3c4a60">Claims a reader can audit line by line: filing,</text>
+  <text x="76" y="720" font-size="14" fill="#3c4a60">period, page, quote &#8212; plus who approved it</text>
+  <text x="76" y="742" font-size="14" fill="#3c4a60">and when.</text>
+  <text x="76" y="768" font-size="12.5" fill="#8a94a6">Demo case: an in-corpus Apple 10-Q question.</text>
+
+  <rect x="552" y="634" width="480" height="150" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="1.8"/>
+  <rect x="552" y="634" width="6" height="150" rx="3" fill="#b7791f"/>
+  <text x="580" y="668" font-size="16.5" font-weight="700" fill="#8a5b0c">Honest abstain</text>
+  <text x="580" y="698" font-size="14" fill="#3c4a60">&#8220;This is not in the approved corpus.&#8221; No</text>
+  <text x="580" y="720" font-size="14" fill="#3c4a60">guess, no half-answer with a warning label,</text>
+  <text x="580" y="742" font-size="14" fill="#3c4a60">no borrowed knowledge from outside.</text>
+  <text x="580" y="768" font-size="12.5" fill="#8a94a6">Demo case: a Tesla question against an Apple corpus.</text>
+
+  <rect x="1056" y="634" width="496" height="150" rx="12" fill="#14263f"/>
+  <text x="1084" y="668" font-size="16.5" font-weight="700" fill="#ffffff">What is never produced</text>
+  <text x="1084" y="698" font-size="14" fill="#c3d2e8">&#8226; an answer with no source attached</text>
+  <text x="1084" y="722" font-size="14" fill="#c3d2e8">&#8226; an answer released without a person</text>
+  <text x="1084" y="746" font-size="14" fill="#c3d2e8">&#8226; a figure pulled from outside the filings</text>
+  <text x="1084" y="770" font-size="12.5" fill="#8a94a6">These are product rules, not model instructions.</text>
+
+  <!-- principles -->
+  <text x="48" y="836" font-size="18" font-weight="700" fill="#14263f">Design principles behind those rules</text>
+
+  <rect x="48" y="856" width="366" height="104" rx="10" fill="#ffffff" stroke="#d7dfec"/>
+  <text x="72" y="888" font-size="15" font-weight="700" fill="#2a6fdb">Evidence per claim</text>
+  <text x="72" y="914" font-size="13.5" fill="#3c4a60">Trust is earned sentence by sentence,</text>
+  <text x="72" y="936" font-size="13.5" fill="#3c4a60">not by one number at the bottom.</text>
+
+  <rect x="430" y="856" width="366" height="104" rx="10" fill="#ffffff" stroke="#d7dfec"/>
+  <text x="454" y="888" font-size="15" font-weight="700" fill="#2a6fdb">Silence beats a good guess</text>
+  <text x="454" y="914" font-size="13.5" fill="#3c4a60">Refusing is a correct outcome when the</text>
+  <text x="454" y="936" font-size="13.5" fill="#3c4a60">corpus does not contain the answer.</text>
+
+  <rect x="812" y="856" width="366" height="104" rx="10" fill="#ffffff" stroke="#d7dfec"/>
+  <text x="836" y="888" font-size="15" font-weight="700" fill="#2a6fdb">The human holds the gate</text>
+  <text x="836" y="914" font-size="13.5" fill="#3c4a60">Approval lives outside the model, so no</text>
+  <text x="836" y="936" font-size="13.5" fill="#3c4a60">clever prompt can open it.</text>
+
+  <rect x="1194" y="856" width="358" height="104" rx="10" fill="#ffffff" stroke="#d7dfec"/>
+  <text x="1218" y="888" font-size="15" font-weight="700" fill="#2a6fdb">Small, closed corpus first</text>
+  <text x="1218" y="914" font-size="13.5" fill="#3c4a60">One issuer, a few filings, fully checked</text>
+  <text x="1218" y="936" font-size="13.5" fill="#3c4a60">&#8212; breadth comes after trust.</text>
+</svg>

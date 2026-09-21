@@ -2,7 +2,8 @@
 
 Status: **local binding architecture** (saved on disk under `docs/`)  
 Parent contract: [`AGENTIC_RAG_SPEC.md`](./AGENTIC_RAG_SPEC.md)  
-Runtime: [`RUNNING_ENVIRONMENT.md`](./RUNNING_ENVIRONMENT.md)
+Runtime: [`RUNNING_ENVIRONMENT.md`](./RUNNING_ENVIRONMENT.md)  
+Presentation diagrams: [`diagrams/product-design.png`](./diagrams/product-design.png) (product view) and [`diagrams/technical-architecture.png`](./diagrams/technical-architecture.png) (this document as one picture) — sources and re-render script in [`diagrams/`](./diagrams/README.md)
 
 If this file and the spec disagree, **the spec wins**. This file is the map of *how* we implement the spec, including the repo tree Max and Jason share.
 
