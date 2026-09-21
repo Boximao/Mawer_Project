@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apple filings · Agentic RAG console</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top">
+    <div>
+      <p class="kicker">Mawer workshop · allowlisted corpus only</p>
+      <h1>Agentic RAG console</h1>
+    </div>
+    <div class="mode-pill" id="modePill">Fixture mode · no live web</div>
+  </header>
+
+  <main class="grid">
+    <section class="panel">
+      <h2>Corpus allowlist</h2>
+      <ul class="docs" id="docs"></ul>
+      <p class="hint">Query-time tools: search_chunks, get_chunk, get_document_meta. Max ingest only; agent cannot fetch URLs.</p>
+    </section>
+
+    <section class="panel">
+      <h2>Ask (Apple only)</h2>
+      <div class="scripts">
+        <button type="button" data-script="eps">Script 1 · Diluted EPS</button>
+        <button type="button" data-script="tesla">Script 2 · Out of corpus</button>
+      </div>
+      <textarea id="q" rows="3" placeholder="Question…"></textarea>
+      <div class="row">
+        <button type="button" class="primary" id="run">Run agent</button>
+        <span class="mono" id="runId"></span>
+      </div>
+    </section>
+
+    <section class="panel span-2">
+      <h2>State machine</h2>
+      <ol class="states" id="states"></ol>
+    </section>
+
+    <section class="panel span-2" id="stagePanel">
+      <h2>Live stage</h2>
+      <div id="stage" class="stage empty">Run a scripted question to show retrieve → rerank → draft → validate → HITL.</div>
+    </section>
+
+    <section class="panel">
+      <h2>Envelope</h2>
+      <pre id="envelope" class="code">{"answer": null, "human_review": true, "state": "—"}</pre>
+    </section>
+
+    <section class="panel hitl">
+      <h2>Human approval</h2>
+      <p class="hint">LLM output cannot set RELEASED. HMAC uses HITL_SIGNING_KEY (not in the prompt).</p>
+      <label>Workshop PIN <input id="pin" type="password" value="2026" maxlength="8" /></label>
+      <pre class="code small" id="canon"></pre>
+      <div class="row">
+        <button type="button" id="approve" disabled>Sign &amp; release</button>
+        <button type="button" id="ack" disabled>Ack abstain</button>
+      </div>
+      <p class="sig" id="sig"></p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

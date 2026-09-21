@@ -1,0 +1,28 @@
+Question:
+{question}
+
+Allowlisted chunks (prompt may only contain these texts plus the question):
+{context}
+
+Return JSON:
+{{
+  "draft_answer": "string or null",
+  "claims": [
+    {{
+      "text": "string",
+      "citation_chunk_ids": ["chunk-id"],
+      "quote": "verbatim span",
+      "supported": true
+    }}
+  ],
+  "citations": [
+    {{
+      "document_id": "id",
+      "chunk_id": "chunk-id",
+      "filing_period": "YYYY-MM-DD",
+      "page": 1,
+      "section": "string",
+      "quote": "verbatim span"
+    }}
+  ]
+}}

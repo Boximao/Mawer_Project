@@ -1,5 +1,7 @@
 # fin-embed (MVP)
 
+Accepted agentic RAG demonstration runtime: [`docs/RUNNING_ENVIRONMENT.md`](docs/RUNNING_ENVIRONMENT.md). Parent spec: [`docs/AGENTIC_RAG_SPEC.md`](docs/AGENTIC_RAG_SPEC.md). High-level architecture and repo map: [`docs/TECHNICAL_SOLUTION.md`](docs/TECHNICAL_SOLUTION.md).
+
 Reads SEC filing PDFs (10-Q / 10-K), splits them into section-aware chunks, embeds them with
 OpenAI, and stores them in Postgres with pgvector, with the metadata needed to filter and cite.
 
